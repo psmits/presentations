@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.19)  8 AUG 2012 14:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.7.19)  22 AUG 2012 12:52
 entering extended mode
  %&-line parsing enabled.
 **tues_talk_pdf.tex
@@ -1135,7 +1135,7 @@ blic/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8
 .pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on tues_talk_pdf.pdf (47 pages, 2078481 bytes).
+Output written on tues_talk_pdf.pdf (47 pages, 2078315 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  94 named destinations out of 1000 (max. 500000)
