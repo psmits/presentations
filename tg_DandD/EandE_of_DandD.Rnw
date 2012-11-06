@@ -1,0 +1,193 @@
+\documentclass{beamer}
+
+\usepackage{amsmath, microtype, amsthm}
+\usepackage{graphicx}
+\usepackage{parskip}
+
+\frenchspacing
+
+\usetheme{default}
+\usecolortheme{orchid}
+
+<<opts, echo = F, message = F>>=
+require(knitr)
+opts_chunk$set(warning = F, message = F, highlight = T, background = 'white', size = 'scriptsize', echo = F, fig.height = 5, fig.width = 5)
+@
+
+\title{A four part treatise on Gygaxian naturalism}
+\author{Peter D Smits, Wiz}
+\institute{
+Department of Arcane Biology\\
+The Unseen University
+}
+\scriptsize{\date{\today}}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+
+\section{Introduction}
+%\subsection{Necessary History}
+\begin{frame}
+  \frametitle{Origin of Gygaxian Naturalism}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Later Paradigms}
+  
+\end{frame}
+
+\begin{frame}
+  \frametitle{Important Works}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Consistent Questions}
+
+\end{frame}
+
+
+\section{Goblinoid Phylogeny}
+\begin{frame}
+  \frametitle{How many goblinoids are there?}
+  
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item Goblins
+        \item Hobgoblins
+        \item Bugbears
+        \item Blues
+        \\~\\
+        \item Related taxa
+        \begin{itemize}
+          \item Orcs
+          \item Ogres
+          \item Ettins
+          \item other monstrous humanoids
+        \end{itemize}
+      \end{itemize}
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{goblinoids}
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Materials and Methods}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Phylogeny}
+<<gob-phy>>=
+require(ape)
+
+species <- c('Goblins', 'Blue', 'Hobgoblins', 'Bugbears', 'Orcs', 'Giants', 
+             'Ettin', 'Troll', 'Xvarts', 'Gibberlings', 'Kobolds', 'Gnoll',
+             'Dragonkin', 'Troglodyte')
+
+gob <- rtree(7, tip.label = species)
+
+plot(gob, edge.width = 1, adj = 0.1)
+@
+\end{frame}
+
+
+\section{Adaptation in Elves}
+\begin{frame}
+  \frametitle{History of our Knowledge}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Adaptive or Cultural?}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Magic!!!}
+
+  %% put in the KC Green wizard picture
+
+\end{frame}
+
+
+\section{Species concepts with Dragons}
+\begin{frame}
+  \frametitle{}
+
+\end{frame}
+
+
+\section{Dungeon Ecology}
+\begin{frame}
+  \frametitle{}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Acknowledgements}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item All my players though out the years
+          \begin{itemize}
+            \item The Crew of the Talking Pussy
+            \item The Fancy Boots Brigade of Ruins
+            \item New Corden Adventurers (temporary name)
+            \item and all those without names
+          \end{itemize}
+        \item 
+      \end{itemize}
+
+    \footnotesize{source avaliable on GitHub}
+
+    \end{column}
+
+    \begin{column}{0.5\textwidth}
+
+    \end{column}
+
+  \end{columns}
+
+\end{frame}
+
+
+\end{document}
