@@ -38,6 +38,15 @@ The Unseen University
 \end{frame}
 
 \begin{frame}
+  \frametitle{First things first\dots}
+
+  \huge{I put on my robe and wizard hat\dots}
+
+  \footnotesize{Note: Robe missing due to budgetary constraints.}
+
+\end{frame}
+
+\begin{frame}
   \frametitle{Outline}
   \tableofcontents
 \end{frame}
@@ -47,16 +56,38 @@ The Unseen University
 %\subsection{Necessary History}
 \begin{frame}
   \frametitle{Origin of Gygaxian Naturalism}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{gygax}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{whitebox}
+    \end{column}
+  \end{columns}
+  % the original pamphletes
+  % maybe show some of the original style art
 
 \end{frame}
 
 \begin{frame}
-  \frametitle{Later Paradigms}
+  \frametitle{Central Texts}
+  % monster manuals for the different editions
+  % stess how AD&D1 is probably the best because least edits
+  \noindent
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm1}\hspace{0.2\textwidth}%
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm2}\\[2em]
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm35}\hspace{0.2\textwidth}%
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm4}\par
   
 \end{frame}
 
 \begin{frame}
-  \frametitle{Important Works}
+  \frametitle{Other Important Works}
+  \noindent
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{hack}\hspace{0.2\textwidth}%
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{nomicon}\\[2em]
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{path}\hspace{0.2\textwidth}%
+  \includegraphics[height = 0.4\textheight, keepaspectratio = true]{redbox}\par
 
 \end{frame}
 
@@ -121,7 +152,8 @@ species <- c('Goblins', 'Blue', 'Hobgoblins', 'Bugbears', 'Orcs', 'Giants',
              'Ettin', 'Troll', 'Xvarts', 'Gibberlings', 'Kobolds', 'Gnoll',
              'Dragonkin', 'Troglodyte')
 
-gob <- rtree(7, tip.label = species)
+gob <- read.nexus('goblins.nex')
+gob$tip.label <- species
 
 plot(gob, edge.width = 1, adj = 0.1)
 @
@@ -131,18 +163,29 @@ plot(gob, edge.width = 1, adj = 0.1)
 \section{Adaptation in Elves}
 \begin{frame}
   \frametitle{History of our Knowledge}
+  \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_1}
+
+  At least 5 species/races of elves known from the most recent survey.
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Adaptive or Cultural?}
+  \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_2}
+
+  All adapated to very different environments, but physiologically and culturally.
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Magic!!!}
+  \includegraphics[width = \textwidth, keepaspectratio = true]{wizard_comic}
 
-  %% put in the KC Green wizard picture
+\end{frame}
+
+\begin{frame}
+  \frametitle{How else do explain\dots}
+  \includegraphics[width = \textwidth, keepaspectratio = true]{owlbear_1}
 
 \end{frame}
 
@@ -182,6 +225,7 @@ plot(gob, edge.width = 1, adj = 0.1)
     \end{column}
 
     \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{unseen}
 
     \end{column}
 
