@@ -11,7 +11,7 @@
 
 <<opts, echo = F, message = F>>=
 require(knitr)
-opts_chunk$set(warning = F, message = F, highlight = T, background = 'white', size = 'scriptsize', echo = F, fig.height = 5, fig.width = 5)
+opts_chunk$set(warning = F, message = F, highlight = T, background = 'white', size = 'scriptsize', echo = F, fig.height = 4, fig.width = 5)
 @
 
 \title{A four part treatise on Gygaxian naturalism}
@@ -51,6 +51,45 @@ The Unseen University
   \tableofcontents
 \end{frame}
 
+\section{Questions to answer}
+\begin{frame}
+  \frametitle{Question 1}
+  \Large{What is a tarrasque?}
+
+  \begin{center}
+    \includegraphics[height = 0.5\textheight, keepaspectratio = true]{tarrasque_1}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \begin{center}
+    \includegraphics[height = \textheight, keepaspectratio = true]{tarrasque_2}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Question 2}
+  \Large{What does deathspell do?}
+
+  While there is no ``deathspell'' there is a ``Finger of Death'' which is a close range spell that either kills the target or does large amounts of damage if the target is of great fortitude.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Question 3}
+  \Large{Why is it a bad idea to steal a 20+ level mage's pouch?}
+
+  Two words: spell selection.
+
+  \small{
+  \begin{quote}
+  Imprison (9th level Abjuration): When you cast imprisonment and touch a creature, it is entombed in a state of suspended animation in a small sphere far beneath the surface of the earth. The subject remains there unless a freedom spell is cast at the locale where the imprisonment took place. Magical search by a crystal ball, a locate object spell, or some other similar divination does not reveal the fact that a creature is imprisoned, but discern location does. A wish or miracle spell will not free the recipient, but will reveal where it is entombed.
+  \end{quote}
+  }
+
+\end{frame}
 
 \section{Introduction}
 %\subsection{Necessary History}
@@ -64,35 +103,43 @@ The Unseen University
       \includegraphics[width = \textwidth, keepaspectratio = true]{whitebox}
     \end{column}
   \end{columns}
-  % the original pamphletes
-  % maybe show some of the original style art
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Central Texts}
-  % monster manuals for the different editions
-  % stess how AD&D1 is probably the best because least edits
+  \begin{center}
   \noindent
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm1}\hspace{0.2\textwidth}%
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm2}\\[2em]
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm35}\hspace{0.2\textwidth}%
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{mm4}\par
+  \end{center}
   
 \end{frame}
 
 \begin{frame}
   \frametitle{Other Important Works}
+  \begin{center}
   \noindent
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{hack}\hspace{0.2\textwidth}%
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{nomicon}\\[2em]
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{path}\hspace{0.2\textwidth}%
   \includegraphics[height = 0.4\textheight, keepaspectratio = true]{redbox}\par
+  \end{center}
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Consistent Questions}
+  \Large{
+  \begin{itemize}
+    \item How many species/monsters are there?
+    \item Are many of the named species actually just subspecies?
+    \item How much of diversity can be explained arcane forces?
+    \item What is the species concept when magic can cause almost any two species to mate?
+  \end{itemize}
+  }
 
 \end{frame}
 
@@ -132,10 +179,22 @@ The Unseen University
 
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      
+      \begin{itemize}
+        \item Arcane, divine, morphological, behavioral characters
+        \item Bayesian divination methods
+        \item 20 prayer group of High Powered Clergy (HPC) operating through the Greyhawk Cathedral of Pelor
+        \item Ritual took 8 hours.
+      \end{itemize}
+% Bayesian divination on the 
+% HPC joke: H.. P.. Clergy
+% operated by the Greyhawk Cathedral of Pelor
     \end{column}
 
     \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[width = 0.5\textwidth, keepaspectratio = true]{bayes}
+        \includegraphics[width = 0.5\textwidth, keepaspectratio = true]{pelor}
+      \end{center}
 
     \end{column}
 
@@ -145,7 +204,7 @@ The Unseen University
 
 \begin{frame}
   \frametitle{Phylogeny}
-<<gob-phy>>=
+<<gob-phy, fig.height = 4.5>>=
 require(ape)
 
 species <- c('Goblins', 'Blue', 'Hobgoblins', 'Bugbears', 'Orcs', 'Giants', 
@@ -154,8 +213,14 @@ species <- c('Goblins', 'Blue', 'Hobgoblins', 'Bugbears', 'Orcs', 'Giants',
 
 gob <- read.nexus('goblins.nex')
 gob$tip.label <- species
+cols <- rep('black', nrow(gob$edge))
+cols[c(7, 13, 14)] <- 'blue'
 
-plot(gob, edge.width = 1, adj = 0.1)
+# make up some poseterior probabilities
+post <- format(runif(gob$Nnode, min = 0.85, max = 1), digits = 2)
+
+plot(gob, edge.width = 3, adj = 0.1, edge.color = cols)
+nodelabels(post, adj = c(1.1, -1), frame = 'none', bg = 'white', cex = 0.45)
 @
 \end{frame}
 
@@ -163,7 +228,9 @@ plot(gob, edge.width = 1, adj = 0.1)
 \section{Adaptation in Elves}
 \begin{frame}
   \frametitle{History of our Knowledge}
-  \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_1}
+  \begin{center}
+    \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_1}
+  \end{center}
 
   At least 5 species/races of elves known from the most recent survey.
 
@@ -171,9 +238,11 @@ plot(gob, edge.width = 1, adj = 0.1)
 
 \begin{frame}
   \frametitle{Adaptive or Cultural?}
-  \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_2}
+  \begin{center}
+    \includegraphics[height = 0.5\textheight, keepaspectratio = true]{elf_2}
+  \end{center}
 
-  All adapated to very different environments, but physiologically and culturally.
+  All are adapted to very different environments, but physiologically and culturally.
 
 \end{frame}
 
@@ -193,13 +262,134 @@ plot(gob, edge.width = 1, adj = 0.1)
 \section{Species concepts with Dragons}
 \begin{frame}
   \frametitle{}
+  \includegraphics[width = \textwidth, keepaspectratio = true]{chromatic_1}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Violation of Biological Species concept}
+
+  \begin{quote}
+    The half-dragon template \dots can be applied to any corporeal creature. This demonstrates that dragons aren't selective regarding species. They're promiscuous.
+  \end{quote}
+
+  Dragons can successfully mate with all creatures from there plane. Including other dragons!
+
+  Polymorph spells and magic in general prevent premating barriers. Pairings form viable offspring which are phenotypically heterotypic. Aspects of these phenotypes persist for generations, manifesting as ``mutations'' or innate magical talent.
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Violation of Biological Species concept}
+
+  \includegraphics[width = \textwidth, keepaspectratio = true]{dragon_chart}
 
 \end{frame}
 
 
 \section{Dungeon Ecology}
 \begin{frame}
-  \frametitle{}
+  \frametitle{Dungeons verus all other biomes}
+
+  Dungeons are continually reported as arcane biodiversity hotspots.
+
+  These claims are frequently from amateur arcane biologists (adventurers) who are widely believed to be unreliable sources.
+
+  Here, we compared multiple sites from 8 non-dungeon biomes and 6 different dungeon depths. Presented here for simplicities sake are only comparisons of entropy (Chao-Shen corrected).
+
+  \footnotesize{Also, I'm lazy so don't blame me for using ``magic numbers.''}
+% need to code so much to get this to work.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results}
+<<dungeon-eco>>=
+require(entropy)
+require(ggplot2)
+require(scales)
+require(reshape2)
+require(plyr)
+
+biom.data <- data.frame()
+dungeon.data <- data.frame()
+
+for(kk in seq(100)) {
+biome <- vector(mode = 'list', length = 8)
+for(ii in 1:8) {
+  out1 <- c(sample(0:8, 1), sample(0:8, 1), sample(0:6, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:8, 1), sample(0:3, 1), sample(0:6, 1), sample(0:6, 1), sample(0:2, 1), sample(0:40, 1), sample(0:4, 1), sample(0:6, 1), sample(0:6, 1), sample(0:6, 1), sample(0:8, 1), sample(0:4, 1), sample(0:3, 1))
+  out2 <- c(sample(0:6, 1), sample(0:12, 1), sample(0:6, 1), sample(0:2, 1), sample(0:1, 1), sample(0:1, 1), sample(0:4, 1), sample(0:8, 1), sample(0:6, 1), sample(0:8, 1), sample(0:2, 1), sample(0:40, 1), sample(0:8, 1), sample(0:12, 1), sample(0:4, 1), sample(0:8, 1), sample(0:6, 1), sample(0:6, 1), sample(0:6, 1), sample(0:12, 1))
+
+  outs <- list(out1, out2)
+  wt <- outs[[sample(1:2, 1)]]
+
+  ins <- wt + sample(-10:10, length(out1), replace = TRUE)
+  ins[ins < 0] <- 0
+  biome[[ii]] <- ins 
+}
+
+bio.ent <- laply(biome, entropy.ChaoShen)
+biom.data <- rbind(biom.data, bio.ent)
+
+dung.levels <- vector(mode = 'list', length = 6)
+
+for (jj in 1:6){
+  in1<- c(sample(0:10, 1), sample(0:12, 1), sample(0:6, 1), sample(0:8, 1), sample(0:2, 1), sample(0:3, 1), sample(0:6, 1), sample(0:6, 1), sample(0:6, 1), sample(0:1, 1), sample(0:6, 1), sample(0:8, 1), sample(0:3, 1), sample(0:6, 1), sample(0:1, 1), sample(0:6, 1), sample(0:8, 1), sample(0:3, 1), sample(0:6, 1), sample(0:6, 1))
+  in2 <- c(sample(0:1, 1), sample(0:2, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:4, 1), sample(0:2, 1), sample(0:1, 1), sample(0:1, 1), sample(0:1, 1), sample(0:4, 1), sample(0:2, 1), sample(0:6, 1), sample(0:2, 1), sample(0:5, 1), sample(0:4, 1))
+  adds <- list(in1, in2)
+  adds <- adds[[sample(1:2, 1)]]
+
+
+  ins <- adds + sample(10, length(20), replace = TRUE)
+  ins[ins < 0] <- 0
+
+  dung.levels[[jj]] <- ins
+}
+
+dung.ent <- laply(dung.levels, entropy.ChaoShen)
+dungeon.data <- rbind(dungeon.data, dung.ent)
+}
+
+colnames(biom.data) <- c('Desert', 'Forest', 'Grassland', 'Jungle', 'Mountain', 'Rivers', 'Sea', 'Swamp')
+colnames(dungeon.data) <- c('Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5', 'Level 6')
+
+dat <- cbind(biom.data, dungeon.data)
+dat <- as.data.frame(dat)
+dat <- melt(as.data.frame(dat))
+cats <- c(rep('Open', 800), rep('Dungeon', 600))
+dat <- cbind(cats, dat)
+
+cols <- c('#E69F00', '#56B4E9')
+
+res <- ggplot(dat, aes(x = variable, y = value, fill = cats)) + geom_boxplot()
+res <- res + theme(legend.position = 'none')
+res <- res + theme(axis.text = element_text(colour = 'black', size = 4))
+res <- res + scale_x_discrete(name = 'Environment')
+res <- res + scale_y_continuous(name = '(Chao-Shen) Entropy (nats)')
+res <- res + scale_fill_manual(values = cols)
+print(res)
+@
+
+\end{frame}
+
+
+\section{Conclusions}
+
+\begin{frame}
+  \frametitle{Parting words}
+  
+  The world is a very scary place, full of monsters which want to kill and eat you. And maybe not in that order.
+
+  Our understanding of these beings is distorted via the arcane energies that we ourselves use to better understand them.
+
+  There will always be more creatures to find, though they might not be new ``species.''
+
+  And sometimes\dots
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{\dots it is all just the will of the dice!}
+  \includegraphics[width = \textwidth, keepaspectratio = true]{dice1}
 
 \end{frame}
 
@@ -217,10 +407,9 @@ plot(gob, edge.width = 1, adj = 0.1)
             \item New Corden Adventurers (temporary name)
             \item and all those without names
           \end{itemize}
-        \item 
+        \item Rory Morrison to introducing me to role-playing games in the first place.
+        \item \footnotesize{source available on GitHub}
       \end{itemize}
-
-    \footnotesize{source avaliable on GitHub}
 
     \end{column}
 
