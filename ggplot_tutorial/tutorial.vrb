@@ -1,0 +1,11 @@
+\frametitle {Make that look better}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+d <- d + \hlfunctioncall{geom_point}(alpha = 0.1)
+d <- d + \hlfunctioncall{facet_wrap}(~ color)
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+

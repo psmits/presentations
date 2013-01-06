@@ -1,0 +1,252 @@
+\documentclass{beamer}
+\usepackage[]{graphicx, parskip, microtype, hyperref}
+
+\frenchspacing
+
+\usetheme{default}
+\usecolortheme{orchid}
+
+<<opts-set, message = FALSE, echo = FALSE>>=
+require(knitr)
+options(width = 60)
+opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup')
+@
+
+\title{ggplot2: a philosophy and a package}
+\author{Peter D Smits}
+\institute{Committee on Evolutionary Biology \\
+University of Chicago}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+\begin{frame}
+  \frametitle{Introduction}
+
+  there are three main ways of making graphics in R:\\
+  base graphics, lattice, grid, ggplot2.
+
+  ggplot2 is an R package written (primarily) by Hadley Wickham.
+
+  implementation of the Grammar of Graphics (by Leland Wilkinson).
+
+  extremely popular, huge community, extremely powerful.
+
+\end{frame}
+
+\begin{frame}
+  \includegraphics[width = \textwidth, keepaspectratio = true]{figure/bike_ggplot}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hadley Wickham}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item professor of statistics at Rice University
+        \item from New Zealand (oddly common in statistics)
+        \item author of many R packages (ggplot2, reshape2, plyr, devtools, and more)
+        \item ggplot and reshape made up most of his PhD thesis
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{figure/hw}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Grammar of Graphics}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      most texts on graphics were written a while ago (Tukey '77, Tufte '83, Chambers et al. '83, Cleveland '85). GoG newer and more ``modern''.
+      \\~\\
+      few basic ideas
+      \begin{itemize}
+        \item variables
+        \item aesthetics
+        \item geometry
+        \item statistics
+        \item facets
+        \item scales, etc.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \includegraphics[width = \textwidth, keepaspectratio = true]{figure/grammar}
+    \end{column}
+  \end{columns}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Basic implementation}
+  \begin{itemize}
+    \item object (ggplot)
+    \item aesthetics (aes)
+      \begin{itemize}
+        \item x, y position
+        \item size, shape
+        \item group, colour
+      \end{itemize}
+    \item geometrics (geom) and statistics (stat)
+      \begin{itemize}
+        \item points, lines, line segments
+        \item bars, histograms, boxes
+        \item maps (!!)
+        \item and more
+      \end{itemize}
+    \item themes
+  \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Today's first data}
+
+  The muscle car data set!
+
+  mtcars (part of base R install, along with a lot of other datasets)
+
+  \Sexpr{ncol(mtcars)} cars for \Sexpr{nrow(mtcars)} variables. Below is tiny subset.
+
+<<mtc, results = 'asis', echo = FALSE>>=
+require(xtable)
+xtable(head(mtcars)[, 1:6])
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our first graph}
+<<first, fig.width = 3, fig.height = 2.5>>=
+library(ggplot2)
+g1 <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
+g1
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Adding a stat and modifying our first graph}
+<<first-modify, fig.width = 4, fig.height = 2.5>>=
+g1 <- g1 + stat_smooth(method = 'lm')
+g1 <- g1 + geom_point(aes(colour = factor(cyl)))
+g1
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Try and make it look prettier}
+<<first-line, fig.width = 3, fig.height = 2.4, tidy = FALSE, size = 'scriptsize'>>=
+g1 <- g1 + theme(legend.position = 'none',
+                 axis.line = element_line(colour = 'black'),
+                 panel.background = element_blank())
+g1
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our second graph}
+<<second, tidy = FALSE>>=
+g2 <- ggplot(mtcars, 
+             aes(x = factor(cyl), 
+                 y = mpg, 
+                 fill = factor(cyl)))
+g2 <- g2 + geom_boxplot()
+g2 <- g2 + theme(legend.position = 'none',
+                 panel.background = element_blank(),
+                 panel.grid = element_blank())
+g2 <- g2 + labs(x = 'cylinders', 
+                y = 'miles per gallon',
+                title = 'example box plot')
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our second graph}
+<<second-plot, echo = FALSE, fig.height = 4, fig.width = 5>>=
+g2
+@
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Today's second dataset}
+
+  diamonds!
+
+  \Sexpr{nrow(diamonds)} samples for \Sexpr{ncol(diamonds)} variables.
+
+  Here is a tiny part of that dataset.
+
+<<results = 'asis', echo = FALSE>>=
+xtable(head(diamonds)[, 1:7])
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Looking at diamonds}
+<<dia, tidy = FALSE, fig.width = 4, fig.height = 2.5>>=
+d <- ggplot(diamonds, 
+            aes(x = carat, y = price, 
+                colour = clarity))
+d <- d + geom_point()
+d
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Make that look better}
+<<dia2, tidy = FALSE, fig.width = 4, fig.height = 2.5>>=
+d <- d + geom_point(alpha = 0.1)
+d <- d + facet_wrap(~ color)
+@
+
+\end{frame}
+
+\begin{frame}
+<<dia2-plot, echo = FALSE, fig.height = 4, fig.width = 5>>=
+d
+@
+\end{frame}<++>
+
+
+\begin{frame}
+  \frametitle{Other useful packages}
+
+  GGally: matrix plots
+
+  ggthemes: various canned themes to make your plots prettier (or hilariously ugly)
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Useful websites}
+
+  \url{http://docs.ggplot2.org/current/} : current ggplot documentation (very good)
+
+  \url{http://groups.google.com/group/ggplot2} : ggplot2 mailing list
+
+  \url{http://wiki.stdout.org/rcookbook/Graphs} : various tips and tricks to get over problems
+
+  \url{http://stackoverflow.com/} : coding question/answer site
+
+  \url{http://stats.stackexchange.com/} : statistics question/answer site
+
+  \url{http://www.r-bloggers.com/} : R blog aggregator
+
+\end{frame}
+
+
+\end{document}
