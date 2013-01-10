@@ -1,0 +1,16 @@
+\frametitle {Make pretty}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+d2 <- d2 + \hlfunctioncall{facet_wrap}(~ cut)
+d2 <- d2 + \hlfunctioncall{theme}(legend.position = \hlstring{'none'},
+                 axis.text = \hlfunctioncall{element_text}(size = 4),
+                 axis.title = \hlfunctioncall{element_text}(size = 7),
+                 strip.text = \hlfunctioncall{element_text}(size = 6))
+d2
+\end{alltt}
+\end{kframe}
+\includegraphics[width=\maxwidth]{figure/dia3-upgrade}
+
+\end{knitrout}
+
