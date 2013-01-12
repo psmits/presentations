@@ -32,7 +32,7 @@ University of Chicago}
   there are three main ways of making graphics in R:\\
   base graphics, lattice, grid, ggplot2.
 
-  ggplot2 is an implementation of the Grammar of Graphics (by Leland Wilkinson).
+  ggplot2 is an implementation of the Grammar of Graphics by Leland Wilkinson.
 
   extremely popular, huge community, extremely powerful, slow.
 
@@ -49,7 +49,7 @@ University of Chicago}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{itemize}
-        \item professor of statistics at Rice University
+        \item statistics professor at Rice University
         \item from New Zealand (oddly common in statistics)
         \item author of many R packages (ggplot2, reshape2, plyr, devtools, and more)
         \item ggplot and reshape made up most of his PhD thesis
@@ -66,7 +66,7 @@ University of Chicago}
   \frametitle{Grammar of Graphics}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      object-oriented approach to graphics where we have our graph ``object'' and we add to and modify the state of it
+      object-oriented approach to graphics where we have our graph ``object'' and we add to and modify the state of it\\
       \begin{itemize}
         \item variables
         \item aesthetics
@@ -85,7 +85,7 @@ University of Chicago}
 
 \begin{frame}
   \frametitle{Basics}
-  \texttt{ggplot()} is the basic call, but does not produce a graph.
+  \texttt{ggplot()} is the basic call, but does not produce a meaningful graph.
 
   \texttt{aes()} is for aesthetics (x value, y value, group, colour).
 
@@ -111,6 +111,8 @@ ggplot(df, aes(x = x, y = y))
 ggplot()
 @
 
+  df \textbf{must} be a data frame. x and y are columns of df.
+  
   creates an object of class ``ggplot'' which you probably want to assign (\texttt{<-}) to something.
 
   we can then modify this object to give it geometries, statistics, themes, etc.
@@ -130,7 +132,7 @@ g <- g + stat_smooth(method = 'lm')
 
 \begin{frame}
   \frametitle{Before we go to far, RStudio}
-  \includegraphics[height = \textheight, keepaspectratio = true]{figure/rstudio}
+  \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/rstudio}
 
 \end{frame}
 
@@ -139,7 +141,7 @@ g <- g + stat_smooth(method = 'lm')
 
   the muscle car data set!
 
-  \Sexpr{ncol(mtcars)} cars for \Sexpr{nrow(mtcars)} variables.
+  \Sexpr{nrow(mtcars)} cars for \Sexpr{ncol(mtcars)} variables.
 
 <<mtc, results = 'asis', echo = FALSE>>=
 library(xtable)
@@ -229,11 +231,13 @@ d
 
 \begin{frame}[fragile]
   \frametitle{Make that look better}
-<<dia2, tidy = FALSE, fig.width = 4, fig.height = 2.5, message = FALSE>>=
+<<dia2, tidy = FALSE, fig.width = 4, fig.height = 2.5, message = FALSE, size = 'scriptsize'>>=
 library(scales)
 d <- d + scale_y_continuous(trans = log_trans())
 d <- d + stat_smooth()
 d <- d + theme(panel.background = element_blank(),
+               panel.border = element_rect(colour = 'black', 
+                                           fill = NA),
                legend.position = 'none')
 @
 

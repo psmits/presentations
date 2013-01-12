@@ -82,7 +82,7 @@ University of Chicago}
   there are three main ways of making graphics in R:\\
   base graphics, lattice, grid, ggplot2.
 
-  ggplot2 is an implementation of the Grammar of Graphics (by Leland Wilkinson).
+  ggplot2 is an implementation of the Grammar of Graphics by Leland Wilkinson.
 
   extremely popular, huge community, extremely powerful, slow.
 
@@ -99,7 +99,7 @@ University of Chicago}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{itemize}
-        \item professor of statistics at Rice University
+        \item statistics professor at Rice University
         \item from New Zealand (oddly common in statistics)
         \item author of many R packages (ggplot2, reshape2, plyr, devtools, and more)
         \item ggplot and reshape made up most of his PhD thesis
@@ -116,7 +116,7 @@ University of Chicago}
   \frametitle{Grammar of Graphics}
   \begin{columns}
     \begin{column}{0.5\textwidth}
-      object-oriented approach to graphics where we have our graph ``object'' and we add to and modify the state of it
+      object-oriented approach to graphics where we have our graph ``object'' and we add to and modify the state of it\\
       \begin{itemize}
         \item variables
         \item aesthetics
@@ -135,7 +135,7 @@ University of Chicago}
 
 \begin{frame}
   \frametitle{Basics}
-  \texttt{ggplot()} is the basic call, but does not produce a graph.
+  \texttt{ggplot()} is the basic call, but does not produce a meaningful graph.
 
   \texttt{aes()} is for aesthetics (x value, y value, group, colour).
 
@@ -166,6 +166,8 @@ University of Chicago}
 \end{knitrout}
 
 
+  df \textbf{must} be a data frame. x and y are columns of df.
+  
   creates an object of class ``ggplot'' which you probably want to assign (\texttt{<-}) to something.
 
   we can then modify this object to give it geometries, statistics, themes, etc.
@@ -190,7 +192,7 @@ g <- g + \hlfunctioncall{stat_smooth}(method = \hlstring{"lm"})
 
 \begin{frame}
   \frametitle{Before we go to far, RStudio}
-  \includegraphics[height = \textheight, keepaspectratio = true]{figure/rstudio}
+  \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/rstudio}
 
 \end{frame}
 
@@ -199,10 +201,10 @@ g <- g + \hlfunctioncall{stat_smooth}(method = \hlstring{"lm"})
 
   the muscle car data set!
 
-  11 cars for 32 variables.
+  32 cars for 11 variables.
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 10 16:47:56 2013
+% Thu Jan 10 18:20:43 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrrrrrr}
@@ -316,7 +318,7 @@ g2 <- g2 + \hlfunctioncall{labs}(x = \hlstring{'cylinders'},
   53940 samples for 10 variables.
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 10 16:47:56 2013
+% Thu Jan 10 18:20:43 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrlllrrr}
@@ -358,13 +360,15 @@ d
 
 \begin{frame}[fragile]
   \frametitle{Make that look better}
-\begin{knitrout}
+\begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlfunctioncall{library}(scales)
 d <- d + \hlfunctioncall{scale_y_continuous}(trans = \hlfunctioncall{log_trans}())
 d <- d + \hlfunctioncall{stat_smooth}()
 d <- d + \hlfunctioncall{theme}(panel.background = \hlfunctioncall{element_blank}(),
+               panel.border = \hlfunctioncall{element_rect}(colour = \hlstring{'black'}, 
+                                           fill = NA),
                legend.position = \hlstring{'none'})
 \end{alltt}
 \end{kframe}
