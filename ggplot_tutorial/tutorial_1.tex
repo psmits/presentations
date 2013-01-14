@@ -204,7 +204,7 @@ g <- g + \hlfunctioncall{stat_smooth}(method = \hlstring{"lm"})
   32 cars for 11 variables.
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 10 18:20:43 2013
+% Mon Jan 14 08:54:56 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrrrrrr}
@@ -232,10 +232,22 @@ Mazda RX4 & 21.00 & 6.00 & 160.00 & 110.00 & 3.90 & 2.62 \\
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 g1 <- \hlfunctioncall{ggplot}(mtcars, \hlfunctioncall{aes}(wt, mpg)) + \hlfunctioncall{geom_point}()
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our first graph}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
 g1
 \end{alltt}
 \end{kframe}
-\includegraphics[width=\maxwidth]{figure/first} 
+\includegraphics[width=\maxwidth]{figure/first-print} 
 
 \end{knitrout}
 
@@ -249,13 +261,24 @@ g1
 \begin{alltt}
 g1 <- g1 + \hlfunctioncall{stat_smooth}(method = \hlstring{"lm"})
 g1 <- g1 + \hlfunctioncall{geom_point}(\hlfunctioncall{aes}(colour = \hlfunctioncall{factor}(cyl)))
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Adding a stat and modifying our first graph}
+\begin{knitrout}
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
 g1
 \end{alltt}
 \end{kframe}
-\includegraphics[width=\maxwidth]{figure/first-modify} 
+\includegraphics[width=\maxwidth]{figure/first-mod-print} 
 
 \end{knitrout}
-
 
 \end{frame}
 
@@ -318,7 +341,7 @@ g2 <- g2 + \hlfunctioncall{labs}(x = \hlstring{'cylinders'},
   53940 samples for 10 variables.
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 10 18:20:43 2013
+% Mon Jan 14 08:54:57 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrlllrrr}

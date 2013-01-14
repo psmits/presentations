@@ -154,6 +154,13 @@ xtable(head(mtcars)[, 1:6])
   \frametitle{Our first graph}
 <<first, fig.width = 3, fig.height = 2.5>>=
 g1 <- ggplot(mtcars, aes(wt, mpg)) + geom_point()
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Our first graph}
+<<first-print, fig.width = 5, fig.height = 3.5>>=
 g1
 @
 
@@ -164,9 +171,15 @@ g1
 <<first-modify, fig.width = 4, fig.height = 2.5>>=
 g1 <- g1 + stat_smooth(method = 'lm')
 g1 <- g1 + geom_point(aes(colour = factor(cyl)))
-g1
 @
 
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Adding a stat and modifying our first graph}
+<<first-mod-print, fig.width = 5, fig.height = 3.5>>=
+g1
+@
 \end{frame}
 
 \begin{frame}[fragile]
