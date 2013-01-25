@@ -40,7 +40,7 @@ University of Chicago}
 \begin{frame}[fragile]
   \frametitle{Maps}
 <<>>=
-require(ggplot2)
+library(ggplot2)
 library(maps)
 nz <- map_data('nz')
 @
@@ -251,7 +251,7 @@ require(scales)
 gpan <- ggplot(pantheria, aes(x = adultheadbodylen,
                               y = adultbodymass,
                               colour = order))
-gpan <- gpan + geom_point(alpha = 0.9,  size = 1)
+gpan <- gpan + geom_point(alpha = 0.9,  size = 1, na.rm = TRUE)
 gpan <- gpan + theme(legend.position = 'none')
 gpan <- gpan + labs(x = 'adult head-body length (log mm)',
                     y = 'adult body mass (log g)')
@@ -281,6 +281,25 @@ gpan <- gpan + facet_wrap(~ order)
   \frametitle{Visulizing}
 <<echo = FALSE, fig.height = 5, fig.width = 7>>=
 gpan
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+<<fig.keep = 'none'>>=
+gdiet <- ggplot(pantheria, aes(x = adultbodymass,
+                               fill = factor(dietbreadth)))
+gdiet <- gdiet + geom_histogram(binwidth = 0.3)
+gdiet <- gdiet + theme_bw()
+gdiet <- gdiet + scale_fill_discrete(name = 'diet\nbreadth')
+gdiet <- gdiet + labs(x = 'adult body mass (log g)')
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+<<echo = FALSE, fig.height = 5, fig.width = 7>>=
+gdiet
 @
 \end{frame}
 

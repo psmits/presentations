@@ -94,7 +94,7 @@ University of Chicago}
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
-\hlfunctioncall{require}(ggplot2)
+\hlfunctioncall{library}(ggplot2)
 \hlfunctioncall{library}(maps)
 nz <- \hlfunctioncall{map_data}(\hlstring{'nz'})
 \end{alltt}
@@ -103,7 +103,7 @@ nz <- \hlfunctioncall{map_data}(\hlstring{'nz'})
 
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 24 18:55:41 2013
+% Fri Jan 25 11:19:42 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrrrrll}
@@ -409,7 +409,7 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
 \begin{frame}[fragile]
   \frametitle{Summarize by order}
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Thu Jan 24 18:55:47 2013
+% Fri Jan 25 11:19:48 2013
 \begin{table}[ht]
 \begin{center}
 \scalebox{0.6}{
@@ -464,7 +464,7 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
 gpan <- \hlfunctioncall{ggplot}(pantheria, \hlfunctioncall{aes}(x = adultheadbodylen,
                               y = adultbodymass,
                               colour = order))
-gpan <- gpan + \hlfunctioncall{geom_point}(alpha = 0.9,  size = 1)
+gpan <- gpan + \hlfunctioncall{geom_point}(alpha = 0.9,  size = 1, na.rm = TRUE)
 gpan <- gpan + \hlfunctioncall{theme}(legend.position = \hlstring{'none'})
 gpan <- gpan + \hlfunctioncall{labs}(x = \hlstring{'adult head-body \hlfunctioncall{length} (log mm)'},
                     y = \hlstring{'adult body \hlfunctioncall{mass} (log g)'})
@@ -506,6 +506,33 @@ gpan <- gpan + \hlfunctioncall{facet_wrap}(~ order)
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-23} 
+
+\end{knitrout}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+\begin{knitrout}\scriptsize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+gdiet <- \hlfunctioncall{ggplot}(pantheria, \hlfunctioncall{aes}(x = adultbodymass,
+                               fill = \hlfunctioncall{factor}(dietbreadth)))
+gdiet <- gdiet + \hlfunctioncall{geom_histogram}(binwidth = 0.3)
+gdiet <- gdiet + \hlfunctioncall{theme_bw}()
+gdiet <- gdiet + \hlfunctioncall{scale_fill_discrete}(name = \hlstring{'diet\textbackslash{}nbreadth'})
+gdiet <- gdiet + \hlfunctioncall{labs}(x = \hlstring{'adult body \hlfunctioncall{mass} (log g)'})
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+\begin{knitrout}\scriptsize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
+\includegraphics[width=\maxwidth]{figure/unnamed-chunk-25} 
 
 \end{knitrout}
 
