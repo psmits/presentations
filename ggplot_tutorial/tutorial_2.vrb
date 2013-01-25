@@ -1,0 +1,14 @@
+\frametitle {Save our plot}
+
+  If you aren't using knitr/Sweave (you should!), you can save your ggplot for use later.
+
+\begin{knitrout}\scriptsize
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlfunctioncall{ggsave}(filename = \hlstring{'pantheria_facet.png'},
+       plot = gpan)
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+

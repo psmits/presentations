@@ -1,0 +1,299 @@
+\documentclass{beamer}
+\usepackage{graphicx, parskip, microtype, hyperref}
+
+\frenchspacing
+
+\usetheme{default}
+\usecolortheme{orchid}
+
+<<echo = FALSE, message = FALSE>>=
+require(xtable)
+require(knitr)
+opts_chunk$set(tidy = FALSE, size = 'scriptsize', warning = FALSE)
+@
+
+\title{ggplot2: visualizing our data and IO}
+\author{Peter D Smits}
+\institute{Committee on Evolutionary Biology \\
+University of Chicago}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+\begin{frame}
+  \frametitle{Introduction}
+
+  Last time, we covered the basics of ggplot2 and how we modify plots.
+
+  Today's talk will be in two parts. 
+  \begin{enumerate}
+    \item introduction to maps and ggplot
+    \item Sample workflow from IO through munging to visualizing.
+  \end{enumerate}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Maps}
+<<>>=
+require(ggplot2)
+library(maps)
+nz <- map_data('nz')
+@
+
+<<echo = FALSE, results = 'asis'>>=
+xtable(head(nz))
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Looking at NZ: Cartesian coordinates}
+<<fig.keep = 'none'>>=
+nzmap <- ggplot(nz, aes(x = long, y = lat, group = group))
+nzmap <- nzmap + geom_polygon(fill = 'white', colour = 'black')
+nzmap
+@      
+\end{frame}
+
+\begin{frame}[fragile]
+<<echo = FALSE, fig.width = 3, fig.height = 3>>=
+nzmap
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Looking at NZ: Mercator projection}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+<<fig.keep = 'none'>>=
+library(mapproj)
+nzmap + coord_map()
+@
+    \end{column}
+    \begin{column}{0.7\textwidth}
+<<echo = FALSE>>=
+nzmap + coord_map()
+@
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Looking NZ: Other projections}
+<<eval = FALSE>>=
+nzmap + coord_map('cylindrical')
+
+nzmap + coord_map('azequalarea', 
+                  orientation = c(-36.92, 174.6, 0))
+
+## ?mapproject for coordinate systems and their parameters
+## there are a lot of them
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{World map!}
+<<fig.keep = 'none'>>=
+world <- map_data('world')
+worldmap <- ggplot(world, aes(x = long, y = lat, group = group))
+worldmap <- worldmap + geom_path()
+worldmap <- worldmap + scale_y_continuous(breaks = (-2:2) * 30) + 
+            scale_x_continuous(breaks = (-4:4) * 45)
+worldmap <- worldmap + coord_equal()
+@
+\end{frame}
+
+\begin{frame}[fragile]
+<<echo = FALSE, fig.height = 6, fig.width = 7.5>>=
+worldmap
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Lets add random dots to it!}
+<<fig.keep = 'none'>>=
+x.long <- rnorm(100, mean = mean(world$long), sd = sd(world$long))
+y.lat <- rnorm(100, mean = mean(world$lat), sd = sd(world$lat))
+rpoints <- data.frame(x.long, y.lat)
+## there are prettier ways to do this, but they are more complicated
+worldmap <- worldmap + geom_point(data = rpoints,
+                                  mapping = aes(x = x.long, 
+                                                y = y.lat, 
+                                                group = NULL),
+                                  colour = 'red')
+worldmap <- worldmap + theme_minimal()
+@
+\end{frame}
+
+\begin{frame}
+<<echo = FALSE>>=
+worldmap
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{More on maps}
+
+  Try a lot of projections to get the one that distorts your reality the least.
+
+  You can cut down the amount of the map displayed. You can look that up on your own.
+
+  Shape files can be read into R and used as maps. (maptools)
+
+  There are packages to use google maps. (RGoogleMaps, ggmap)
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{IO}
+
+  Input/Output: the act of getting things in and out or your program/script/what have you.
+
+<<eval = FALSE>>=
+read.table()
+read.csv()
+read.tree()
+read.nexus()
+dget()
+## etc.
+
+write.table()
+write.csv()
+write.tree()
+write.nexus()
+dput()
+save()
+save.image()
+ggsave() # save ggplot object
+## etc.
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Anatomy of read.table()}
+<<>>=
+args(read.table)
+@
+
+  returns an object of class ``data.frame''
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{(Review of) reading in a file}
+<<>>=
+pantheria <- read.table(file = 'pantheria_mung.csv', 
+                        sep = ',', header = T, row.names = 1)
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Very rough summary}
+<<>>=
+summary(pantheria)
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Summarizing}
+
+  Hadley coined term ``split-apply-combine'' in his J. Stat. Soft. paper on ``plyr''.
+
+  This is essentially using higher-order functions to ease aspects of data munging.
+
+  EXTREME mungning will not be covered here (plug for other course) because it requires a lot of knowledge of the R language as an actual language. Here, we do a quick usage of the function \tt{ddply()}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Summarize by order}
+<<>>=
+library(plyr)
+order.summary <- ddply(pantheria, .(order), summarise, 
+                       mean.mass = mean(adultbodymass, na.rm = TRUE),
+                       mass.count = length(na.omit(adultbodymass)),
+                       mean.body = mean(adultheadbodylen, na.rm = TRUE),
+                       body.count = length(na.omit(adultheadbodylen)),
+                       mean.metrate = mean(basalmetrate, na.rm = TRUE),
+                       metrate.count = length(na.omit(basalmetrate)))
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Summarize by order}
+<<results = 'asis', echo = FALSE>>=
+mam.tab <- xtable(head(order.summary, n = 15))
+print.xtable(mam.tab, scalebox = 0.6)
+@
+\end{frame}
+
+\begin{frame}
+  \frametitle{Reshaping}
+
+  Wide versus long format. ggplot likes long, we think in wide.
+<<>>=
+library(reshape2)
+
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+<<fig.keep = 'none'>>=
+require(scales)
+gpan <- ggplot(pantheria, aes(x = adultheadbodylen,
+                              y = adultbodymass,
+                              colour = order))
+gpan <- gpan + geom_point(alpha = 0.9,  size = 1)
+gpan <- gpan + theme(legend.position = 'none')
+gpan <- gpan + labs(x = 'adult head-body length (log mm)',
+                    y = 'adult body mass (log g)')
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+<<echo = FALSE, fig.height = 5, fig.width = 7>>=
+gpan
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visualizing}
+<<fig.keep = 'none'>>=
+gpan <- gpan + geom_point(alpha = 0.9, size = 0.7,
+                          mapping = aes(colour = family))
+gpan <- gpan + theme(axis.text = element_text(size = 6),
+                     axis.title = element_text(size = 8),
+                     strip.text = element_text(size = 6))
+gpan <- gpan + facet_wrap(~ order)
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Visulizing}
+<<echo = FALSE, fig.height = 5, fig.width = 7>>=
+gpan
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Save our plot}
+
+  If you aren't using knitr/Sweave (you should!), you can save your ggplot for use later.
+
+<<eval = FALSE>>=
+ggsave(filename = 'pantheria_facet.png',
+       plot = gpan)
+@
+
+\end{frame}
+
+\end{document}
