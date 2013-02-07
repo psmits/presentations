@@ -32,7 +32,7 @@ University of Chicago}
   Today's talk will be in two parts. 
   \begin{enumerate}
     \item introduction to maps and ggplot
-    \item Sample workflow from IO through munging to visualizing.
+    \item Sample workflow from IO through summarising to visualizing.
   \end{enumerate}
 
 \end{frame}
@@ -207,7 +207,7 @@ summary(pantheria)
 
   This is essentially using higher-order functions to ease aspects of data munging.
 
-  EXTREME mungning will not be covered here (plug for other course) because it requires a lot of knowledge of the R language as an actual language. Here, we do a quick usage of the function \tt{ddply()}
+  EXTREME munging will not be covered here (plug for other course) because it requires a lot of knowledge of the R language as an actual language. Here, we do a quick usage of the function \tt{ddply()}
 
 \end{frame}
 
@@ -238,16 +238,20 @@ print.xtable(mam.tab, scalebox = 0.6)
   \frametitle{Reshaping}
 
   Wide versus long format. ggplot likes long, we think in wide.
+
 <<>>=
 library(reshape2)
-
 @
+
+  I won't be covering this as a part of this lecture. 
+  
+  Stay tuned for a proper munging lecture.
+
 \end{frame}
 
 \begin{frame}[fragile]
   \frametitle{Visualizing}
 <<fig.keep = 'none'>>=
-require(scales)
 gpan <- ggplot(pantheria, aes(x = adultheadbodylen,
                               y = adultbodymass,
                               colour = order))
@@ -278,7 +282,7 @@ gpan <- gpan + facet_wrap(~ order)
 \end{frame}
 
 \begin{frame}[fragile]
-  \frametitle{Visulizing}
+  \frametitle{Visualizing}
 <<echo = FALSE, fig.height = 5, fig.width = 7>>=
 gpan
 @

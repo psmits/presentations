@@ -84,7 +84,7 @@ University of Chicago}
   Today's talk will be in two parts. 
   \begin{enumerate}
     \item introduction to maps and ggplot
-    \item Sample workflow from IO through munging to visualizing.
+    \item Sample workflow from IO through summarising to visualizing.
   \end{enumerate}
 
 \end{frame}
@@ -103,7 +103,7 @@ nz <- \hlfunctioncall{map_data}(\hlstring{'nz'})
 
 
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Fri Jan 25 11:19:42 2013
+% Fri Jan 25 12:15:20 2013
 \begin{table}[ht]
 \begin{center}
 \begin{tabular}{rrrrrll}
@@ -382,7 +382,7 @@ pantheria <- \hlfunctioncall{read.table}(file = \hlstring{'pantheria_mung.csv'},
 
   This is essentially using higher-order functions to ease aspects of data munging.
 
-  EXTREME mungning will not be covered here (plug for other course) because it requires a lot of knowledge of the R language as an actual language. Here, we do a quick usage of the function \tt{ddply()}
+  EXTREME munging will not be covered here (plug for other course) because it requires a lot of knowledge of the R language as an actual language. Here, we do a quick usage of the function \tt{ddply()}
 
 \end{frame}
 
@@ -409,7 +409,7 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
 \begin{frame}[fragile]
   \frametitle{Summarize by order}
 % latex table generated in R 2.15.2 by xtable 1.7-0 package
-% Fri Jan 25 11:19:48 2013
+% Fri Jan 25 12:15:26 2013
 \begin{table}[ht]
 \begin{center}
 \scalebox{0.6}{
@@ -445,6 +445,7 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
   \frametitle{Reshaping}
 
   Wide versus long format. ggplot likes long, we think in wide.
+
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
@@ -453,6 +454,11 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
 \end{kframe}
 \end{knitrout}
 
+
+  I won't be covering this as a part of this lecture. 
+  
+  Stay tuned for a proper munging lecture.
+
 \end{frame}
 
 \begin{frame}[fragile]
@@ -460,7 +466,6 @@ order.summary <- \hlfunctioncall{ddply}(pantheria, \hlfunctioncall{.}(order), su
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
-\hlfunctioncall{require}(scales)
 gpan <- \hlfunctioncall{ggplot}(pantheria, \hlfunctioncall{aes}(x = adultheadbodylen,
                               y = adultbodymass,
                               colour = order))
@@ -502,7 +507,7 @@ gpan <- gpan + \hlfunctioncall{facet_wrap}(~ order)
 \end{frame}
 
 \begin{frame}[fragile]
-  \frametitle{Visulizing}
+  \frametitle{Visualizing}
 \begin{knitrout}\scriptsize
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 \includegraphics[width=\maxwidth]{figure/unnamed-chunk-23} 
