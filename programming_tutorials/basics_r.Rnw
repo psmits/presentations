@@ -1,0 +1,128 @@
+% this is a tutorial on the basics of programming.
+% it uses the R language because this is used most 
+% frequently in the statistics world.
+% most of the advice given here is language agnostic.
+% material here is based on lessons learned from 
+% Think Python by Allen B Downey
+% Structure and Interpretation of Computer Programs by Abelson and Sussman
+% The Art of R Programming by Norman Matloff
+% (upcoming/unpublished) Advanced R development: making reusable code 
+%   by Hadley Wickham and the devtools dev team
+%
+% Gene Hunt's tutorials have also served as a model template
+%   especially given that I learned the basics from him
+%
+% 
+
+\documentclass{beamer}
+\usepackage{graphicx, parskip, microtype, hyperref}
+\usepackage{amsmath, amsthm}
+
+\frenchspacing
+
+\usetheme{default}
+\usecolortheme{orchid}
+
+<<opts-set, message = FALSE, echo = FALSE>>=
+require(knitr)
+options(width = 60)
+opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
+               size = 'small')
+@
+
+\title{Introduction to Programming: the R perspective}
+\author{Peter D Smits}
+
+\begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+\section{Introduction}
+\begin{frame}
+  \frametitle{What is programming?}
+  \textit{Structure of Interpretation of Computer Programs} by Abelson and Sussman 1996 page 1.
+
+  \begin{quotation}
+    We are about the study the idea of a \textit{computational process}. Computational processes are abstract beings that inhabit computers. As they evolve, processes maniputate other acstract things called \textit{data}. The evoution of a process is directed by a pattern of rules called a \textit{program}. People create programs to direct processes. In effect, we conjure the spirits of the computer with our spells.
+  \end{quotation}
+
+  Continued\ldots
+\end{frame}
+
+\begin{frame}
+  \frametitle{What is programming?}
+  \begin{quotation}
+    A computation process is indeed much like a sorcerer's idea of a spirit. It cannot be seen or touched. It is not composed of matter at all. However, it is very real. It can perform intellectual work. It can answer questions. It can affect the world by disbursing money at a bank or by controlling a robot arm in a factory. The programs we use to conjure processes are like a sorcerer's spells. They are carefully composed from symbolic epressions in arcane and esoteric \textit{programming languages} that prescribe the tasks we want our process to perform.
+  \end{quotation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{R: a brief history}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Console and scripts}
+\end{frame}
+
+
+\section{Programming}
+\begin{frame}
+  \frametitle{Using the console or REPL}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Writing our first script}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Flow control}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Writing our first function}
+  Using what we know now, let's write our own useful function.
+
+  Let's duplicate the sum function.
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Writing our first function}
+
+  First, let's find out what sum does.
+
+<<>>=
+x <- seq(5)
+sum(x)
+
+y <- c(1, 1)
+sum(y)
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Writing our first function}
+
+<<sum, tidy = FALSE>>=
+sum.prime <- function(x) {
+  y <- 0  # create variable we can increase in value
+
+  # use loop through every value in x and add it to y
+  for(i in seq(length(x))) {  
+    # seq is for making sequences 
+    # length determines how long a vector is
+    
+    y <- y + x[i]
+  }
+
+  # return determines the output of a function
+  return(y)
+}
+
+@
+
+\end{frame}
+
+\end{document}
