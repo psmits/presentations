@@ -70,7 +70,7 @@
 \newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
 
 \usepackage{alltt}
-\usepackage{graphicx, parskip, microtype, hyperref}
+\usepackage{graphicx, parskip, microtype, hyperref, caption}
 \usepackage{amsmath, amsthm}
 
 \frenchspacing
@@ -93,6 +93,15 @@
 \section{Introduction}
 \begin{frame}
   \frametitle{What is programming?}
+
+  \begin{center}
+    \includegraphics[height = 0.9\textheight, keepaspectratio = true]{figure/sicp}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{What is programming?}
   \textit{Structure of Interpretation of Computer Programs} by Abelson and Sussman 1996 page 1.
 
   \begin{quotation}
@@ -111,24 +120,60 @@
 
 \begin{frame}
   \frametitle{R: a brief history}
+  R is a programming language based on the S language.
+
+  Originally written by Ross Ihaka and Robert Gentleman, now by a team.
+
+  \begin{figure}[h]
+    \captionsetup{justification = raggedleft, slc = off}
+    \includegraphics[width = \textwidth, keepaspectratio = true]{figure/ihaka_gentleman}
+    \caption*{NyTimes}
+    \label{fig:creators}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{R: a brief history}
+  Existed in a usable form since approximately 1997.
+
+  R is kind of a messy language and pretty slow. Lots of other problems/concerns.
+
+  Main advantages of R for statistical analysis
+  \begin{itemize}
+    \item designed with data in mind
+    \item huge package universe
+    \item lots of online resources
+    \item graphics
+    \item dynamic documents
+  \end{itemize}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Console and scripts}
+  The console (or REPL) is the R command line. It is the blinking cursor you stare at when you first open R. It is useful for testing bits of code and hunting for bugs in your code.
+
+  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console.
+
 \end{frame}
 
 
 \section{Programming}
 \begin{frame}
   \frametitle{Using the console or REPL}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Writing our first script}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Flow control}
+  Flow control is how you tell the computer what order to do things in.
+
 \end{frame}
 
 \begin{frame}
@@ -136,6 +181,7 @@
   Using what we know now, let's write our own useful function.
 
   Let's duplicate the sum function.
+
 \end{frame}
 
 \begin{frame}[fragile]
@@ -173,9 +219,9 @@ y <- \hlfunctioncall{c}(1, 1)
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 sum.prime <- \hlfunctioncall{function}(x) \{
-  y <- 0  \hlcomment{# create variable we can increase in value}
+  y <- 0  \hlcomment{# storage}
 
-\hlcomment{  # use loop through every value in x and add it to y}
+\hlcomment{  # add every value of x to y}
   \hlfunctioncall{for}(i in \hlfunctioncall{seq}(\hlfunctioncall{length}(x))) \{  
 \hlcomment{    # seq is for making sequences }
 \hlcomment{    # length determines how long a vector is}

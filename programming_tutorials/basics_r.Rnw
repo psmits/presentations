@@ -15,7 +15,7 @@
 % 
 
 \documentclass{beamer}
-\usepackage{graphicx, parskip, microtype, hyperref}
+\usepackage{graphicx, parskip, microtype, hyperref, caption}
 \usepackage{amsmath, amsthm}
 
 \frenchspacing
@@ -42,6 +42,15 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 \section{Introduction}
 \begin{frame}
   \frametitle{What is programming?}
+
+  \begin{center}
+    \includegraphics[height = 0.9\textheight, keepaspectratio = true]{figure/sicp}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{What is programming?}
   \textit{Structure of Interpretation of Computer Programs} by Abelson and Sussman 1996 page 1.
 
   \begin{quotation}
@@ -60,24 +69,60 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 
 \begin{frame}
   \frametitle{R: a brief history}
+  R is a programming language based on the S language.
+
+  Originally written by Ross Ihaka and Robert Gentleman, now by a team.
+
+  \begin{figure}[h]
+    \captionsetup{justification = raggedleft, slc = off}
+    \includegraphics[width = \textwidth, keepaspectratio = true]{figure/ihaka_gentleman}
+    \caption*{NyTimes}
+    \label{fig:creators}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{R: a brief history}
+  Existed in a usable form since approximately 1997.
+
+  R is kind of a messy language and pretty slow. Lots of other problems/concerns.
+
+  Main advantages of R for statistical analysis
+  \begin{itemize}
+    \item designed with data in mind
+    \item huge package universe
+    \item lots of online resources
+    \item graphics
+    \item dynamic documents
+  \end{itemize}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Console and scripts}
+  The console (or REPL) is the R command line. It is the blinking cursor you stare at when you first open R. It is useful for testing bits of code and hunting for bugs in your code.
+
+  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console.
+
 \end{frame}
 
 
 \section{Programming}
 \begin{frame}
   \frametitle{Using the console or REPL}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Writing our first script}
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Flow control}
+  Flow control is how you tell the computer what order to do things in.
+
 \end{frame}
 
 \begin{frame}
@@ -85,6 +130,7 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
   Using what we know now, let's write our own useful function.
 
   Let's duplicate the sum function.
+
 \end{frame}
 
 \begin{frame}[fragile]
@@ -107,9 +153,9 @@ sum(y)
 
 <<sum, tidy = FALSE>>=
 sum.prime <- function(x) {
-  y <- 0  # create variable we can increase in value
+  y <- 0  # storage
 
-  # use loop through every value in x and add it to y
+  # add every value of x to y
   for(i in seq(length(x))) {  
     # seq is for making sequences 
     # length determines how long a vector is
