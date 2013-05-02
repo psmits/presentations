@@ -107,6 +107,12 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 
 \end{frame}
 
+\begin{frame}
+  \frametitle{RStudio}
+  \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/rstudio}
+  % at this point it is appropriate to open up RStudio and demonstrate things
+
+\end{frame}
 
 \section{Programming}
 \begin{frame}
@@ -114,14 +120,99 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{Writing our first script}
+  Write the following code in a script file.
+
+<<>>=
+
+@
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Flow control}
   Flow control is how you tell the computer what order to do things in.
+
+  Use TRUE/FALSE (Boolean) statements.
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Basics of conditional statements}
+  Think about what these statements will do then try then in the console.
+
+<<eval = FALSE>>=
+TRUE == TRUE
+
+TRUE == FALSE
+
+FALSE != TRUE
+
+2 > 1
+
+2 < 1
+
+is.numeric(1)
+
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{if} statements}
+<<eval = FALSE>>=
+if(x = TRUE) {
+  print(x)
+}
+
+if(x = TRUE) {
+  print('yay')
+} else {
+  print('boo')
+}
+
+if(x = TRUE) {
+  print('yay')
+} else if(x = FALSE) {
+  print('what?')
+} else {
+  print('why?')
+}
+
+@
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{while} statements}
+<<eval = FALSE>>=
+while(y < 100) {
+  y <- y + 1
+}
+
+while(y < 100) {
+  if(y < 0) {
+    break
+  }
+  y <- y + 1
+}
+@
+
+  CAUTION: \tt{while} loops can be infinite\dots
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{for} statements}
+<<eval = FALSE>>=
+# i write these a little weird so they are clearer and safer
+
+for(ii in seq(10)) {
+  print(ii)
+}
+
+@
 
 \end{frame}
 

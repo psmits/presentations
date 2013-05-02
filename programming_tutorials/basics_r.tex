@@ -158,6 +158,12 @@
 
 \end{frame}
 
+\begin{frame}
+  \frametitle{RStudio}
+  \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/rstudio}
+  % at this point it is appropriate to open up RStudio and demonstrate things
+
+\end{frame}
 
 \section{Programming}
 \begin{frame}
@@ -165,14 +171,119 @@
 
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{Writing our first script}
+  Write the following code in a script file.
+
+
+
 
 \end{frame}
 
 \begin{frame}
   \frametitle{Flow control}
   Flow control is how you tell the computer what order to do things in.
+
+  Use TRUE/FALSE (Boolean) statements.
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Basics of conditional statements}
+  Think about what these statements will do then try then in the console.
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+TRUE == TRUE
+
+TRUE == FALSE
+
+FALSE != TRUE
+
+2 > 1
+
+2 < 1
+
+\hlfunctioncall{is.numeric}(1)
+
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{if} statements}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlfunctioncall{if}(x = TRUE) \{
+  \hlfunctioncall{print}(x)
+\}
+
+\hlfunctioncall{if}(x = TRUE) \{
+  \hlfunctioncall{print}(\hlstring{'yay'})
+\} else \{
+  \hlfunctioncall{print}(\hlstring{'boo'})
+\}
+
+\hlfunctioncall{if}(x = TRUE) \{
+  \hlfunctioncall{print}(\hlstring{'yay'})
+\} else \hlfunctioncall{if}(x = FALSE) \{
+  \hlfunctioncall{print}(\hlstring{'what?'})
+\} else \{
+  \hlfunctioncall{print}(\hlstring{'why?'})
+\}
+
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{while} statements}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlfunctioncall{while} (y < 100) \{
+    y <- y + 1
+\}
+
+\hlfunctioncall{while} (y < 100) \{
+    \hlfunctioncall{if} (y < 0) \{
+        break
+    \}
+    y <- y + 1
+\}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+  CAUTION: \tt{while} loops can be infinite\dots
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{\tt{for} statements}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlcomment{# i write these a little weird so they are clearer and}
+\hlcomment{# safer}
+
+\hlfunctioncall{for} (ii in \hlfunctioncall{seq}(10)) \{
+    \hlfunctioncall{print}(ii)
+\}
+
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
 
 \end{frame}
 
