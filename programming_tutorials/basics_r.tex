@@ -27,7 +27,6 @@
 }
 \makeatother
 
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \definecolor{fgcolor}{rgb}{0.2, 0.2, 0.2}
 \newcommand{\hlnumber}[1]{\textcolor[rgb]{0,0,0}{#1}}%
 \newcommand{\hlfunctioncall}[1]{\textcolor[rgb]{0.501960784313725,0,0.329411764705882}{\textbf{#1}}}%
@@ -83,6 +82,7 @@
 
 \title{Introduction to Programming: the R perspective}
 \author{Peter D Smits}
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 
 \begin{document}
 
@@ -154,7 +154,7 @@
   \frametitle{Console and scripts}
   The console (or REPL) is the R command line. It is the blinking cursor you stare at when you first open R. It is useful for testing bits of code and hunting for bugs in your code.
 
-  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console.
+  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console. These are plain text files with specific extensions. ``.r'' or ``.R'' in the case of R.
 
 \end{frame}
 
@@ -166,10 +166,120 @@
 \end{frame}
 
 \section{Programming}
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{Using the console or REPL}
 
+  Type straight into the console.
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+1
+\end{alltt}
+\begin{verbatim}
+## [1] 1
+\end{verbatim}
+\begin{alltt}
+
+x <- 1
+
+x + 1
+\end{alltt}
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
+\begin{alltt}
+
+y <- x + x
+
+y
+\end{alltt}
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+
 \end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Using the console or REPL}
+
+  You can scroll up/down using the arrow keys.
+
+  Useful functions. Give them a try.
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+\hlfunctioncall{ls}()
+
+\hlfunctioncall{sessionInfo}()
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Hold on. What did we just do?}
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+<-
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+  This is called an assignment. ``Binds'' a value to a variable/object so it can be called later. It can be lots of things, but lets stick with numerics (numbers) and strings (characters). Strings are in quotes.
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+a <- 1
+a
+\end{alltt}
+\begin{verbatim}
+## [1] 1
+\end{verbatim}
+\begin{alltt}
+
+b <- \hlstring{"hello"}
+b
+\end{alltt}
+\begin{verbatim}
+## [1] "hello"
+\end{verbatim}
+\end{kframe}
+\end{knitrout}
+
+
+  Play around with this. Try different variable names. Some aren't valid. You can even bind a variable to a variable like we did earlier.
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Syntax}
+
+  Syntactic rules are those which govern the order of words. In programming, this means the way we have to write out our statements. The way we assign a variable is a type of syntactic rule.
+
+  In R, assignments are flexible which should be concerning.
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+x <- 1
+y = 1
+1 -> z
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+  Which one should we use? I like the first. No one likes the third and you should probably never use it. Whatever you chose, stick to it.
+
+\end{frame}
+
 
 \begin{frame}[fragile]
   \frametitle{Writing our first script}
@@ -177,6 +287,30 @@
 
 
 
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Comments}
+
+  Comments are unevaluated text that we can include in a script file. Useful for notes and reminders.
+
+  In R, comments are proceeded by a \# symbol. Here is an awful example.
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+x <- 1  \hlcomment{# i've made x the value 1}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+
+  Comments are so that other people who are looking at your code can more quickly understand what is going on. Remember, you in 6 months counts as a different person. In CS classes, you get points off for poor commenting.
+
+  Comments should explain the why, not the what.
+  
+  Always comment your code. 
 
 \end{frame}
 
@@ -329,7 +463,7 @@ y <- \hlfunctioncall{c}(1, 1)
 \begin{knitrout}\small
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
-sum.prime <- \hlfunctioncall{function}(x) \{
+my.sum <- \hlfunctioncall{function}(x) \{
   y <- 0  \hlcomment{# storage}
 
 \hlcomment{  # add every value of x to y}
@@ -347,6 +481,19 @@ sum.prime <- \hlfunctioncall{function}(x) \{
 \end{kframe}
 \end{knitrout}
 
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Next time}
+
+  Basic programming concept
+  \begin{itemize}
+    \item types
+    \item classes
+    \item objects
+    \item functions
+  \end{itemize}
 
 \end{frame}
 

@@ -103,7 +103,7 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
   \frametitle{Console and scripts}
   The console (or REPL) is the R command line. It is the blinking cursor you stare at when you first open R. It is useful for testing bits of code and hunting for bugs in your code.
 
-  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console.
+  Script files are text times with a series of commands/expessions in a row. These are then run to perform analysis. Scripts allow you to edit code and save it for later use. Write scripts, don't just use the console. These are plain text files with specific extensions. ``.r'' or ``.R'' in the case of R.
 
 \end{frame}
 
@@ -115,10 +115,74 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 \end{frame}
 
 \section{Programming}
-\begin{frame}
+\begin{frame}[fragile]
   \frametitle{Using the console or REPL}
 
+  Type straight into the console.
+
+<<>>=
+1
+
+x <- 1
+
+x + 1
+
+y <- x + x
+
+y
+@
+
 \end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Using the console or REPL}
+
+  You can scroll up/down using the arrow keys.
+
+  Useful functions. Give them a try.
+<<eval = FALSE>>=
+ls()
+
+sessionInfo()
+@
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Hold on. What did we just do?}
+<<eval = FALSE>>=
+<-
+@
+  This is called an assignment. ``Binds'' a value to a variable/object so it can be called later. It can be lots of things, but lets stick with numerics (numbers) and strings (characters). Strings are in quotes.
+
+<<>>=
+a <- 1
+a
+
+b <- 'hello'
+b
+@
+
+  Play around with this. Try different variable names. Some aren't valid. You can even bind a variable to a variable like we did earlier.
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Syntax}
+
+  Syntactic rules are those which govern the order of words. In programming, this means the way we have to write out our statements. The way we assign a variable is a type of syntactic rule.
+
+  In R, assignments are flexible which should be concerning.
+
+<<tidy = FALSE>>=
+x <- 1
+y = 1
+1 -> z
+@
+
+  Which one should we use? I like the first. No one likes the third and you should probably never use it. Whatever you chose, stick to it.
+
+\end{frame}
+
 
 \begin{frame}[fragile]
   \frametitle{Writing our first script}
@@ -127,6 +191,25 @@ opts_chunk$set(echo = TRUE, highlight = TRUE, results = 'markup',
 <<>>=
 
 @
+
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Comments}
+
+  Comments are unevaluated text that we can include in a script file. Useful for notes and reminders.
+
+  In R, comments are proceeded by a \# symbol. Here is an awful example.
+
+<<>>=
+x <- 1  # i've made x the value 1
+@
+
+  Comments are so that other people who are looking at your code can more quickly understand what is going on. Remember, you in 6 months counts as a different person. In CS classes, you get points off for poor commenting.
+
+  Comments should explain the why, not the what.
+  
+  Always comment your code. 
 
 \end{frame}
 
@@ -243,7 +326,7 @@ sum(y)
   \frametitle{Writing our first function}
 
 <<sum, tidy = FALSE>>=
-sum.prime <- function(x) {
+my.sum <- function(x) {
   y <- 0  # storage
 
   # add every value of x to y
@@ -259,6 +342,19 @@ sum.prime <- function(x) {
 }
 
 @
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Next time}
+
+  Basic programming concept
+  \begin{itemize}
+    \item types
+    \item classes
+    \item objects
+    \item functions
+  \end{itemize}
 
 \end{frame}
 
