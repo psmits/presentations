@@ -10,9 +10,15 @@ startrek <- xmlTreeParse(file = '../data/enmemoryalpha_pages_current.xml',
 
 top <- xmlRoot(startrek)
 
-#limit <- xmlSize(top)
+limit <- xmlSize(top)
 
 nn <- list()
-for(ii in seq(from = 6, to = 1000)) {
+for(ii in seq(from = 2, to = limit)) {
   nn[[ii]] <- get.info(top[[ii]])
 }
+
+# remove the bad pages
+good <- !laply(llply(nn, function(x) x == 'bad page'), any)
+nn <- nn[good]
+
+save(nn, file = '../data/extracted_vals.rdata')

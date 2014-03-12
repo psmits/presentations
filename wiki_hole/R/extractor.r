@@ -5,7 +5,25 @@ get.info <- function(xml) {
   if(!is.na(str_match(tit, 'memory alpha'))) {
     return('bad page')
   }
-  if(!is.na(str_match(tit, 'user talk'))) {
+  if(!is.na(str_match(tit, 'user'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'talk\\:'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'mediawiki'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'help\\:'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'file\\:'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'template\\:'))) {
+    return('bad page')
+  }
+  if(!is.na(str_match(tit, 'category\\:'))) {
     return('bad page')
   }
 
