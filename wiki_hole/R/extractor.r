@@ -17,6 +17,9 @@ get.info <- function(xml) {
   if(!is.na(str_match(tit, 'help\\:'))) {
     return('bad page')
   }
+  if(!is.na(str_match(tit, 'forum\\:'))) {
+    return('bad page')
+  }
   if(!is.na(str_match(tit, 'file\\:'))) {
     return('bad page')
   }
