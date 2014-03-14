@@ -3,6 +3,7 @@ library(stringr)
 library(reshape2)
 
 load('../data/star_trek_graph.rdata')
+#write.graph(g, file = '../data/star_trek_complete.net', format = 'pajek')
 
 # page rank
 ranks <- page.rank(g)
@@ -25,8 +26,5 @@ path <- get.diameter(g)  # weirdest wander
 # other measures
 ecc <- eccentricity(g)
 
-# community analysis
-#info <- infomap.community(g)
-# make a smaller graph that can be plotted
-#contract.vertices
-
+# write out the statistics
+save.image(file = '../data/network_stats.rdata')
