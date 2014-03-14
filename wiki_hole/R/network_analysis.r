@@ -24,7 +24,7 @@ bet <- centralization.betweenness(g)
 path <- get.diameter(g)  # weirdest wander
 
 # other measures
-ecc <- eccentricity(g)
+#ecc <- eccentricity(g)
 
 # write out the statistics
 save.image(file = '../data/network_stats.rdata')

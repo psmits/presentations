@@ -40,7 +40,9 @@ parse.map <- function(map) {
   edge.list <- lapply(links, function(x) {
                       as.numeric(str_split(x, ' ')[[1]])})
   edge.list <- Reduce(rbind, edge.list)
+  edge.list <- edge.list[edge.list[, 3] != min(edge.list[, 3]), ]
   graph <- graph.data.frame(edge.list, directed = TRUE)
+  E(graph)$weight <- edge.list[, 3]
 
   out <- list()
   out$modules <- mod.names

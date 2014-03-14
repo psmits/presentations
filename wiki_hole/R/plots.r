@@ -22,4 +22,16 @@ map <- '../data/star_trek.map'
 infograph <- parse.map(map)
 module.assign <- as.data.frame(infograph$modules)
 module.assign$names <- nam[module.assign$node]
-#module.assign$names[which(module.assign$module == 4)]
+blockdeg <- data.frame(degree(infograph$graph))
+names(blockdeg) <- 'val'
+mod.deg <- ggplot(blockdeg, aes(x = val)) + geom_bar()
+mod.deg <- mod.deg + xlab('module number')
+ggsave(filename = '../doc/figure/mod_deg.png', plot = mod.deg,
+       height = 10, width = 15)
+
+members <- data.frame(module.assign$module)
+names(members) <- 'assign'
+mem.hist <- ggplot(members, aes(x = assign)) + geom_bar()
+mem.hist <- mem.hist + xlab('module number')
+ggsave(filename = '../doc/figure/modules.png', plot = mem.hist,
+       height = 10, width = 15)
