@@ -1,0 +1,1240 @@
+student	entry	year	speciesname	actualspecies	timestatus
+1	cat	1styear	Felis catus	y	past
+1	cat	1styear	Felis catus	y	past
+1	cat	1styear	Felis catus	y	past
+1	mouse	1styear	Mus musculus	y	past
+1	dog	1styear	Canis lupus familiaris	y	past
+1	dog	1styear	Canis lupus familiaris	y	past
+2	cat	seniorgradstudent	Felis catus	y	past
+2	bunny	seniorgradstudent	Oryctolagus cuniculus	y	past
+2	bunny	seniorgradstudent	Oryctolagus cuniculus	y	past
+2	gerbil	seniorgradstudent	Pachyuromys duprasi	y	past
+2	gerbil	seniorgradstudent	Pachyuromys duprasi	y	past
+2	gerbil	seniorgradstudent	Pachyuromys duprasi	y	past
+2	mouse	seniorgradstudent	Mus musculus	y	past
+2	mouse	seniorgradstudent	Mus musculus	y	past
+2	mouse	seniorgradstudent	Mus musculus	y	past
+2	canary	seniorgradstudent	Serinus canaria domestica	y	past
+2	hermitcrab	seniorgradstudent	Coenobita clypeatus	y	past
+2	hermitcrab	seniorgradstudent	Coenobita clypeatus	y	past
+2	iguana	seniorgradstudent	Iguana iguana	y	past
+2	newt	seniorgradstudent	Notophthalmus viridescens	y	past
+2	newt	seniorgradstudent	Notophthalmus viridescens	y	past
+2	xenopus	seniorgradstudent	Xenopus laevis	y	past
+2	xenopus	seniorgradstudent	Xenopus laevis	y	past
+2	xenopus	seniorgradstudent	Xenopus laevis	y	past
+2	tetra	seniorgradstudent	Paracheirodon innesi	y	past
+2	tetra	seniorgradstudent	Paracheirodon innesi	y	past
+2	guineapig	seniorgradstudent	Cavia porcellus	y	past
+2	bunny	seniorgradstudent	Oryctolagus cuniculus	y	past
+2	goldfish	seniorgradstudent	Carassius auratus	y	past
+2	goldfish	seniorgradstudent	Carassius auratus	y	past
+2	goldfish	seniorgradstudent	Carassius auratus	y	past
+3	parakeet	2ndyear	Melopsittacus undulatus	y	past
+3	parakeet	2ndyear	Melopsittacus undulatus	y	past
+3	parakeet	2ndyear	Melopsittacus undulatus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	cat	2ndyear	Felis catus	y	past
+3	dog	2ndyear	Canis lupus familiaris	y	past
+4	none	4thyear	none	n	past
+5	cat	4thyear	Felis catus	y	past
+5	cat	4thyear	Felis catus	y	past
+5	turtle	4thyear	Trachemys scripta 	y	past
+5	fish	4thyear	Carassius auratus	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	cat	3rdyear	Felis catus	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+6	dog	3rdyear	Canis lupus familiaris	y	past
+7	cats	1styear	Felis catus	y	past
+7	dogs	1styear	Canis lupus familiaris	y	past
+7	rabbit	1styear	Oryctolagus cuniculus	y	past
+8	turtle	seniorgradstudent	Trachemys scripta 	y	past
+8	turtle	seniorgradstudent	Trachemys scripta 	y	past
+8	turtle	seniorgradstudent	Trachemys scripta 	y	past
+8	turtle	seniorgradstudent	Trachemys scripta 	y	past
+8	turtle	seniorgradstudent	Trachemys scripta 	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	cat	seniorgradstudent	Felis catus	y	past
+8	chameleon	seniorgradstudent	Chamaeleocalyptratus	y	past
+8	chameleon	seniorgradstudent	Chamaeleocalyptratus	y	past
+8	gecko	seniorgradstudent	Rhacodactylus ciliatus	y	past
+8	iguana	seniorgradstudent	Iguana iguana	y	past
+9	dog	2ndyear	Canis lupus familiaris	y	past
+9	cat	2ndyear	Felis catus	y	past
+9	fish	2ndyear	Carassius auratus	y	past
+9	fish	2ndyear	Carassius auratus	y	past
+10	dog	2ndyear	Canis lupus familiaris	y	past
+10	dog	2ndyear	Canis lupus familiaris	y	past
+10	fish	2ndyear	Carassius auratus	y	past
+10	hampster	2ndyear	Phodopus sungorus	y	past
+10	cat	2ndyear	Felis catus	y	past
+10	cat	2ndyear	Felis catus	y	past
+10	cat	2ndyear	Felis catus	y	past
+11	cat	seniorgradstudent	Felis catus	y	past
+11	cat	seniorgradstudent	Felis catus	y	past
+11	cat	seniorgradstudent	Felis catus	y	past
+11	hermitcrab	seniorgradstudent	Coenobita clypeatus	y	past
+11	betafish	seniorgradstudent	Betta splendens	y	past
+11	sensitiveplant	seniorgradstudent	Mimosa pudica	y	past
+11	sourdoughculture	seniorgradstudent	Lactobacillus acidophilus	y	past
+11	prayingmantis	seniorgradstudent	Sphodromantis viridis	y	past
+11	prayingmantis	seniorgradstudent	Sphodromantis viridis	y	past
+11	hamster	seniorgradstudent	Phodopus sungorus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	cat	seniorgradstudent	Felis catus	y	past
+12	dog	seniorgradstudent	Canis lupus familiaris	y	past
+12	dog	seniorgradstudent	Canis lupus familiaris	y	past
+12	dog	seniorgradstudent	Canis lupus familiaris	y	past
+12	horse	seniorgradstudent	Equus caballus	y	past
+12	horse	seniorgradstudent	Equus caballus	y	past
+12	horse	seniorgradstudent	Equus caballus	y	past
+12	horse	seniorgradstudent	Equus caballus	y	past
+12	horse	seniorgradstudent	Equus caballus	y	past
+12	goldfish	seniorgradstudent	Carassius auratus	y	past
+12	goldfish	seniorgradstudent	Carassius auratus	y	past
+12	goldfish	seniorgradstudent	Carassius auratus	y	past
+12	goldfish	seniorgradstudent	Carassius auratus	y	past
+13	dog	1styear	Canis lupus familiaris	y	past
+13	dog	1styear	Canis lupus familiaris	y	past
+13	lizard	1styear	Iguana iguana	y	past
+13	dog	1styear	Canis lupus familiaris	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	frog	1styear	Xenopus laevis	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	caterpillar	1styear	Lymantria dispar dispar	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	snail	1styear	Cornu aspersum	y	past
+14	Americanrobin	1styear	Turdus migratorius	y	past
+14	earthworm	1styear	Eisenia fetida	y	past
+14	grasshopper	1styear	Dactylotum bicolor	y	past
+14	grasshopper	1styear	Dactylotum bicolor	y	past
+14	dog	1styear	Canis lupus familiaris	y	past
+14	dog	1styear	Canis lupus familiaris	y	past
+15	dog	1styear	Canis lupus familiaris	y	past
+15	guineapig	1styear	Cavia porcellus	y	past
+15	cat	1styear	Felis catus	y	past
+15	dog	1styear	Canis lupus familiaris	y	past
+15	cat	1styear	Felis catus	y	past
+15	cat	1styear	Felis catus	y	past
+15	rabbit	1styear	Oryctolagus cuniculus	y	past
+15	rabbit	1styear	Oryctolagus cuniculus	y	past
+15	salamander	1styear	Ambystoma macrodactylum	y	past
+15	salamander	1styear	Ambystoma macrodactylum	y	past
+15	salamander	1styear	Ambystoma macrodactylum	y	past
+15	sunconure	1styear	Aratinga solstitialis	y	past
+15	sunconure	1styear	Aratinga solstitialis	y	past
+15	sugarglider	1styear	Petaurus breviceps	y	past
+15	cat	1styear	Felis catus	y	past
+15	cat	1styear	Felis catus	y	past
+15	dog	1styear	Canis lupus familiaris	y	past
+15	dog	1styear	Canis lupus familiaris	y	past
+15	dog	1styear	Canis lupus familiaris	y	past
+15	cat	1styear	Felis catus	y	past
+16	Anolis	3rdyear	Anolis carolinensis	y	past
+16	anolis	3rdyear	Anolis carolinensis	y	past
+16	frog	3rdyear	Xenopus laevis	y	past
+16	dog	3rdyear	Canis lupus familiaris	y	past
+17	cat	2ndyear	Felis catus	y	past
+17	dog	2ndyear	Canis lupus familiaris	y	past
+17	cat	2ndyear	Felis catus	y	past
+17	fish	2ndyear	Carassius auratus	y	past
+17	iguana	2ndyear	Iguana iguana	y	past
+17	beardeddragon	2ndyear	Pogona barbata	y	past
+17	beardeddragon	2ndyear	Pogona barbata	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	caterpillar	2ndyear	Lymantria dispar dispar	y	past
+17	snail	2ndyear	Cornu aspersum	y	past
+18	cat	1styear	Felis catus	y	past
+18	bird	1styear	Hydrocoloeus minutus	y	past
+18	bird	1styear	Hydrocoloeus minutus	y	past
+18	hamster	1styear	Phodopus sungorus	y	past
+18	gerbil	1styear	Pachyuromys duprasi	y	past
+18	gerbil	1styear	Pachyuromys duprasi	y	past
+18	fish	1styear	Carassius auratus	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+19	cat	5thyear	Felis catus	y	past
+19	cat	5thyear	Felis catus	y	past
+19	cat	5thyear	Felis catus	y	past
+19	cat	5thyear	Felis catus	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+19	dog	5thyear	Canis lupus familiaris	y	past
+20	Hedgehog	2ndyear	Atelerix albiventris	y	past
+20	boxtortoise	2ndyear	Terrapene carolina	y	past
+21	dog	5thyear	Canis lupus familiaris	y	past
+21	dog	5thyear	Canis lupus familiaris	y	past
+21	dog	5thyear	Canis lupus familiaris	y	past
+21	cat	5thyear	Felis catus	y	past
+21	fish	5thyear	Carassius auratus	y	past
+21	frog	5thyear	Xenopus laevis	y	past
+21	anole	5thyear	Anolis carolinensis	y	past
+22	dog	4thyear	Canis lupus familiaris	y	past
+22	cat	4thyear	Felis catus	y	past
+23	goldfish	3rdyear	Carassius auratus	y	past
+23	goldfish	3rdyear	Carassius auratus	y	past
+23	goldfish	3rdyear	Carassius auratus	y	past
+23	springpeeperfrog	3rdyear	Pseudacris crucifer	y	past
+23	ticks	3rdyear	Ixodes scapularis	y	past
+23	crayfish	3rdyear	Pacifastacus leniusculus	y	past
+23	minnow	3rdyear	Pimephales promelas	y	past
+23	minnow	3rdyear	Pimephales promelas	y	past
+23	perch	3rdyear	Perca flavescens	y	past
+23	crayfish	3rdyear	Pacifastacus leniusculus	y	past
+23	crayfish	3rdyear	Pacifastacus leniusculus	y	past
+23	cat	3rdyear	Felis catus	y	past
+23	cat	3rdyear	Felis catus	y	past
+23	goldfish	3rdyear	Carassius auratus	y	past
+23	goldfish	3rdyear	Carassius auratus	y	past
+23	betta	3rdyear	Betta splendens	y	past
+23	long-toedsalamander	3rdyear	Ambystoma macrodactylum	y	past
+23	stickinsect	3rdyear	Phobaeticus chani	y	past
+23	stickinsect	3rdyear	Phobaeticus chani	y	past
+23	stickinsect	3rdyear	Phobaeticus chani	y	past
+24	dog	1styear	Canis lupus familiaris	y	past
+24	fish	1styear	Carassius auratus	y	past
+24	fish	1styear	Carassius auratus	y	past
+25	fish	4thyear	Carassius auratus	y	past
+25	dog	4thyear	Canis lupus familiaris	y	past
+25	cat	4thyear	Felis catus	y	past
+26	dog	4thyear	Canis lupus familiaris	y	past
+26	dog	4thyear	Canis lupus familiaris	y	past
+26	dog	4thyear	Canis lupus familiaris	y	past
+26	guineapig	4thyear	Cavia porcellus	y	past
+26	turtle	4thyear	Trachemys scripta 	y	past
+26	turtle	4thyear	Trachemys scripta 	y	past
+26	turtleturtle	4thyear	Trachemys scripta 	y	past
+26	rabbit	4thyear	Oryctolagus cuniculus	y	past
+26	ferret	4thyear	Mustela putorius furo	y	past
+26	firebellytoad	4thyear	Bombina bombina	y	past
+26	firebellytoad	4thyear	Bombina bombina	y	past
+26	chicken	4thyear	Gallus gallus domesticus	y	past
+26	chicken	4thyear	Gallus gallus domesticus	y	past
+26	chicken	4thyear	Gallus gallus domesticus	y	past
+26	beardeddragon	4thyear	Pogona barbata	y	past
+27	dog	4thyear	Canis lupus familiaris	y	past
+27	gecko	4thyear	Rhacodactylus ciliatus	y	past
+27	rock	4thyear	Rock	n	past
+28	Pyrrhurafrontalis	seniorgradstudent	Pyrrhura frontalis	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	dog	4thyear	Canis lupus familiaris	y	past
+29	cat	4thyear	Felis catus	y	past
+29	cat	4thyear	Felis catus	y	past
+29	cat	4thyear	Felis catus	y	past
+29	cat	4thyear	Felis catus	y	past
+29	cat	4thyear	Felis catus	y	past
+29	cat	4thyear	Felis catus	y	past
+29	Sciuruscarolinensis	4thyear	Sciurus carolinensis	y	past
+29	Pythonregius	4thyear	Python regius	y	past
+29	Boaconstrictor	4thyear	Boa constrictor	y	past
+29	Boaconstrictor	4thyear	Boa constrictor	y	past
+29	Physignathuscocincinus	4thyear	Physignathus cocincinus	y	past
+29	Chamaeleocalyptratus	4thyear	Chamaeleo calyptratus	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	cichlid	4thyear	Pseudotropheus lombardoi	y	past
+29	Cyphotilapiafrontosa	4thyear	Cyphotilapia frontosa	y	past
+29	Rociooctofasciata	4thyear	Rocio octofasciata	y	past
+29	Rociooctofasciata	4thyear	Rocio octofasciata	y	past
+29	Rociooctofasciata	4thyear	Rocio octofasciata	y	past
+29	Amatitlanianigrofasciata	4thyear	Amatitlania nigrofasciata	y	past
+29	Ariopsisseemanni	4thyear	Ariopsis seemanni	y	past
+29	Ariopsisseemanni	4thyear	Ariopsis seemanni	y	past
+29	Pimeloduspictus	4thyear	Pimelodus pictus	y	past
+29	Hypostomusplecostomus	4thyear	Hypostomus plecostomus	y	past
+29	Hypostomusplecostomus	4thyear	Hypostomus plecostomus	y	past
+29	Hypostomusplecostomus	4thyear	Hypostomus plecostomus	y	past
+29	Hypostomusplecostomus	4thyear	Hypostomus plecostomus	y	past
+29	Hypostomusplecostomus	4thyear	Hypostomus plecostomus	y	past
+29	Pseudoplatystoma	4thyear	Pseudoplatystoma fasciatum	y	past
+29	Chromobotiamacracanthus	4thyear	Chromobotia macracanthus	y	past
+29	Chromobotiamacracanthus	4thyear	Chromobotia macracanthus	y	past
+29	Chromobotiamacracanthus	4thyear	Chromobotia macracanthus	y	past
+29	Balantiocheilosmelanopterus	4thyear	Balantiocheilos melanopterus	y	past
+29	Balantiocheilosmelanopterus	4thyear	Balantiocheilos melanopterus	y	past
+29	Balantiocheilosmelanopterus	4thyear	Balantiocheilos melanopterus	y	past
+29	Balantiocheilosmelanopterus	4thyear	Balantiocheilos melanopterus	y	past
+29	Epalzeorhynchosbicolor	4thyear	Epalzeorhynchos bicolor	y	past
+29	Epalzeorhynchosbicolor	4thyear	Epalzeorhynchos bicolor	y	past
+29	Epalzeorhynchosbicolor	4thyear	Epalzeorhynchos bicolor	y	past
+29	Gnathonemuspetersii	4thyear	Gnathonemus petersii	y	past
+29	solifugid	4thyear	Gluvia dorsalis	y	past
+29	Danausplexippus	4thyear	Danaus plexippus	y	past
+29	Papiliopolyxenes	4thyear	Papilio polyxenes	y	past
+29	Coenobitaclypeatus	4thyear	Coenobita clypeatus	y	past
+29	Coenobitaclypeatus	4thyear	Coenobita clypeatus	y	past
+29	Coenobitaclypeatus	4thyear	Coenobita clypeatus	y	past
+29	Tenoderasinensis	4thyear	Tenodera sinensis	y	past
+30	turtle	3rdyear	Trachemys scripta 	y	past
+30	rabbit	3rdyear	Oryctolagus cuniculus	y	past
+30	frog	3rdyear	Xenopus laevis	y	past
+31	dog	3rdyear	Canis lupus familiaris	y	past
+31	bird	3rdyear	Hydrocoloeus minutus	y	past
+32	hamster	4thyear	Phodopus sungorus	y	past
+32	hamster	4thyear	Phodopus sungorus	y	past
+32	cat	4thyear	Felis catus	y	past
+32	cat	4thyear	Felis catus	y	past
+32	toad	4thyear	Bombina bombina	y	past
+33	dog	5thyear	Canis lupus familiaris	y	past
+33	cat	5thyear	Felis catus	y	past
+33	cockatiel	5thyear	Nymphicus hollandicus	y	past
+33	cockatiel	5thyear	Nymphicus hollandicus	y	past
+33	hermitcrab	5thyear	Coenobita clypeatus	y	past
+33	hermitcrab	5thyear	Coenobita clypeatus	y	past
+33	frog	5thyear	Xenopus laevis	y	past
+33	bettafish	5thyear	Betta splendens	y	past
+33	bettafish	5thyear	Betta splendens	y	past
+33	crow	5thyear	Corvus brachyrhynchos	y	past
+34	dog	5thyear	Canis lupus familiaris	y	past
+34	rabbit	5thyear	Oryctolagus cuniculus	y	past
+34	turtle	5thyear	Trachemys scripta 	y	past
+34	turtle	5thyear	Trachemys scripta 	y	past
+34	mouse	5thyear	Mus musculus	y	past
+34	mouse	5thyear	Mus musculus	y	past
+35	cat	2ndyear	Felis catus	y	past
+35	cat	2ndyear	Felis catus	y	past
+35	cat	2ndyear	Felis catus	y	past
+35	cat	2ndyear	Felis catus	y	past
+35	dog	2ndyear	Canis lupus familiaris	y	past
+35	dog	2ndyear	Canis lupus familiaris	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	fish	2ndyear	Carassius auratus	y	past
+35	hamster	2ndyear	Phodopus sungorus	y	past
+35	hamster	2ndyear	Phodopus sungorus	y	past
+35	squirrel	2ndyear	Sciurus carolinensis	y	past
+35	bird	2ndyear	Hydrocoloeus minutus	y	past
+35	bird	2ndyear	Hydrocoloeus minutus	y	past
+35	bunny	2ndyear	Oryctolagus cuniculus	y	past
+36	newt	5thyear	Notophthalmus viridescens	y	past
+36	newt	5thyear	Notophthalmus viridescens	y	past
+36	fire-belliedtoad	5thyear	Bombina bombina	y	past
+36	fire-belliedtoad	5thyear	Bombina bombina	y	past
+36	fire-belliedtoad	5thyear	Bombina bombina	y	past
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	past
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	past
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	past
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	past
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	past
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	past
+36	dog	5thyear	Canis lupus familiaris	y	past
+36	dog	5thyear	Canis lupus familiaris	y	past
+36	dog	5thyear	Canis lupus familiaris	y	past
+36	dog	5thyear	Canis lupus familiaris	y	past
+36	anole	5thyear	Anolis carolinensis	y	past
+36	anole	5thyear	Anolis carolinensis	y	past
+37	dog	seniorgradstudent	Canis lupus familiaris	y	past
+37	canary	seniorgradstudent	Serinus canaria domestica	y	past
+37	cat	seniorgradstudent	Felis catus	y	past
+37	dog	seniorgradstudent	Canis lupus familiaris	y	past
+37	hamster	seniorgradstudent	Phodopus sungorus	y	past
+37	hamster	seniorgradstudent	Phodopus sungorus	y	past
+37	cat	seniorgradstudent	Felis catus	y	past
+37	bettafish	seniorgradstudent	Betta splendens	y	past
+37	dog	seniorgradstudent	Canis lupus familiaris	y	past
+37	cat	seniorgradstudent	Felis catus	y	past
+37	red-earedslider	seniorgradstudent	Trachemys scripta 	y	past
+37	red-earedslider	seniorgradstudent	Trachemys scripta 	y	past
+38	tarantula	seniorgradstudent	Brachypelma smithi	y	past
+38	dog	seniorgradstudent	Canis lupus familiaris	y	past
+38	dog	seniorgradstudent	Canis lupus familiaris	y	past
+38	cat	seniorgradstudent	Felis catus	y	past
+38	cat	seniorgradstudent	Felis catus	y	past
+38	cat	seniorgradstudent	Felis catus	y	past
+38	goldfish	seniorgradstudent	Carassius auratus	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	molly	seniorgradstudent	Poecilia sphenops	y	past
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	past
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	past
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	past
+39	fish	1styear	Carassius auratus	y	past
+39	dogs	1styear	Canis lupus familiaris	y	past
+39	cats	1styear	Felis catus	y	past
+39	turtles	1styear	Trachemys scripta 	y	past
+39	bird	1styear	Hydrocoloeus minutus	y	past
+39	ants	1styear	Formica ligniperda	y	past
+39	lizard	1styear	Iguana iguana	y	past
+39	hamster	1styear	Phodopus sungorus	y	past
+40	cat	2ndyear	Felis catus	y	past
+40	cat	2ndyear	Felis catus	y	past
+40	hamster	2ndyear	Phodopus sungorus	y	past
+40	hamster	2ndyear	Phodopus sungorus	y	past
+40	goldfish	2ndyear	Carassius auratus	y	past
+40	bird	2ndyear	Hydrocoloeus minutus	y	past
+40	bird	2ndyear	Hydrocoloeus minutus	y	past
+41	cat	5thyear	Felis catus	y	past
+41	cat	5thyear	Felis catus	y	past
+41	cat	5thyear	Felis catus	y	past
+41	dog	5thyear	Canis lupus familiaris	y	past
+41	dog	5thyear	Canis lupus familiaris	y	past
+41	zebrafinch	5thyear	Taeniopygia guttata	y	past
+42	dog	4thyear	Canis lupus familiaris	y	past
+42	cat	4thyear	Felis catus	y	past
+42	bunny	4thyear	Oryctolagus cuniculus	y	past
+42	fish	4thyear	Carassius auratus	y	past
+42	birds	4thyear	Hydrocoloeus minutus	y	past
+43	cat	seniorgradstudent	Felis catus	y	past
+43	bunny	seniorgradstudent	Oryctolagus cuniculus	y	past
+43	bird	seniorgradstudent	Hydrocoloeus minutus	y	past
+43	chicken	seniorgradstudent	Gallus gallus domesticus	y	past
+43	duck	seniorgradstudent	Anas platyrhynchos	y	past
+44	turtle	1styear	Trachemys scripta 	y	past
+44	dog	1styear	Canis lupus familiaris	y	past
+44	cat	1styear	Felis catus	y	past
+44	bird	1styear	Hydrocoloeus minutus	y	past
+45	fish	2ndyear	Carassius auratus	y	past
+45	dog	2ndyear	Canis lupus familiaris	y	past
+46	cat	3rdyear	Felis catus	y	past
+46	cat	3rdyear	Felis catus	y	past
+46	cat	3rdyear	Felis catus	y	past
+47	dogs	4thyear	Canis lupus familiaris	y	past
+48	dog	3rdyear	Canis lupus familiaris	y	past
+48	cat	3rdyear	Felis catus	y	past
+48	cat	3rdyear	Felis catus	y	past
+49	dog	1styear	Canis lupus familiaris	y	past
+50	goldfish	seniorgradstudent	Carassius auratus	y	past
+50	goldfish	seniorgradstudent	Carassius auratus	y	past
+50	goldfish	seniorgradstudent	Carassius auratus	y	past
+51	tortoise	4thyear	Gopherus agassizii	y	past
+51	cat	4thyear	Felis catus	y	past
+51	cat	4thyear	Felis catus	y	past
+52	cat	3rdyear	Felis catus	y	past
+52	dog	3rdyear	Canis lupus familiaris	y	past
+52	dog	3rdyear	Canis lupus familiaris	y	past
+52	mouse	3rdyear	Mus musculus	y	past
+52	mouse	3rdyear	Mus musculus	y	past
+52	mouse	3rdyear	Mus musculus	y	past
+52	cat	3rdyear	Felis catus	y	past
+52	dog	3rdyear	Canis lupus familiaris	y	past
+53	fish	2ndyear	Carassius auratus	y	past
+53	fish	2ndyear	Carassius auratus	y	past
+53	fish	2ndyear	Carassius auratus	y	past
+54	dog	2ndyear	Canis lupus familiaris	y	past
+54	dog	2ndyear	Canis lupus familiaris	y	past
+54	cat	2ndyear	Felis catus	y	past
+54	cat	2ndyear	Felis catus	y	past
+54	cat	2ndyear	Felis catus	y	past
+54	iguana	2ndyear	Iguana iguana	y	past
+54	rubberboa	2ndyear	Charina bottae	y	past
+55	cat	3rdyear	Felis catus	y	past
+55	cat	3rdyear	Felis catus	y	past
+55	cat	3rdyear	Felis catus	y	past
+55	cat	3rdyear	Felis catus	y	past
+1	none	1styear	none	none	present
+2	dog	seniorgradstudent	Canis lupus familiaris	Canis lupus familiaris	present
+3	cat	2ndyear	Felis catus	Felis catus	present
+3	cat	2ndyear	Felis catus	Felis catus	present
+4	none	4thyear	none	none	present
+5	cat	4thyear	Felis catus	Felis catus	present
+5	cat	4thyear	Felis catus	Felis catus	present
+5	snailspecies	4thyear	Cornu aspersum	Cornu aspersum	present
+5	snailspecies	4thyear	Cornu aspersum	Cornu aspersum	present
+5	snailspecies	4thyear	Cornu aspersum	Cornu aspersum	present
+6	dog	3rdyear	Canis lupus familiaris	Canis lupus familiaris	present
+7	none	1styear	none	none	present
+8	Tupinambis_merianae	seniorgradstudent	Tupinambis merianae	Tupinambis merianae	present
+8	Tupinambis_rufescens	seniorgradstudent	Tupinambis rufescens	Tupinambis rufescens	present
+8	dragonfly	seniorgradstudent	Pachydiplax longipennis	Pachydiplax longipennis	present
+8	Neurergus_crocatus	seniorgradstudent	Neurergus crocatus	Neurergus crocatus	present
+8	Canis_domesticus	seniorgradstudent	Canis lupus familiaris	Canis lupus familiaris	present
+8	Hydra	seniorgradstudent	Hydra	Hydra	present
+8	Gastropoda	seniorgradstudent	Cornu aspersum	Cornu aspersum	present
+8	Glassshrimp	seniorgradstudent	Palaemonetes varians	Palaemonetes varians	present
+8	goldfish	seniorgradstudent	Carassius auratus	Carassius auratus	present
+8	copepods	seniorgradstudent	Calanus glacialis	Calanus glacialis	present
+8	Daphnia	seniorgradstudent	Daphnia magna	Daphnia magna	present
+9	cat	2ndyear	Felis catus	Felis catus	present
+10	dog	2ndyear	Canis lupus familiaris	Canis lupus familiaris	present
+11	canary	seniorgradstudent	Serinus canaria domestica	Serinus canaria domestica	present
+12	dog	seniorgradstudent	Canis lupus familiaris	Canis lupus familiaris	present
+12	cat	seniorgradstudent	Felis catus	Felis catus	present
+12	cat	seniorgradstudent	Felis catus	Felis catus	present
+12	tiny_human	seniorgradstudent	Homo sapiens	Homo sapiens	present
+13	none	1styear	none	none	present
+14	cat	1styear	Felis catus	Felis catus	present
+14	cat	1styear	Felis catus	Felis catus	present
+15	cat	1styear	Felis catus	Felis catus	present
+16	none	3rdyear	none	none	present
+17	cat	2ndyear	Felis catus	Felis catus	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+17	compostworm	2ndyear	Eisenia fetida	Eisenia fetida	present
+18	cat	1styear	Felis catus	Felis catus	present
+18	bird	1styear	Hydrocoloeus minutus	Hydrocoloeus minutus	present
+18	bird	1styear	Hydrocoloeus minutus	Hydrocoloeus minutus	present
+19	dog	5thyear	Canis lupus familiaris	Canis lupus familiaris	present
+20	Boxtortoise	2ndyear	Terrapene carolina	Terrapene carolina	present
+21	gecko	5thyear	Rhacodactylus ciliatus	Rhacodactylus ciliatus	present
+21	fish	5thyear	Carassius auratus	Carassius auratus	present
+21	fishfish	5thyear	Carassius auratus	Carassius auratus	present
+21	fish	5thyear	Carassius auratus	Carassius auratus	present
+21	fish	5thyear	Carassius auratus	Carassius auratus	present
+21	mouse	5thyear	Mus musculus	Mus musculus	present
+22	cat	4thyear	Felis catus	Felis catus	present
+22	cat	4thyear	Felis catus	Felis catus	present
+23	none	3rdyear	none	none	present
+24	none	1styear	none	none	present
+25	fish	4thyear	Carassius auratus	Carassius auratus	present
+26	none	4thyear	none	none	present
+27	none	4thyear	none	none	present
+28	cat	seniorgradstudent	Felis catus	Felis catus	present
+28	cat	seniorgradstudent	Felis catus	Felis catus	present
+29	none	4thyear	none	none	present
+30	none	3rdyear	none	none	present
+31	none	3rdyear	none	none	present
+32	cat	4thyear	Felis catus	Felis catus	present
+32	cat	4thyear	Felis catus	Felis catus	present
+33	gecko	5thyear	Rhacodactylus ciliatus	Rhacodactylus ciliatus	present
+34	seastar	5thyear	pisaster ochraceus	pisaster ochraceus	present
+35	cat	2ndyear	Felis catus	Felis catus	present
+35	cat	2ndyear	Felis catus	Felis catus	present
+35	fish	2ndyear	Carassius auratus	Carassius auratus	present
+35	hedgehog	2ndyear	Atelerix albiventris	Atelerix albiventris	present
+36	neontetra	5thyear	Paracheirodon innesi	Paracheirodon innesi	present
+36	neontetra	5thyear	Paracheirodon innesi	Paracheirodon innesi	present
+36	neontetra	5thyear	Paracheirodon innesi	Paracheirodon innesi	present
+36	neontetra	5thyear	Paracheirodon innesi	Paracheirodon innesi	present
+36	neontetra	5thyear	Paracheirodon innesi	Paracheirodon innesi	present
+36	guppy	5thyear	Poecilia reticulata	Poecilia reticulata	present
+36	guppy	5thyear	Poecilia reticulata	Poecilia reticulata	present
+36	guppy	5thyear	Poecilia reticulata	Poecilia reticulata	present
+36	guppy	5thyear	Poecilia reticulata	Poecilia reticulata	present
+36	corydorascatfish	5thyear	Corydoras semiaquilus	Corydoras semiaquilus	present
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	Hymenochirus boettgeri	present
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	Hymenochirus boettgeri	present
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	Hymenochirus boettgeri	present
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	Hymenochirus boettgeri	present
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	Hymenochirus boettgeri	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	Pomacea bridgesii	present
+36	Xenopuslaevis	5thyear	Xenopus laevis	Xenopus laevis	present
+37	cat	seniorgradstudent	Felis catus	Felis catus	present
+38	Phthirus	seniorgradstudent	Phthirus pubis	Phthirus pubis	present
+39	none	1styear	none	none	present
+40	dog	2ndyear	Canis lupus familiaris	Canis lupus familiaris	present
+41	cat	5thyear	Felis catus	Felis catus	present
+42	dog	4thyear	Canis lupus familiaris	Canis lupus familiaris	present
+43	cat	seniorgradstudent	Felis catus	Felis catus	present
+44	none	1styear	none	none	present
+45	none	2ndyear	none	none	present
+46	none	3rdyear	none	none	present
+47	none	4thyear	none	none	present
+48	none	3rdyear	none	none	present
+49	dog	1styear	Canis lupus familiaris	Canis lupus familiaris	present
+49	dog	1styear	Canis lupus familiaris	Canis lupus familiaris	present
+50	none	seniorgradstudent	none	none	present
+51	doesDallascount?	4thyear	Dallas	Dallas	present
+52	cat	3rdyear	Felis catus	Felis catus	present
+53	cat	2ndyear	Felis catus	Felis catus	present
+54	dog	2ndyear	Canis lupus familiaris	Canis lupus familiaris	present
+54	cat	2ndyear	Felis catus	Felis catus	present
+55	cat	3rdyear	Felis catus	Felis catus	present
+55	cat	3rdyear	Felis catus	Felis catus	present
+1	cat	1styear	Felis catus	y	future
+1	dog	1styear	Canis lupus familiaris	y	future
+1	roomba	1styear	Roomba	n	future
+2	dog	seniorgradstudent	Canis lupus familiaris	y	future
+2	catbus	seniorgradstudent	Catbus	n	future
+3	human	2ndyear	Homo sapiens	y	future
+3	human	2ndyear	Homo sapiens	y	future
+3	human	2ndyear	Homo sapiens	y	future
+3	human	2ndyear	Homo sapiens	y	future
+3	human	2ndyear	Homo sapiens	y	future
+3	leopard	2ndyear	Panthera pardus	y	future
+3	human	2ndyear	Homo sapiens	y	future
+4	rock	4thyear	Rock	n	future
+5	nudibranch	4thyear	Berghia coerulescens	y	future
+5	cuttlefish	4thyear	Sepia apama	y	future
+5	cat	4thyear	Felis catus	y	future
+5	manatee	4thyear	Trichechus manatus	y	future
+5	coral	4thyear	Diploria strigosa	y	future
+6	dog	3rdyear	Canis lupus familiaris	y	future
+7	sugarglider	1styear	Petaurus breviceps	y	future
+7	sugarglider	1styear	Petaurus breviceps	y	future
+7	flemishgiant	1styear	Oryctolagus cuniculus	y	future
+7	dog	1styear	Canis lupus familiaris	y	future
+7	elephant	1styear	Loxodonta africana	y	future
+8	Watermonitor	seniorgradstudent	Varanus salvator	y	future
+8	falcon	seniorgradstudent	Falco peregrinus	y	future
+8	goldeneagle	seniorgradstudent	Aquila chrysaetos	y	future
+9	horse	2ndyear	Equus caballus	y	future
+9	hedgehog	2ndyear	Atelerix albiventris	y	future
+9	ants	2ndyear	Formica ligniperda	y	future
+9	platypus	2ndyear	Ornithorhynchus anatinus	y	future
+9	pig	2ndyear	Sus barbatus	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	dog	2ndyear	Canis lupus familiaris	y	future
+10	alien	2ndyear	Alien	n	future
+11	bordercollie	seniorgradstudent	Canis lupus familiaris	y	future
+11	chicken	seniorgradstudent	Gallus gallus domesticus	y	future
+11	chicken	seniorgradstudent	Gallus gallus domesticus	y	future
+11	chicken	seniorgradstudent	Gallus gallus domesticus	y	future
+11	chicken	seniorgradstudent	Gallus gallus domesticus	y	future
+11	queenbee	seniorgradstudent	Apis mellifera	y	future
+11	bee	seniorgradstudent	Apis mellifera	y	future
+11	bee	seniorgradstudent	Apis mellifera	y	future
+11	bee	seniorgradstudent	Apis mellifera	y	future
+11	bee	seniorgradstudent	Apis mellifera	y	future
+11	goat	seniorgradstudent	Capra aegagrus hircus	y	future
+11	goat	seniorgradstudent	Capra aegagrus hircus	y	future
+11	duck	seniorgradstudent	Anas platyrhynchos	y	future
+11	duck	seniorgradstudent	Anas platyrhynchos	y	future
+12	horse	seniorgradstudent	Equus caballus	y	future
+12	dog	seniorgradstudent	Canis lupus familiaris	y	future
+12	cat	seniorgradstudent	Felis catus	y	future
+12	cat	seniorgradstudent	Felis catus	y	future
+13	dog	1styear	Canis lupus familiaris	y	future
+14	greywolf	1styear	Canis lupus	y	future
+14	donkey	1styear	Equus africanus asinus	y	future
+14	axolotl	1styear	Ambystoma mexicanum	y	future
+14	tardigrade	1styear	Hypsibius dujardini	y	future
+14	tardigrade	1styear	Hypsibius dujardini	y	future
+14	tardigrade	1styear	Hypsibius dujardini	y	future
+14	tardigrade	1styear	Hypsibius dujardini	y	future
+14	treekangaroo	1styear	Dendrolagus ursinus	y	future
+14	seadragon	1styear	Phycodurus eques	y	future
+14	polarbear	1styear	Ursus maritimus	y	future
+14	peregrinefalcon	1styear	Falco peregrinus	y	future
+14	assassinbug	1styear	Reduvius personatus	y	future
+15	Llama	1styear	Lama glama	y	future
+15	Llama	1styear	Lama glama	y	future
+15	Llama	1styear	Lama glama	y	future
+15	Penguin	1styear	Aptenodytes forsteri	y	future
+16	none	3rdyear	none	n	future
+17	axolotl	2ndyear	Ambystoma mexicanum	y	future
+17	seahorse	2ndyear	Phycodurus eques	y	future
+17	jaguarcub	2ndyear	Panthera onca	y	future
+17	armadillo	2ndyear	Dasypus novemcinctus	y	future
+17	hedgehog	2ndyear	Atelerix albiventris	y	future
+17	miniaturedonkey	2ndyear	Equus africanus asinus	y	future
+17	catfish	2ndyear	Corydoras semiaquilus	y	future
+17	duckling	2ndyear	Anas platyrhynchos	y	future
+18	dog	1styear	Canis lupus familiaris	y	future
+18	horse	1styear	Equus caballus	y	future
+19	dog	5thyear	Canis lupus familiaris	y	future
+19	tui	5thyear	Prosthemadera novaeseelandiae	y	future
+20	Capybara	2ndyear	Hydrochoerus hydrochaeris	y	future
+20	coatimundi	2ndyear	Nasua narica	y	future
+21	lungfish	5thyear	Neoceratodus forsteri	y	future
+21	dog	5thyear	Canis lupus familiaris	y	future
+22	turtle	4thyear	Trachemys scripta 	y	future
+22	possum	4thyear	Didelphis virginiana	y	future
+23	Velociraptor	3rdyear	Velociraptor mongoliensis	y	future
+23	Velociraptor	3rdyear	Velociraptor mongoliensis	y	future
+23	Velociraptor	3rdyear	Velociraptor mongoliensis	y	future
+23	Velociraptor	3rdyear	Velociraptor mongoliensis	y	future
+23	fox	3rdyear	Vulpes vulpes	y	future
+23	cat	3rdyear	Felis catus	y	future
+23	cat	3rdyear	Felis catus	y	future
+23	cat	3rdyear	Felis catus	y	future
+23	axolotl	3rdyear	Ambystoma mexicanum	y	future
+23	hellbender	3rdyear	Cryptobranchus alleganiensis	y	future
+23	poisondartfrog	3rdyear	Dentrobates tinctorius	y	future
+23	poisondartfrog	3rdyear	Dentrobates tinctorius	y	future
+23	Japanesegiantsalamander	3rdyear	Andrias japonicus	y	future
+23	giantisopod	3rdyear	Oniscus asellus	y	future
+24	dog	1styear	Canis lupus familiaris	y	future
+24	dragon	1styear	Dragon	n	future
+25	mongoose	4thyear	Herpestes edwardsii	y	future
+26	bloodhound	4thyear	Canis lupus familiaris	y	future
+27	mercat	4thyear	Suricata suricatta	y	future
+28	Pionitesmelanocephalus	seniorgradstudent	Pionites melanocephalus	y	future
+28	Pionitesmelanocephalus	seniorgradstudent	Pionites melanocephalus	y	future
+28	Pionitesxanthomerius	seniorgradstudent	Pionites xanthomerius	y	future
+28	Pionitesxanthomerius	seniorgradstudent	Pionites xanthomerius	y	future
+28	Aratingajandaya	seniorgradstudent	Aratinga jandaya	y	future
+28	Aratingasolstitialis	seniorgradstudent	Aratinga solstitialis	y	future
+28	Anodorhynchushyacinthinus	seniorgradstudent	Anodorhynchus hyacinthinus	y	future
+28	Proboscigeraterrimus	seniorgradstudent	Probosciger aterrimus	y	future
+28	Lophochroaleadbeateri	seniorgradstudent	Lophochroa leadbeateri	y	future
+28	Calyptorhynchusfunereus	seniorgradstudent	Calyptorhynchus funereus	y	future
+28	Calyptorhynchusbanksii	seniorgradstudent	Calyptorhynchus banksii	y	future
+28	Nestornotabilis	seniorgradstudent	Nestor notabilis	y	future
+28	Strigopshabroptilus	seniorgradstudent	Strigops habroptilus	y	future
+28	Strigopshabroptilus	seniorgradstudent	Strigops habroptilus	y	future
+28	Conuropsiscarolinensis	seniorgradstudent	Conuropsis carolinensis	y	future
+28	Conuropsiscarolinensis	seniorgradstudent	Conuropsis carolinensis	y	future
+28	Diadophispunctatus	seniorgradstudent	Diadophis punctatus	y	future
+28	Apaloneferox	seniorgradstudent	Apalone ferox	y	future
+28	Molochhorridus	seniorgradstudent	Moloch horridus	y	future
+28	Hatteriapunctata	seniorgradstudent	Hatteria punctata	y	future
+28	BerneseMountaindog	seniorgradstudent	Canis lupus familiaris	y	future
+28	Newfoundland	seniorgradstudent	Canis lupus familiaris	y	future
+28	AlaskanMalamute	seniorgradstudent	Canis lupus familiaris	y	future
+28	JapaneseAkita	seniorgradstudent	Canis lupus familiaris	y	future
+28	OldEnglishSheepdog	seniorgradstudent	Canis lupus familiaris	y	future
+28	St.Bernard.	seniorgradstudent	Canis lupus familiaris	y	future
+29	allharvestmen	4thyear	Leiobunum rotundum	y	future
+29	Bradypuspygmaeus	4thyear	Bradypus pygmaeus	y	future
+29	Bradypustorquatus	4thyear	Bradypus torquatus	y	future
+29	Bradypustridactylus	4thyear	Bradypus tridactylus	y	future
+29	Bradypusvariegatus	4thyear	Bradypus variegatus	y	future
+29	Hystrixafricaeaustralis	4thyear	Hystrix africaeaustralis	y	future
+29	Coendouprehensilis	4thyear	Coendou prehensilis	y	future
+29	Ctenodactylusgundi	4thyear	Ctenodactylus gundi	y	future
+30	belugawhale	3rdyear	Delphinapterus leucas	y	future
+31	dog	3rdyear	Canis lupus familiaris	y	future
+31	marmoset	3rdyear	Callithrix jacchus	y	future
+32	cat	4thyear	Felis catus	y	future
+32	cat	4thyear	Felis catus	y	future
+32	stingray	4thyear	Dasyatis pastinaca	y	future
+32	stingray	4thyear	Dasyatis pastinaca	y	future
+32	stingray	4thyear	Dasyatis pastinaca	y	future
+32	stingray	4thyear	Dasyatis pastinaca	y	future
+32	stingray	4thyear	Dasyatis pastinaca	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+32	seaslug	4thyear	Berghia coerulescens	y	future
+33	dog	5thyear	Canis lupus familiaris	y	future
+33	gecko	5thyear	Rhacodactylus ciliatus	y	future
+34	dog	5thyear	Canis lupus familiaris	y	future
+34	dog	5thyear	Canis lupus familiaris	y	future
+35	virginiaopossum	2ndyear	Didelphis virginiana	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+35	pigeon	2ndyear	Columba livia	y	future
+36	dog	5thyear	Canis lupus familiaris	y	future
+36	dog	5thyear	Canis lupus familiaris	y	future
+36	bunny	5thyear	Oryctolagus cuniculus	y	future
+36	bunny	5thyear	Oryctolagus cuniculus	y	future
+36	neontetra	5thyear	Paracheirodon innesi	y	future
+36	neontetra	5thyear	Paracheirodon innesi	y	future
+36	neontetra	5thyear	Paracheirodon innesi	y	future
+36	neontetra	5thyear	Paracheirodon innesi	y	future
+36	neontetra	5thyear	Paracheirodon innesi	y	future
+36	guppy	5thyear	Poecilia reticulata	y	future
+36	guppy	5thyear	Poecilia reticulata	y	future
+36	guppy	5thyear	Poecilia reticulata	y	future
+36	guppy	5thyear	Poecilia reticulata	y	future
+36	corydorascatfish	5thyear	Corydoras semiaquilus	y	future
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	future
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	future
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	future
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	future
+36	Hymenochirusboettgeri	5thyear	Hymenochirus boettgeri	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+36	Pomaceabridgesii	5thyear	Pomacea bridgesii	y	future
+37	llama	seniorgradstudent	Lama glama	y	future
+37	bordercollie	seniorgradstudent	Canis lupus familiaris	y	future
+37	cat	seniorgradstudent	Felis catus	y	future
+37	cat	seniorgradstudent	Felis catus	y	future
+38	blackskirt_tetra	seniorgradstudent	Gymnocorymbus ternetzi	y	future
+38	blackskirt_tetra	seniorgradstudent	Gymnocorymbus ternetzi	y	future
+38	blackskirt_tetra	seniorgradstudent	Gymnocorymbus ternetzi	y	future
+38	blackskirt_tetra	seniorgradstudent	Gymnocorymbus ternetzi	y	future
+38	blackskirt_tetra	seniorgradstudent	Gymnocorymbus ternetzi	y	future
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	future
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	future
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	future
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	future
+38	swordtail	seniorgradstudent	Xiphophorus hellerii	y	future
+39	Killerwhale	1styear	Orcinus orca	y	future
+40	dog	2ndyear	Canis lupus familiaris	y	future
+40	hedgehog	2ndyear	Atelerix albiventris	y	future
+40	raccoon	2ndyear	Procyon lotor	y	future
+40	lamb	2ndyear	Ovis aries	y	future
+40	goat	2ndyear	Capra aegagrus hircus	y	future
+41	dog	5thyear	Canis lupus familiaris	y	future
+41	cat	5thyear	Felis catus	y	future
+41	otter	5thyear	Enhydra lutris	y	future
+42	sloth	4thyear	Bradypus pygmaeus	y	future
+43	amonkey	seniorgradstudent	Cebus albifrons	y	future
+44	Tiger	1styear	Panthera tigris	y	future
+44	whale	1styear	Balaenoptera musculus	y	future
+44	octopus	1styear	Enteroctopus dofleini	y	future
+45	zombie	2ndyear	Zombie	n	future
+45	zombie	2ndyear	Zombie	n	future
+45	zombie	2ndyear	Zombie	n	future
+45	zombie	2ndyear	Zombie	n	future
+45	zombie	2ndyear	Zombie	n	future
+46	seaotter	3rdyear	Enhydra lutris	y	future
+46	seaotter	3rdyear	Enhydra lutris	y	future
+46	penguin	3rdyear	Aptenodytes forsteri	y	future
+46	penguin	3rdyear	Aptenodytes forsteri	y	future
+47	horse	4thyear	Equus caballus	y	future
+47	horse	4thyear	Equus caballus	y	future
+47	horse	4thyear	Equus caballus	y	future
+47	horse	4thyear	Equus caballus	y	future
+47	dog	4thyear	Canis lupus familiaris	y	future
+47	dog	4thyear	Canis lupus familiaris	y	future
+47	dog	4thyear	Canis lupus familiaris	y	future
+48	malabar_whistling_thrush	3rdyear	Myophonus horsfieldii	y	future
+48	malabar_whistling_thrush	3rdyear	Myophonus horsfieldii	y	future
+48	dog	3rdyear	Canis lupus familiaris	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	chicken	3rdyear	Gallus gallus domesticus	y	future
+48	hill_myna	3rdyear	Gracula religiosa	y	future
+48	hill_myna	3rdyear	Gracula religiosa	y	future
+48	hill_myna	3rdyear	Gracula religiosa	y	future
+48	hill_myna	3rdyear	Gracula religiosa	y	future
+48	white-throated_laughingthrush	3rdyear	Garrulax albogularis	y	future
+48	white-throated_laughingthrush	3rdyear	Garrulax albogularis	y	future
+48	white-throated_laughingthrush	3rdyear	Garrulax albogularis	y	future
+48	white-throated_laughingthrush	3rdyear	Garrulax albogularis	y	future
+48	white-throated_laughingthrush	3rdyear	Garrulax albogularis	y	future
+48	racket-tailed_drongo	3rdyear	Dicrurus paradiseus	y	future
+48	racket-tailed_drongo	3rdyear	Dicrurus paradiseus	y	future
+48	racket-tailed_drongo	3rdyear	Dicrurus paradiseus	y	future
+48	archaeopteryx	3rdyear	Archaeopteryx lithographica	y	future
+49	dog	1styear	Canis lupus familiaris	y	future
+49	elephant	1styear	Loxodonta africana	y	future
+50	elephant	seniorgradstudent	Loxodonta africana	y	future
+51	sloth	4thyear	Bradypus pygmaeus	y	future
+51	puppy	4thyear	Canis lupus familiaris	y	future
+51	Pallascat	4thyear	Felis manul	y	future
+52	cat	3rdyear	Felis catus	y	future
+52	dog	3rdyear	Canis lupus familiaris	y	future
+52	snake	3rdyear	Boa constrictor	y	future
+52	gecko	3rdyear	Rhacodactylus ciliatus	y	future
+52	iguana	3rdyear	Iguana iguana	y	future
+52	bunny	3rdyear	Oryctolagus cuniculus	y	future
+52	otter	3rdyear	Enhydra lutris	y	future
+53	puppy	2ndyear	Canis lupus familiaris	y	future
+54	dog	2ndyear	Canis lupus familiaris	y	future
+54	cat	2ndyear	Felis catus	y	future
+54	deserttortoise	2ndyear	Gopherus agassizii	y	future
+54	rabbit	2ndyear	Oryctolagus cuniculus	y	future
+54	iguana	2ndyear	Iguana iguana	y	future
+54	snake	2ndyear	Boa constrictor	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	capybara	2ndyear	Hydrochoerus hydrochaeris	y	future
+54	Malabargiantsquirrel	2ndyear	Ratufa indica	y	future
+54	squirrelmonkey	2ndyear	Saimiri sciureus	y	future
+54	flyingsquirrel	2ndyear	Glaucomys sabrinus	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+54	squirrel	2ndyear	Sciurus carolinensis	y	future
+55	Serval	3rdyear	Leptailurus serval	y	future
+55	dog	3rdyear	Canis lupus familiaris	y	future
+55	cat	3rdyear	Felis catus	y	future
