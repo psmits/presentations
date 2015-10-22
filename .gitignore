@@ -1,3 +1,9 @@
 *.jpg
 *.pdf
 *.png
+*.jpeg
+*.xml
+*.xml.*
+*.rdata
+*.tree
+*.net

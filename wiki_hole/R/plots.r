@@ -29,6 +29,8 @@ mod.deg <- mod.deg + xlab('module number')
 ggsave(filename = '../doc/figure/mod_deg.png', plot = mod.deg,
        height = 10, width = 15)
 
+sort(order.ranks[nam[module.assign$node[which(module.assign$module == 10)]]], decreasing = TRUE)[1:10]
+
 members <- data.frame(module.assign$module)
 names(members) <- 'assign'
 mem.hist <- ggplot(members, aes(x = assign)) + geom_bar()
