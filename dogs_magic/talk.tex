@@ -1,0 +1,422 @@
+\documentclass{beamer} 
+\usepackage{amsmath,amsthm}
+\usepackage{graphicx,microtype,parskip}
+\usepackage{caption,subcaption,multirow}
+\usepackage{listings}
+\usepackage{attrib}
+
+\frenchspacing
+
+\usetheme{default}
+\usecolortheme{whale}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamercolor{title}{fg=blue,bg=white}
+
+\setbeamercolor{block title}{fg=white,bg=gray}
+\setbeamercolor{block body}{fg=black,bg=lightgray}
+
+\setbeamercolor{block title alerted}{fg=white,bg=darkgray}
+\setbeamercolor{block body alerted}{fg=black,bg=lightgray}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\title{Black magic approaches to paleobiology}
+\author{Peter D Smits}
+\institute{Committee on Evolutionary Biology, University of Chicago}
+\date{}
+
+\begin{document}
+
+\begin{frame}
+  \maketitle
+\end{frame}
+
+\begin{frame}
+  \frametitle{Acknowledgements}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item Advising
+          \begin{itemize}
+            \item Kenneth D. Angielczyk, Michael J. Foote, \\P. David Polly, \\Richard H. Ree, \\Graham Slater
+          \end{itemize}
+        \item Angielczyk Lab
+          \begin{itemize}
+            \item {\small{David Grossnickle, \\Dallas Krentzel, \\Jackie Lungmus}}
+          \end{itemize}
+        \item Foote lab
+          \begin{itemize}
+            \item {\small{Marites Villarosa Garcia, \\Nadia Pierrehumbert}}
+          \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item {\footnotesize{Stewart Edie, \\Elizabeth Sander, \\Laura Southcott, \\Courtney Stepien}}
+        \item {\footnotesize{David Bapst, \\Ben Frable, \\\textbf{Arnold Miller}, \\Peter Wagner}}
+      \end{itemize}
+      
+      \vspace*{0.05\textheight}
+      \begin{center}
+        \includegraphics[height=0.2\textheight,width=\textwidth,keepaspectratio=true]{figure/paleodb}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{My field of study}
+  \begin{center}
+    \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/paleo_book}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{History of field}
+  \begin{center}
+    \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/reading_fossil}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{My subfield}
+  \begin{block}{Evolutionary paleoecology}
+    \begin{quotation}
+      \dots the consequences of distinct ecological factors on differential rate dynamics, particularly rates of faunal turnover and diversification.
+
+      \tiny{\attrib{Kitchell 1985 \textit{Paleobiology}}}
+    \end{quotation}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Systems}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \textbf{Brachiopods}
+
+        \vspace{0.5cm}
+
+        \includegraphics[height = 0.55\textheight, keepaspectratio = true]{figure/tattoo}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \textbf{Mammals}
+
+        \vspace{0.5cm}
+
+        \includegraphics[height = 0.55\textheight, keepaspectratio = true]{figure/annyong}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Field work}
+  \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/field_work}
+\end{frame}
+
+\begin{frame}
+  \begin{alertblock}{Example research questions}
+    \begin{itemize}
+      \item How does a taxon's ecology affect its extinction risk?
+      \item How does regional species pool composition change over time, with reference to global diversity?
+      \item How does regional species ecotype composition change over time?
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Magic?}
+  \begin{center}
+    \includegraphics[height = 0.8\textheight, keepaspectratio = true]{figure/sicp}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \textit{Structure of Interpretation of Computer Programs} by Abelson and Sussman 1996 page 1.
+
+  \begin{small}
+    \begin{quotation}
+      Computational processes are abstract beings that inhabit computers. As they evolve, processes maniputate other acstract things called data. The evoution of a process is directed by a pattern of rules called a program. People create programs to direct processes. In effect, we conjure the spirits of the computer with our spells.
+
+      A computation process is indeed much like a sorcerer's idea of a spirit. \dots However, it is very real. It can perform intellectual work. It can answer questions. \dots The programs we use to conjure processes are like a sorcerer's spells. They are carefully composed from symbolic epressions in arcane and esoteric programming languages that prescribe the tasks we want our process to perform.
+    \end{quotation}
+  \end{small}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Black magic?}
+  \begin{LARGE}
+    \begin{equation*}
+      p(\theta | y) \propto p(y | \theta) p(\theta) 
+    \end{equation*}
+  \end{LARGE}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hierarchical bayesian modelling}
+  \begin{center}
+    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/han_bayes}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example grimores}
+  \begin{center}
+    \noindent
+    \includegraphics[height = 0.4\textheight, keepaspectratio = true]{figure/bda}\hspace{0.2\textwidth}%
+    \includegraphics[height = 0.4\textheight, keepaspectratio = true]{figure/arm}\\[2em]
+    \includegraphics[height = 0.4\textheight, keepaspectratio = true]{figure/spatial}\hspace{0.2\textwidth}%
+    \includegraphics[height = 0.4\textheight, keepaspectratio = true]{figure/ecology}\par
+  \end{center}
+\end{frame}
+
+
+% example applications of this black magic
+\begin{frame}
+  \begin{block}{Recently rejected manuscript\dots}
+    The interplay between extinction intensity and selectivity: correlation in trait effects on taxonomic survival.
+  \end{block}
+\end{frame}
+
+% background
+\begin{frame}
+  \begin{alertblock}{Observation}
+    At K/Pg mass extinction, biological traits (except geographic range) have no effect on taxonomic survival.
+
+    \attrib{\footnotesize{Jablonski, 1986, \em{Science}}}
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Macroevolutionary process hypotheses}
+  \begin{center}
+    \begin{columns}
+      \begin{column}{0.45\textwidth}
+        As extinction risk increases, the effect of geographic range increases.
+      \end{column}
+      \begin{column}{0.05\textwidth}
+        \textbf{-----}
+      \end{column}
+      \begin{column}{0.45\textwidth}
+        As extinction risk increases, the effects of other traits decrease.
+      \end{column}
+    \end{columns}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Set up}
+
+  unit of analysis
+  \begin{itemize}
+    \item Paleozoic brachiopod genus duration in geologic units
+  \end{itemize}
+
+  coviariates of interest and avaliable
+  \begin{itemize}
+    \item average geographic range per geologic unit
+    \item body size
+    \item environmental preference (as quadratic function)
+    \item average sample size per geologic unit 
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Relationship between range size and extinction risk}
+  \begin{center}
+    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/harnik_rarity}
+  \end{center}
+
+  \attrib{\footnotesize{Harnik and Simpson 2013 \textit{Proc B}}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Survival of the unspecialized}
+  \begin{quote}
+    When related phyla die out \dots more specialized phyla tend to become extinct before less specialized. This phenomenon is also far from universal, but it is so common that it does deserve recognition as a rule or principle in evolutionary studies: \textbf{the rule of the survival of the relatively unspecialized.}
+
+    \attrib{\footnotesize{Simpson, 1944, \em{Tempo and Mode of Evolution}, p. 143}}
+  \end{quote}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypotheses of effect of environmental preference}
+  \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/miller_foote}
+
+  \attrib{\footnotesize{Miller and Foote 2009 \textit{Science}}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypotheses of effect of environmental breadth}
+
+  \begin{center}
+    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/selection_breadth}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Law of Constant Extinction}
+    Extinction risk, in a given adaptive zone, is taxon--age independent.
+  \end{block}
+  
+  \tiny{\attrib{Van Valen 1973 \textit{Evol. Theory}}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hierarchical survival model}
+  \begin{center}
+    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/simple_model}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{LARGE}
+    \uppercase{\alert{black magic!}}
+  \end{LARGE}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Research the spell}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+        \begin{aligned}
+          y_{i} &\sim \mathrm{Weibull}(\alpha_{i}, \sigma_{i}) \\
+          \sigma_{i} &= \exp\left(\frac{-(\mathbf{X}_{i} B_{j[i]})}{\alpha_{i}}\right) \\
+          B_{j} &\sim \mathrm{MVN}(\mu, \Sigma) \\
+          \Sigma &= \text{Diag}(\tau) \Omega \text{Diag}(\tau)) \\
+          \alpha_{i} &= \exp\left(\mathcal{N}(\alpha^{\prime} + a_{j[i]}, \sigma^{\alpha})\right) \\
+          a_{j} &\sim \mathcal{N}(0, \sigma^{a}) \\
+        \end{aligned}
+      \end{equation*}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{equation*}
+        \begin{aligned}
+          \mu_{0} &\sim \mathcal{N}(0, 5) \\
+          \mu_{r} &\sim \mathcal{N}(-1, 1) \\
+          \mu_{v} &\sim \mathcal{N}(0, 1) \\
+          \mu_{v^{2}} &\sim \mathcal{N}(1, 1) \\
+          \mu_{m} &\sim \mathcal{N}(0, 1) \\
+          \mu_{s} &\sim \mathcal{N}(-1, 1) \\
+          \tau &\sim \mathrm{C^{+}}(1) \\
+          \Omega &\sim \text{LKJ}(2) \\
+          \alpha^{\prime} &\sim \mathcal{N}(0, 1) \\
+          \sigma^{a} &\sim \mathrm{C^{+}}(1) \\
+          \sigma^{\alpha} &\sim \mathrm{C^{+}}(1). \\
+        \end{aligned}
+      \end{equation*}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Inscribe the runes}
+  \begin{tiny}
+    \lstinputlisting[firstline=41]{../../preserve/stan/weibull_review.stan}
+  \end{tiny}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Perform the ritual}
+  \begin{tiny}
+    \lstinputlisting[firstline=1080]{myjob.out}
+  \end{tiny}
+\end{frame}
+
+\begin{frame}
+  \huge{Results!}
+\end{frame}
+
+\begin{frame}
+  \huge{Except we have to make sure the ritual worked first \dots}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Quick refresher on probability}
+  \includegraphics[height=0.8\textheight,width = \textwidth, keepaspectratio=true]{figure/probability}
+\end{frame}
+
+\begin{frame}
+% comparison of S(t)
+  \frametitle{Do simulated data demonstrate the same pattern?}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/survival_curves}
+\end{frame}
+
+\begin{frame}
+% comparison of point estimates
+  \frametitle{How similar are simulated data to the empirical?}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/shotgun}
+\end{frame}
+
+% now for the results!
+\begin{frame}
+  \huge{Results\dots for real this time!}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Effect of covariates over time}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/cohort_series}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Effect of environmental perference}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/env_effect}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation between effects of covariates}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/wei_cor_heatmap}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Age-dependence through time}
+  \includegraphics[height=0.8\textheight,keepaspectratio=true]{figure/shape_series}
+\end{frame}
+
+% interpretations and conclusions
+\begin{frame}
+  \begin{block}{Effect summary}
+    \begin{itemize}
+      \item Effect of geographic range consistent with prior expectations.
+      \item No effect of body size.
+      \item Preference for taxa favoring epicontinental environments.
+      \item Support for survival of unspecialized as generalization.
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{alertblock}{Questions and considerations}
+    \begin{itemize}
+      \item Interaction between geographic range and sample size?
+      \item Shape of the distribution of enivonmental preference
+        \begin{itemize}
+          \item strong preference expected to be shorter lived
+          \item strong preference; fewer samples? unknown.
+        \end{itemize}
+      \item Paleozoic versus Mesozoic
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+
+
+\end{document}

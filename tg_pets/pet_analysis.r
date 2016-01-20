@@ -94,16 +94,17 @@ ass.tree <- ape::drop.tip(ass.tree, ass.tree$tip.label[1])
 ed <- evol.distinct(ass.tree)  
 
 # amount of evolutionary time encapsulated
-vcv <- vcv.phylo(ass.tree)
-tot.time <- sum(vcv[lower.tri(vcv)])
+# sum of branch lengths
+sum(ass.tree$edge.length)
 
 # basic tree plot
-png(filename = 'tree_limited.png')
+png(filename = 'tree_limited.png', width = 1000, height = 1000)
 ass.tree <- ladderize(ass.tree)
 plot.phylo(ass.tree, 
-           type = 'phylogram',
-           show.tip.label = FALSE)
-axisPhylo()
+           type = 'fan',
+           show.tip.label = TRUE,
+           cex = 1)
+axisPhylo(las = 0)
 dev.off()
 
 # lineage through time plot
