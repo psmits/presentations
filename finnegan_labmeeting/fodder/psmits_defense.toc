@@ -1,0 +1,9 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Macroevolution and macroecology}{3}{0}{1}
+\beamer@sectionintoc {2}{Structured data and modelling emergent patterns}{14}{0}{2}
+\beamer@sectionintoc {3}{Patterns in survival}{21}{0}{3}
+\beamer@subsectionintoc {3}{1}{Background extinction and expected differences in species survival}{21}{0}{3}
+\beamer@subsectionintoc {3}{2}{Interplay between extinction intensity and extinction selectivity}{36}{0}{3}
+\beamer@sectionintoc {4}{Patterns in functional diversity}{52}{0}{4}
+\beamer@subsectionintoc {4}{1}{Mammal species pool functional composition}{53}{0}{4}
+\beamer@sectionintoc {5}{Conclusions and commentary}{69}{0}{5}

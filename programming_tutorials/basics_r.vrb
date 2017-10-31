@@ -1,0 +1,24 @@
+\frametitle {Writing our first function}
+
+\begin{knitrout}\small
+\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
+\begin{alltt}
+my.sum <- \hlfunctioncall{function}(x) \{
+  y <- 0  \hlcomment{# storage}
+
+\hlcomment{  # add every value of x to y}
+  \hlfunctioncall{for}(i in \hlfunctioncall{seq}(\hlfunctioncall{length}(x))) \{
+\hlcomment{    # seq is for making sequences }
+\hlcomment{    # length determines how long a vector is}
+
+    y <- y + x[i]
+  \}
+
+\hlcomment{  # return determines the output of a function}
+  \hlfunctioncall{return}(y)
+\}
+\end{alltt}
+\end{kframe}
+\end{knitrout}
+
+

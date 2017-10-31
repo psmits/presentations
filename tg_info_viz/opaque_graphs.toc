@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Good data visualization}{3}{0}{1}
+\beamer@sectionintoc {2}{Academic}{8}{0}{2}
+\beamer@sectionintoc {3}{Media}{16}{0}{3}
+\beamer@sectionintoc {4}{Excel}{28}{0}{4}
+\beamer@sectionintoc {5}{Things to remember}{33}{0}{5}
