@@ -1,4 +1,4 @@
 \beamer@sectionintoc {1}{Macroevolution, macroecology, and modeling emergence}{3}{0}{1}
 \beamer@sectionintoc {2}{Mammal species survival as function of ecology and history}{14}{0}{2}
-\beamer@sectionintoc {3}{Changes to the functional diveristy of the NA mammal species pool}{32}{0}{3}
-\beamer@sectionintoc {4}{Fossil/Not Fossil and grappling with the effects of facies shift}{55}{0}{4}
+\beamer@sectionintoc {3}{Changes to the functional diveristy of the NA mammal species pool}{31}{0}{3}
+\beamer@sectionintoc {4}{Fossil/Not Fossil and grappling with facies shift, hiations, geography}{54}{0}{4}

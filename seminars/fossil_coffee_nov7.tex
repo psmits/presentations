@@ -102,8 +102,8 @@
   \frametitle{Core disciplines}
   \begin{definition}
     \begin{itemize}
-      \item \alert{macroevolution}: study of patterns which emerge when considering the evolutionary history of multiple species.
-      \item \alert{macroecology}: study of patterns which emerge when considering the ecology of multiple species.
+      \item \alert{macroevolution}: study of patterns which emerge when considering the evolutionary history of multiple species
+      \item \alert{macroecology}: study of patterns which emerge when considering the ecology of multiple species
       \item \emph{in both time and space}
     \end{itemize}
   \end{definition}
@@ -171,13 +171,13 @@
   \tiny{\attrib{Ovaskainen \textit{et al.} 2017 \em{Ecology Letters}}}
 \end{frame}
 
-%\begin{frame}
-%  \begin{center}
-%    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/han_bayes}
-%  \end{center}
-%
-%  \tiny{\attrib{www.countbayesie.com}}
-%\end{frame}
+\begin{frame}
+  \begin{center}
+    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/han_bayes}
+  \end{center}
+
+  \tiny{\attrib{www.countbayesie.com}}
+\end{frame}
 
 \begin{frame}
   \frametitle{Parameter estimation and inference}
@@ -186,17 +186,18 @@
       \begin{itemize}
         \item \textbf{Bayesian inference}
           \begin{itemize}
-            \item intuitive and expressive
-            \item regularization/partial pooling
+            \item intuitive, expressive
+            \item regularization
             \item external information
           \end{itemize}
         \item Hamiltonian Monte Carlo/NUTS
           \begin{itemize}
-            \item fewer samples for greater effective sample size than Gibbs etc.
+            \item fewer samples/greater ESS vs Gibbs etc.
           \end{itemize}
         \item Automatic Differentiation Variational Inference (ADVI)
           \begin{itemize}
-            \item when full HMC/MCMC slow; approximate posterior as Gaussian
+            \item when full HMC/MCMC slow
+            \item approximate posterior as Gaussian
           \end{itemize}
       \end{itemize}
     \end{column}
@@ -235,11 +236,6 @@
 
 \section{Mammal species survival as function of ecology and history}
 
-%\begin{frame}
-%  \begin{alertblock}{Question}
-%    Why do taxa go extinct at different rates?
-%  \end{alertblock}
-%\end{frame}
 
 \begin{frame}
   \begin{alertblock}{Motivating questions}
@@ -263,18 +259,17 @@
   \end{block}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Law of Constant Extinction}
-
-  \begin{block}{Van Valen 1973 \em{Evol. Theory}}
-    Extinction risk (species fitness), in a given adaptive zone, is taxon--age independent.
-  \end{block}
-
-  \begin{center}
-    \includegraphics[width = \textwidth,height = 0.5\textheight,keepaspectratio = true]{figure/surv_sim}
-  \end{center}
-
-\end{frame}
+%\begin{frame}
+%  \frametitle{Law of Constant Extinction}
+%
+%  \begin{block}{Van Valen 1973 \em{Evol. Theory}}
+%    Extinction risk (species fitness), in a given adaptive zone, is taxon--age independent.
+%  \end{block}
+%
+%  \begin{center}
+%    \includegraphics[width = \textwidth,height = 0.5\textheight,keepaspectratio = true]{figure/surv_sim}
+%  \end{center}
+%\end{frame}
 
 \begin{frame}
   \frametitle{Survival of the unspecialized}
@@ -387,14 +382,16 @@
 \begin{frame}
   \begin{block}{Summary of results}
     \begin{itemize}
-      \item Survival of the unspecialized as time-invariant generalization.
-      \item Decrease in extinction risk with time.
+      \item survival of the unspecialized as time-invariant generalization
+      \item decrease in extinction risk with time
         \begin{itemize}
-          \item Both cohort/temporal and phylogenetic effect.
+          \item both cohort/temporal and phylogenetic effect
         \end{itemize}
-      \item Some incongruence with risk factors in the Recent.
+      \item accelerating extinction risk with age (not discussed)
+      \item no effect of mass on survival (not discussed)
+      \item some incongruence with risk factors in the Recent
         \begin{itemize}
-          \item e.g. effect of body size, trophic category, phylogenetic clustering.
+          \item e.g. effect of body size, trophic category, phylogenetic clustering
         \end{itemize}
     \end{itemize}
   \end{block}
@@ -420,7 +417,7 @@
     \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/bush_cube_time}
   \end{center}
 
-  \tiny{\attrib{Bambach \em{et al.}, 2007, \em{Palaeontology}}}
+  \tiny{\attrib{Bush and Bambach 2011 \em{Annu. Rev. Earth Planet Sci.}}}
 \end{frame}
 
 \begin{frame}
@@ -445,7 +442,7 @@
 \begin{frame}
   \frametitle{Conceptualizing the knowns and unknowns}
   \begin{center}
-    \includegraphics[width=0.8\textwidth,height=\textheight,keepaspectratio=true]{figure/problem_concept}
+    \includegraphics[width=0.9\textwidth,height=\textheight,keepaspectratio=true]{figure/problem_concept}
   \end{center}
 \end{frame}
 
@@ -705,14 +702,14 @@
 \begin{frame}
   \begin{alertblock}{Conclusions}
     \begin{itemize}
-      \item temporal differences have larger effect on P(observation) than effect of FG 
-      \item increase in P(origination) often met with decrease in P(survival), but not 1-to-1
-      \item environmental covariates effect origination within FG more often than survival
-      \item no evidence for correlation in origination or survival of functional groups over time that is not accounted for by RW prior
+      \item time has larger effect on P(observation) than FG 
+      \item increase P(origination), decrease P(survival) but not always 
+      \item environmental affect FG origination more than survival
+      \item no evidence for correlation btwn FG origination or survival
         \begin{itemize}
-          \item potential for short-term similarity, just no long-term correlation
-          \item HMC/MCMC might tweak these results b/c ADVI assumptions (Gaussian posterior)
+          \item potential short-term links, but no long-term correlation
         \end{itemize}
+      \item HMC/MCMC might tweak these results b/c ADVI assumptions
     \end{itemize}
   \end{alertblock}
 \end{frame}
@@ -720,27 +717,62 @@
 
 
 
-\section{Fossil/Not Fossil and grappling with the effects of facies shift}
+\section{Fossil/Not Fossil and grappling with facies shift, hiations, geography}
 
 \begin{frame}
-  % to find a fossil we first need to find a ``good'' rock
-  % what defines a ``good'' rock?
-  % what happens when there are no ``good'' rocks?
+  \frametitle{In what rocks can we expect to see fossils?}
+  \begin{itemize}
+    \item \alert{to find a fossil we first need to find a ``good rock''}
+    \item what properties can we use to define a ``good rock''?
+    \item what is the expected number of fossil species when there are no ``good rocks''?
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
-  % how do we describe a geological unit
-  %   lithology
-  %   thickness
-  %   tropical/temperate
-  %   \textbf{subsurface}
+  \frametitle{Why worry about losing ``good rocks''?}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_1}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_2}
+      \end{center}
+    \end{column}
+  \end{columns}
+    
+  \tiny{\attrib{Finnegan \textit{et al.}, 2012, \em{PNAS}}}
 \end{frame}
 
 \begin{frame}
-  % model of observing fossil species geological units
-  % hybrid observational ``unit'' because a geo-unit either has
-  %   no fossils
-  %   fossils from one or more taxonomic groups (orders > classes > phyla)
+  \frametitle{Ordovician geologic units in Macrostrat}
+
+  \begin{block}{How to describe a geological unit?}
+    \begin{itemize}
+      \item lithology, percent composition
+      \item max, min unit thickness (km)
+      \item tropical or temperate at start, finish
+      \item km traveled between unit start,stop coordinates
+      \item subsurface unit
+      \item units above, below
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Simulating fossil species from a basic hurdle model}
+\begin{equation*}
+  p(y | \theta, \lambda)  = 
+  \begin{cases}
+    \theta & \text{if } y = 0, and \\
+    (1 - \theta) \frac{\text{Poisson}(y, \lambda)}{1 - \text{PoissonCDF}(0 | \lambda)} & y > 0
+  \end{cases}
+\end{equation*}
+  \begin{center}
+    \includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio=true]{figure/hurdle_simulation}
+  \end{center}
 \end{frame}
 
 
