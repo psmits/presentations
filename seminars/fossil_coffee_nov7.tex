@@ -56,8 +56,8 @@
 
 
 
-\title{Place holder}
-\subtitle{for place}
+\title{Evolutionary macroecology}
+\subtitle{modeling emergent patterns in the fossil record}
 \author{Peter D Smits}
 \institute{Department of Integrative Biology, University of California -- Berkeley}
 
@@ -383,7 +383,7 @@
   \begin{block}{Summary of results}
     \begin{itemize}
       \item survival of the unspecialized as time-invariant generalization
-      \item decrease in extinction risk with time
+      \item decrease in extinction risk towards the present
         \begin{itemize}
           \item both cohort/temporal and phylogenetic effect
         \end{itemize}
@@ -515,6 +515,209 @@
   \end{center}
 \end{frame}
 
+
+\begin{frame}
+  \frametitle{Model adequate? Posterior predictive check}
+  \begin{center}
+    mean \# occurrences per species from datasets simulated from posterior
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/pred_occ_bd}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Origination; individual-level}
+  \begin{center}
+    probability of species originating, given it hasn't originated yet
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/ecotype_origin_bd}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Origination; group-level}
+  \begin{center}
+    change to log-odds of species originating, given it hasn't originated yet
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/group_on_origin_bd}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Survival; individual-level}
+  \begin{center}
+    probability of species surviving, given it was present
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/ecotype_survival_bd}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Survival; group-level}
+  \begin{center}
+    change to log-odds of species surviving, given it was present
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/group_on_survival_bd}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Relative diversity of functional groups through time}
+  \begin{center}
+    \includegraphics[height=0.9\textheight,width=\textwidth,keepaspectratio=true]{figure/relative_diversity}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \begin{block}{Changes to relative diversity between Neogene/Paleogene}
+    \begin{itemize}
+      \item \alert{increase}
+        \begin{itemize}
+          \item digitigrade, plantigrade, unguligrade herbivores
+          \item fossorial functional groups
+          \item plantigrade omnivores
+        \end{itemize}
+      \item \alert{decrease}
+        \begin{itemize}
+          \item near total loss of arboreal functional groups
+          \item plantigrade, scansorial insectivores
+          \item unguligrade omnivores
+        \end{itemize}
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \begin{alertblock}{Conclusions}
+    \begin{itemize}
+      \item time has larger effect on P(observation) than FG 
+      \item increase P(origination), decrease P(survival) but not always 
+      \item environmental affect FG origination more than survival
+      \item no evidence for correlation btwn FG origination or survival
+        \begin{itemize}
+          \item potential short-term links, but no long-term correlation
+        \end{itemize}
+      \item HMC/MCMC might tweak these results b/c ADVI assumptions
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
+
+
+
+\section{Fossil/Not Fossil and grappling with facies shift, truncation, geography}
+
+\begin{frame}
+  \frametitle{In what rocks can we expect to see fossils?}
+  \begin{itemize}
+    \item \alert{to find a fossil we first need to find a ``good rock''}
+    \item what properties can we use to define a ``good rock''?
+    \item what is the expected number of fossil species when there are no ``good rocks''?
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Why worry about losing ``good rocks''?}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_1}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_2}
+      \end{center}
+    \end{column}
+  \end{columns}
+    
+  \tiny{\attrib{Finnegan \textit{et al.}, 2012, \em{PNAS}}}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Ordovician geologic units in Macrostrat}
+
+  \begin{block}{How to describe a geological unit?}
+    \begin{itemize}
+      \item lithology, percent composition
+      \item max, min unit thickness (km)
+      \item tropical or temperate at start, finish
+      \item km traveled between unit start,stop coordinates
+      \item subsurface unit
+      \item units above, below
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Brachiopod counts in Ordovician geologic units}
+  \begin{center}
+    \includegraphics[height=0.85\textheight,width=\textwidth,keepaspectratio=true]{figure/ordovician_counts}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Simulating fossil species from a basic hurdle model}
+\begin{equation*}
+  p(y | \theta, \lambda)  = 
+  \begin{cases}
+    \theta & \text{if } y = 0, and \\
+    (1 - \theta) \frac{\text{Poisson}(y, \lambda)}{1 - \text{PoissonCDF}(0 | \lambda)} & y > 0
+  \end{cases}
+\end{equation*}
+  \begin{center}
+    \includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio=true]{figure/hurdle_simulation}
+  \end{center}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+  \frametitle{Acknowledgements}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item UC Berkeley
+          \begin{itemize}
+            \item \textbf{Seth Finnegan}, \\Adiel Klompmaker, \\Emily Orzechowski, \\Larry Taylor, \\Sara Kahanamoku, \\Josh Zimmt
+          \end{itemize}
+        \item UChicago
+          \begin{itemize}
+            \item \textbf{Kenneth D. Angielczyk}, \\\textbf{Michael J. Foote}, \\P. David Polly, \\Richard H. Ree, \\Graham Slater
+          \end{itemize}
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[height=0.15\textheight,width=\textwidth,keepaspectratio=true]{figure/github-logo}
+
+        \tiny{psmits.github.io/}
+      \end{center}
+      \vspace*{0.02\textheight}
+      \begin{center}
+        \includegraphics[height=0.15\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/twitter} 
+
+        \tiny{@PeterDSmits}
+      \end{center}
+      \vspace*{0.01\textheight}
+      \begin{center}
+        \includegraphics[height=0.3\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/paleodb}
+        \includegraphics[height=0.25\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/macrostrat}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\appendix
+
+
+
+
+
 \begin{frame}
   \frametitle{Hidden Markov Model with absorbing state}
   \begin{block}{Jolly-Seber CMR/Restricted occupancy model}
@@ -602,16 +805,6 @@
   \end{block}
 \end{frame}
 
-
-\begin{frame}
-  \frametitle{Model adequate? Posterior predictive check}
-  \begin{center}
-    mean \# occurrences per species from datasets simulated from posterior
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/pred_occ_bd}
-  \end{center}
-\end{frame}
-
 \begin{frame}
   \frametitle{Observation; NALMA}
   \begin{center}
@@ -630,41 +823,6 @@
   \end{center}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Origination; individual-level}
-  \begin{center}
-    probability of species originating, given it hasn't originated yet
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/ecotype_origin_bd}
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Origination; group-level}
-  \begin{center}
-    change to log-odds of species originating, given it hasn't originated yet
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/group_on_origin_bd}
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Survival; individual-level}
-  \begin{center}
-    probability of species surviving, given it was present
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/ecotype_survival_bd}
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Survival; group-level}
-  \begin{center}
-    change to log-odds of species surviving, given it was present
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/group_on_survival_bd}
-  \end{center}
-\end{frame}
 
 \begin{frame}
   \frametitle{Standing diversity of functional groups through time}
@@ -672,148 +830,5 @@
     \includegraphics[height=0.9\textheight,width=\textwidth,keepaspectratio=true]{figure/ecotype_diversity}
   \end{center}
 \end{frame}
-
-\begin{frame}
-  \frametitle{Relative diversity of functional groups through time}
-  \begin{center}
-    \includegraphics[height=0.9\textheight,width=\textwidth,keepaspectratio=true]{figure/relative_diversity}
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \begin{block}{Changes to relative diversity between Neogene/Paleogene}
-    \begin{itemize}
-      \item \alert{increase}
-        \begin{itemize}
-          \item digitigrade, plantigrade, unguligrade herbivores
-          \item fossorial functional groups
-          \item plantigrade omnivores
-        \end{itemize}
-      \item \alert{decrease}
-        \begin{itemize}
-          \item near total loss of arboreal functional groups
-          \item plantigrade, scansorial insectivores
-          \item unguligrade omnivores
-        \end{itemize}
-    \end{itemize}
-  \end{block}
-\end{frame}
-
-\begin{frame}
-  \begin{alertblock}{Conclusions}
-    \begin{itemize}
-      \item time has larger effect on P(observation) than FG 
-      \item increase P(origination), decrease P(survival) but not always 
-      \item environmental affect FG origination more than survival
-      \item no evidence for correlation btwn FG origination or survival
-        \begin{itemize}
-          \item potential short-term links, but no long-term correlation
-        \end{itemize}
-      \item HMC/MCMC might tweak these results b/c ADVI assumptions
-    \end{itemize}
-  \end{alertblock}
-\end{frame}
-
-
-
-
-\section{Fossil/Not Fossil and grappling with facies shift, hiations, geography}
-
-\begin{frame}
-  \frametitle{In what rocks can we expect to see fossils?}
-  \begin{itemize}
-    \item \alert{to find a fossil we first need to find a ``good rock''}
-    \item what properties can we use to define a ``good rock''?
-    \item what is the expected number of fossil species when there are no ``good rocks''?
-  \end{itemize}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Why worry about losing ``good rocks''?}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{center}
-        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_1}
-      \end{center}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{center}
-        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_2}
-      \end{center}
-    \end{column}
-  \end{columns}
-    
-  \tiny{\attrib{Finnegan \textit{et al.}, 2012, \em{PNAS}}}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Ordovician geologic units in Macrostrat}
-
-  \begin{block}{How to describe a geological unit?}
-    \begin{itemize}
-      \item lithology, percent composition
-      \item max, min unit thickness (km)
-      \item tropical or temperate at start, finish
-      \item km traveled between unit start,stop coordinates
-      \item subsurface unit
-      \item units above, below
-    \end{itemize}
-  \end{block}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Simulating fossil species from a basic hurdle model}
-\begin{equation*}
-  p(y | \theta, \lambda)  = 
-  \begin{cases}
-    \theta & \text{if } y = 0, and \\
-    (1 - \theta) \frac{\text{Poisson}(y, \lambda)}{1 - \text{PoissonCDF}(0 | \lambda)} & y > 0
-  \end{cases}
-\end{equation*}
-  \begin{center}
-    \includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio=true]{figure/hurdle_simulation}
-  \end{center}
-\end{frame}
-
-
-
-
-
-\begin{frame}
-  \frametitle{Acknowledgements}
-  \begin{columns}
-    \begin{column}{0.5\textwidth}
-      \begin{itemize}
-        \item UC Berkeley
-          \begin{itemize}
-            \item \textbf{Seth Finnegan}, \\Adiel Klompmaker, \\Emily Orzechowski, \\Larry Taylor, \\Sara Kahanamoku, \\Josh Zimmt
-          \end{itemize}
-        \item UChicago
-          \begin{itemize}
-            \item \textbf{Kenneth D. Angielczyk}, \\\textbf{Michael J. Foote}, \\P. David Polly, \\Richard H. Ree, \\Graham Slater
-          \end{itemize}
-      \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-      \begin{center}
-        \includegraphics[height=0.15\textheight,width=\textwidth,keepaspectratio=true]{figure/github-logo}
-
-        \tiny{psmits.github.io/}
-      \end{center}
-      \vspace*{0.02\textheight}
-      \begin{center}
-        \includegraphics[height=0.15\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/twitter} 
-
-        \tiny{@PeterDSmits}
-      \end{center}
-      \vspace*{0.01\textheight}
-      \begin{center}
-        \includegraphics[height=0.3\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/paleodb}
-        \includegraphics[height=0.25\textheight,width=0.5\textwidth,keepaspectratio=true]{figure/macrostrat}
-      \end{center}
-    \end{column}
-  \end{columns}
-\end{frame}
-
 
 \end{document}

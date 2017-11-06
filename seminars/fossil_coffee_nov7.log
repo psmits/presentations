@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  3 NOV 2017 12:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  6 NOV 2017 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -919,7 +919,7 @@ Package caption Info: End \AtBeginDocument code.
 ] (./fossil_coffee_nov7.toc) [3
 
 ]
-<figure/blois_response.png, id=59, 351.2322pt x 455.301pt>
+<figure/blois_response.png, id=65, 351.2322pt x 455.301pt>
 File: figure/blois_response.png Graphic file (type png)
 <use figure/blois_response.png>
 Package pdftex.def Info: figure/blois_response.png  used on input line 84. on i
@@ -929,7 +929,7 @@ Package pdftex.def Info: Requested size: 160.75414pt x 208.385pt on input line
  [4
 
  <./figure/blois_response.png>]
-<figure/stanley_macro.jpg, id=68, 335.2525pt x 500.87125pt>
+<figure/stanley_macro.jpg, id=74, 335.2525pt x 500.87125pt>
 File: figure/stanley_macro.jpg Graphic file (type jpg)
 <use figure/stanley_macro.jpg>
 Package pdftex.def Info: figure/stanley_macro.jpg  used on input line 99. on in
@@ -962,7 +962,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `mathkerncmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figure/brown_macro.jpg, id=69, 231.86626pt x 347.2975pt>
+<figure/brown_macro.jpg, id=75, 231.86626pt x 347.2975pt>
 File: figure/brown_macro.jpg Graphic file (type jpg)
 <use figure/brown_macro.jpg>
 Package pdftex.def Info: figure/brown_macro.jpg  used on input line 99. on inpu
@@ -982,7 +982,7 @@ Package pdftex.def Info: Requested size: 139.12788pt x 208.3907pt on input line
 [9
 
 ]
-<figure/ovaskainen_data.png, id=99, 569.4876pt x 328.1058pt>
+<figure/ovaskainen_data.png, id=105, 569.4876pt x 328.1058pt>
 File: figure/ovaskainen_data.png Graphic file (type png)
 <use figure/ovaskainen_data.png>
 Package pdftex.def Info: figure/ovaskainen_data.png  used on input line 162. on
@@ -992,7 +992,7 @@ e 162.
  [10
 
  <./figure/ovaskainen_data.png>]
-<figure/ovaskainen_dag.png, id=106, 560.8152pt x 312.2064pt>
+<figure/ovaskainen_dag.png, id=112, 560.8152pt x 312.2064pt>
 File: figure/ovaskainen_dag.png Graphic file (type png)
 <use figure/ovaskainen_dag.png>
 Package pdftex.def Info: figure/ovaskainen_dag.png  used on input line 172. on 
@@ -1002,7 +1002,7 @@ Package pdftex.def Info: Requested size: 307.2855pt x 171.06616pt on input line
  [11
 
  <./figure/ovaskainen_dag.png>]
-<figure/han_bayes.jpg, id=113, 629.35126pt x 353.32pt>
+<figure/han_bayes.jpg, id=119, 629.35126pt x 353.32pt>
 File: figure/han_bayes.jpg Graphic file (type jpg)
 <use figure/han_bayes.jpg>
 Package pdftex.def Info: figure/han_bayes.jpg  used on input line 180. on input
@@ -1013,7 +1013,7 @@ e 180.
 [12
 
  <./figure/han_bayes.jpg>]
-<figure/stan_logo.png, id=119, 267.66667pt x 267.66667pt>
+<figure/stan_logo.png, id=125, 267.66667pt x 267.66667pt>
 File: figure/stan_logo.png Graphic file (type png)
 <use figure/stan_logo.png>
 Package pdftex.def Info: figure/stan_logo.png  used on input line 214. on input
@@ -1037,7 +1037,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
 [17
 
 ]
-<figure/aom.jpg, id=152, 759.83875pt x 505.89pt>
+<figure/aom.jpg, id=159, 759.83875pt x 505.89pt>
 File: figure/aom.jpg Graphic file (type jpg)
 <use figure/aom.jpg>
 Package pdftex.def Info: figure/aom.jpg  used on input line 288. on input line 
@@ -1047,7 +1047,7 @@ e 288.
  [18
 
  <./figure/aom.jpg>]
-<figure/geo_range_1.pdf, id=158, pagebox=cropbox, 597.23125pt x 361.35pt>
+<figure/geo_range_1.pdf, id=166, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: figure/geo_range_1.pdf Graphic file (type pdf)
 <use figure/geo_range_1.pdf>
 Package pdftex.def Info: figure/geo_range_1.pdf  used on input line 295. on inp
@@ -1057,7 +1057,7 @@ e 295.
  [19
 
  <./figure/geo_range_1.pdf>]
-<figure/geo_range_2.pdf, id=170, pagebox=cropbox, 597.23125pt x 361.35pt>
+<figure/geo_range_2.pdf, id=177, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: figure/geo_range_2.pdf Graphic file (type pdf)
 <use figure/geo_range_2.pdf>
 Package pdftex.def Info: figure/geo_range_2.pdf  used on input line 302. on inp
@@ -1067,7 +1067,7 @@ e 302.
  [20
 
  <./figure/geo_range_2.pdf>]
-<figure/loco_initial.pdf, id=180, pagebox=cropbox, 492.41109pt x 295.38928pt>
+<figure/loco_initial.pdf, id=187, pagebox=cropbox, 492.41109pt x 295.38928pt>
 File: figure/loco_initial.pdf Graphic file (type pdf)
 <use figure/loco_initial.pdf>
 Package pdftex.def Info: figure/loco_initial.pdf  used on input line 309. on in
@@ -1077,7 +1077,7 @@ e 309.
  [21
 
  <./figure/loco_initial.pdf>]
-<figure/loco_later.pdf, id=188, pagebox=cropbox, 469.755pt x 382.5793pt>
+<figure/loco_later.pdf, id=195, pagebox=cropbox, 469.755pt x 382.5793pt>
 File: figure/loco_later.pdf Graphic file (type pdf)
 <use figure/loco_later.pdf>
 Package pdftex.def Info: figure/loco_later.pdf  used on input line 316. on inpu
@@ -1087,7 +1087,7 @@ e 316.
  [22
 
  <./figure/loco_later.pdf>]
-<figure/diet_survival.pdf, id=196, pagebox=cropbox, 401.5pt x 361.35pt>
+<figure/diet_survival.pdf, id=203, pagebox=cropbox, 401.5pt x 361.35pt>
 File: figure/diet_survival.pdf Graphic file (type pdf)
 <use figure/diet_survival.pdf>
 Package pdftex.def Info: figure/diet_survival.pdf  used on input line 323. on i
@@ -1098,7 +1098,7 @@ e 323.
 [23
 
  <./figure/diet_survival.pdf>]
-<figure/mammal_survival_model.pdf, id=210, pagebox=cropbox, 796.9775pt x 597.23
+<figure/mammal_survival_model.pdf, id=217, pagebox=cropbox, 796.9775pt x 597.23
 125pt>
 File: figure/mammal_survival_model.pdf Graphic file (type pdf)
 <use figure/mammal_survival_model.pdf>
@@ -1109,7 +1109,7 @@ e 330.
  [24
 
  <./figure/mammal_survival_model.pdf>]
-<figure/survival_function_pres.png, id=245, 339.669pt x 252.945pt>
+<figure/survival_function_pres.png, id=252, 339.669pt x 252.945pt>
 File: figure/survival_function_pres.png Graphic file (type png)
 <use figure/survival_function_pres.png>
 Package pdftex.def Info: figure/survival_function_pres.png  used on input line 
@@ -1120,7 +1120,7 @@ Package pdftex.def Info: Requested size: 262.3441pt x 195.35999pt on input line
 [25
 
  <./figure/survival_function_pres.png>]
-<figure/loco_diff_est.pdf, id=253, pagebox=cropbox, 246.9225pt x 198.7425pt>
+<figure/loco_diff_est.pdf, id=260, pagebox=cropbox, 246.9225pt x 198.7425pt>
 File: figure/loco_diff_est.pdf Graphic file (type pdf)
 <use figure/loco_diff_est.pdf>
 Package pdftex.def Info: figure/loco_diff_est.pdf  used on input line 350. on i
@@ -1130,7 +1130,7 @@ e 350.
  [26
 
  <./figure/loco_diff_est.pdf>]
-<figure/diet_diff_est.pdf, id=265, pagebox=cropbox, 246.9225pt x 198.7425pt>
+<figure/diet_diff_est.pdf, id=272, pagebox=cropbox, 246.9225pt x 198.7425pt>
 File: figure/diet_diff_est.pdf Graphic file (type pdf)
 <use figure/diet_diff_est.pdf>
 Package pdftex.def Info: figure/diet_diff_est.pdf  used on input line 360. on i
@@ -1141,7 +1141,7 @@ e 360.
 [27
 
  <./figure/diet_diff_est.pdf>]
-<figure/cohort_est_pres.pdf, id=277, pagebox=cropbox, 339.2675pt x 252.945pt>
+<figure/cohort_est_pres.pdf, id=284, pagebox=cropbox, 339.2675pt x 252.945pt>
 File: figure/cohort_est_pres.pdf Graphic file (type pdf)
 <use figure/cohort_est_pres.pdf>
 Package pdftex.def Info: figure/cohort_est_pres.pdf  used on input line 370. on
@@ -1151,7 +1151,7 @@ e 370.
  [28
 
  <./figure/cohort_est_pres.pdf>]
-<figure/variance_est.pdf, id=289, pagebox=cropbox, 246.9225pt x 216.81pt>
+<figure/variance_est.pdf, id=296, pagebox=cropbox, 246.9225pt x 216.81pt>
 File: figure/variance_est.pdf Graphic file (type pdf)
 <use figure/variance_est.pdf>
 Package pdftex.def Info: figure/variance_est.pdf  used on input line 380. on in
@@ -1167,7 +1167,7 @@ e 380.
 ] [32
 
 ]
-<figure/bush_cube_time.png, id=320, 465.4188pt x 403.2666pt>
+<figure/bush_cube_time.png, id=328, 465.4188pt x 403.2666pt>
 File: figure/bush_cube_time.png Graphic file (type png)
 <use figure/bush_cube_time.png>
 Package pdftex.def Info: figure/bush_cube_time.png  used on input line 421. on 
@@ -1177,7 +1177,7 @@ Package pdftex.def Info: Requested size: 240.5065pt x 208.38918pt on input line
  [33
 
  <./figure/bush_cube_time.png>]
-<figure/schemske_pool.png, id=327, 543.4704pt x 297.7524pt>
+<figure/schemske_pool.png, id=335, 543.4704pt x 297.7524pt>
 File: figure/schemske_pool.png Graphic file (type png)
 <use figure/schemske_pool.png>
 Package pdftex.def Info: figure/schemske_pool.png  used on input line 431. on i
@@ -1200,7 +1200,7 @@ Overfull \vbox (4.42041pt too high) detected at line 440
 [35
 
 ]
-<figure/problem_concept.pdf, id=339, pagebox=cropbox, 614.295pt x 433.62pt>
+<figure/problem_concept.pdf, id=347, pagebox=cropbox, 614.295pt x 433.62pt>
 File: figure/problem_concept.pdf Graphic file (type pdf)
 <use figure/problem_concept.pdf>
 Package pdftex.def Info: figure/problem_concept.pdf  used on input line 447. on
@@ -1212,7 +1212,7 @@ e 447.
  <./figure/problem_concept.pdf>] [37
 
 ]
-<figure/paleo_fourth_corner.pdf, id=367, pagebox=cropbox, 614.295pt x 433.62pt>
+<figure/paleo_fourth_corner.pdf, id=375, pagebox=cropbox, 614.295pt x 433.62pt>
 
 File: figure/paleo_fourth_corner.pdf Graphic file (type pdf)
 <use figure/paleo_fourth_corner.pdf>
@@ -1222,187 +1222,203 @@ Package pdftex.def Info: Requested size: 276.56142pt x 195.21982pt on input lin
 e 516.
  [38
 
- <./figure/paleo_fourth_corner.pdf>] [39
-
-] [40
-
-] [41
-
-] [42
-
-]
-<figure/pred_occ_bd.png, id=421, 216.81pt x 180.675pt>
+ <./figure/paleo_fourth_corner.pdf>]
+<figure/pred_occ_bd.png, id=402, 216.81pt x 180.675pt>
 File: figure/pred_occ_bd.png Graphic file (type png)
 <use figure/pred_occ_bd.png>
-Package pdftex.def Info: figure/pred_occ_bd.png  used on input line 613. on inp
-ut line 613.
+Package pdftex.def Info: figure/pred_occ_bd.png  used on input line 526. on inp
+ut line 526.
 Package pdftex.def Info: Requested size: 250.06398pt x 208.38664pt on input lin
-e 613.
+e 526.
 
-Overfull \vbox (15.44524pt too high) detected at line 613
+Overfull \vbox (15.44524pt too high) detected at line 526
  []
 
-[43
+[39
 
  <./figure/pred_occ_bd.png (PNG copy)>]
-<figure/time_observation.png, id=428, 433.62pt x 289.08pt>
-File: figure/time_observation.png Graphic file (type png)
-<use figure/time_observation.png>
-Package pdftex.def Info: figure/time_observation.png  used on input line 622. o
-n input line 622.
-Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 622.
- [44
-
- <./figure/time_observation.png>]
-<figure/ecotype_observation.png, id=435, 433.62pt x 289.08pt>
-File: figure/ecotype_observation.png Graphic file (type png)
-<use figure/ecotype_observation.png>
-Package pdftex.def Info: figure/ecotype_observation.png  used on input line 631
-. on input line 631.
-Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 631.
-[45
-
- <./figure/ecotype_observation.png>]
-<figure/ecotype_origin_bd.png, id=442, 433.62pt x 289.08pt>
+<figure/ecotype_origin_bd.png, id=408, 433.62pt x 289.08pt>
 File: figure/ecotype_origin_bd.png Graphic file (type png)
 <use figure/ecotype_origin_bd.png>
-Package pdftex.def Info: figure/ecotype_origin_bd.png  used on input line 640. 
-on input line 640.
+Package pdftex.def Info: figure/ecotype_origin_bd.png  used on input line 535. 
+on input line 535.
 Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 640.
- [46
+e 535.
+ [40
 
  <./figure/ecotype_origin_bd.png (PNG copy)>]
-<figure/group_on_origin_bd.png, id=448, 433.62pt x 289.08pt>
+<figure/group_on_origin_bd.png, id=414, 433.62pt x 289.08pt>
 File: figure/group_on_origin_bd.png Graphic file (type png)
 <use figure/group_on_origin_bd.png>
-Package pdftex.def Info: figure/group_on_origin_bd.png  used on input line 649.
- on input line 649.
+Package pdftex.def Info: figure/group_on_origin_bd.png  used on input line 544.
+ on input line 544.
 Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 649.
+e 544.
 
-Overfull \vbox (11.92747pt too high) detected at line 649
+Overfull \vbox (11.92747pt too high) detected at line 544
  []
 
-[47
+[41
 
  <./figure/group_on_origin_bd.png (PNG copy)>]
-<figure/ecotype_survival_bd.png, id=454, 433.62pt x 289.08pt>
+<figure/ecotype_survival_bd.png, id=420, 433.62pt x 289.08pt>
 File: figure/ecotype_survival_bd.png Graphic file (type png)
 <use figure/ecotype_survival_bd.png>
-Package pdftex.def Info: figure/ecotype_survival_bd.png  used on input line 658
-. on input line 658.
+Package pdftex.def Info: figure/ecotype_survival_bd.png  used on input line 553
+. on input line 553.
 Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 658.
- [48
+e 553.
+ [42
 
  <./figure/ecotype_survival_bd.png (PNG copy)>]
-<figure/group_on_survival_bd.png, id=460, 433.62pt x 289.08pt>
+<figure/group_on_survival_bd.png, id=426, 433.62pt x 289.08pt>
 File: figure/group_on_survival_bd.png Graphic file (type png)
 <use figure/group_on_survival_bd.png>
-Package pdftex.def Info: figure/group_on_survival_bd.png  used on input line 66
-7. on input line 667.
+Package pdftex.def Info: figure/group_on_survival_bd.png  used on input line 56
+2. on input line 562.
 Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 667.
- [49
+e 562.
+ [43
 
  <./figure/group_on_survival_bd.png (PNG copy)>]
-<figure/ecotype_diversity.png, id=467, 433.62pt x 289.08pt>
-File: figure/ecotype_diversity.png Graphic file (type png)
-<use figure/ecotype_diversity.png>
-Package pdftex.def Info: figure/ecotype_diversity.png  used on input line 674. 
-on input line 674.
-Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
-e 674.
-
-[50
-
- <./figure/ecotype_diversity.png (PNG copy)>]
-<figure/relative_diversity.png, id=474, 578.16pt x 289.08pt>
+<figure/relative_diversity.png, id=433, 578.16pt x 289.08pt>
 File: figure/relative_diversity.png Graphic file (type png)
 <use figure/relative_diversity.png>
-Package pdftex.def Info: figure/relative_diversity.png  used on input line 681.
- on input line 681.
+Package pdftex.def Info: figure/relative_diversity.png  used on input line 569.
+ on input line 569.
 Package pdftex.def Info: Requested size: 307.28789pt x 153.64394pt on input lin
-e 681.
- [51
+e 569.
 
- <./figure/relative_diversity.png (PNG copy)>] [52
+[44
 
-] [53
+ <./figure/relative_diversity.png (PNG copy)>] [45
 
-] (./fossil_coffee_nov7.toc) [54
-
-] [55
+] [46
 
 ]
-<figure/finnegan_pnas12_1.png, id=504, 331.7193pt x 409.7709pt>
+(./fossil_coffee_nov7.toc) [47
+
+] [48
+
+]
+<figure/finnegan_pnas12_1.png, id=464, 331.7193pt x 409.7709pt>
 File: figure/finnegan_pnas12_1.png Graphic file (type png)
 <use figure/finnegan_pnas12_1.png>
-Package pdftex.def Info: figure/finnegan_pnas12_1.png  used on input line 747. 
-on input line 747.
+Package pdftex.def Info: figure/finnegan_pnas12_1.png  used on input line 635. 
+on input line 635.
 Package pdftex.def Info: Requested size: 153.6506pt x 189.8037pt on input line 
-747.
-<figure/finnegan_pnas12_2.png, id=505, 239.2137pt x 258.0039pt>
+635.
+<figure/finnegan_pnas12_2.png, id=465, 239.2137pt x 258.0039pt>
 File: figure/finnegan_pnas12_2.png Graphic file (type png)
 <use figure/finnegan_pnas12_2.png>
-Package pdftex.def Info: figure/finnegan_pnas12_2.png  used on input line 747. 
-on input line 747.
+Package pdftex.def Info: figure/finnegan_pnas12_2.png  used on input line 635. 
+on input line 635.
 Package pdftex.def Info: Requested size: 153.65105pt x 165.72032pt on input lin
-e 747.
- [56
+e 635.
+ [49
 
- <./figure/finnegan_pnas12_1.png> <./figure/finnegan_pnas12_2.png>] [57
+ <./figure/finnegan_pnas12_1.png> <./figure/finnegan_pnas12_2.png>] [50
 
 ]
-<figure/hurdle_simulation.png, id=518, 722.7pt x 578.16pt>
+<figure/ordovician_counts.png, id=479, 722.7pt x 578.16pt>
+File: figure/ordovician_counts.png Graphic file (type png)
+<use figure/ordovician_counts.png>
+Package pdftex.def Info: figure/ordovician_counts.png  used on input line 657. 
+on input line 657.
+Package pdftex.def Info: Requested size: 276.75716pt x 221.40572pt on input lin
+e 657.
+ [51
+
+ <./figure/ordovician_counts.png>]
+<figure/hurdle_simulation.png, id=486, 722.7pt x 578.16pt>
 File: figure/hurdle_simulation.png Graphic file (type png)
 <use figure/hurdle_simulation.png>
-Package pdftex.def Info: figure/hurdle_simulation.png  used on input line 776. 
-on input line 776.
+Package pdftex.def Info: figure/hurdle_simulation.png  used on input line 672. 
+on input line 672.
 Package pdftex.def Info: Requested size: 227.91635pt x 182.33308pt on input lin
-e 776.
+e 672.
 
-Overfull \vbox (8.32585pt too high) detected at line 776
+Overfull \vbox (8.32585pt too high) detected at line 672
  []
 
-[58
+[52
 
  <./figure/hurdle_simulation.png>]
-<figure/github-logo.png, id=525, 2007.5pt x 667.49374pt>
+<figure/github-logo.png, id=499, 2007.5pt x 667.49374pt>
 File: figure/github-logo.png Graphic file (type png)
 <use figure/github-logo.png>
-Package pdftex.def Info: figure/github-logo.png  used on input line 816. on inp
-ut line 816.
+Package pdftex.def Info: figure/github-logo.png  used on input line 712. on inp
+ut line 712.
 Package pdftex.def Info: Requested size: 117.50414pt x 39.07011pt on input line
- 816.
-<figure/twitter.png, id=526, 582.175pt x 471.7625pt>
+ 712.
+<figure/twitter.png, id=500, 582.175pt x 471.7625pt>
 File: figure/twitter.png Graphic file (type png)
 <use figure/twitter.png>
-Package pdftex.def Info: figure/twitter.png  used on input line 816. on input l
-ine 816.
+Package pdftex.def Info: figure/twitter.png  used on input line 712. on input l
+ine 712.
 Package pdftex.def Info: Requested size: 48.20947pt x 39.06628pt on input line 
-816.
-<figure/paleodb.png, id=527, 1015.795pt x 761.84625pt>
+712.
+<figure/paleodb.png, id=501, 1015.795pt x 761.84625pt>
 File: figure/paleodb.png Graphic file (type png)
 <use figure/paleodb.png>
-Package pdftex.def Info: figure/paleodb.png  used on input line 816. on input l
-ine 816.
+Package pdftex.def Info: figure/paleodb.png  used on input line 712. on input l
+ine 712.
 Package pdftex.def Info: Requested size: 76.81682pt x 57.61261pt on input line 
-816.
-<figure/macrostrat.png, id=528, 200.75pt x 200.75pt>
+712.
+<figure/macrostrat.png, id=502, 200.75pt x 200.75pt>
 File: figure/macrostrat.png Graphic file (type png)
 <use figure/macrostrat.png>
-Package pdftex.def Info: figure/macrostrat.png  used on input line 816. on inpu
-t line 816.
+Package pdftex.def Info: figure/macrostrat.png  used on input line 712. on inpu
+t line 712.
 Package pdftex.def Info: Requested size: 65.12044pt x 65.12044pt on input line 
-816.
- [59
+712.
+ [53
 
  <./figure/github-logo.png> <./figure/twitter.png> <./figure/paleodb.png> <./fi
 gure/macrostrat.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\translate ' on input line 716.
+
+[54
+
+] [55
+
+] [56
+
+] [57
+
+]
+<figure/time_observation.png, id=534, 433.62pt x 289.08pt>
+File: figure/time_observation.png Graphic file (type png)
+<use figure/time_observation.png>
+Package pdftex.def Info: figure/time_observation.png  used on input line 815. o
+n input line 815.
+Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
+e 815.
+ [58
+
+ <./figure/time_observation.png>]
+<figure/ecotype_observation.png, id=541, 433.62pt x 289.08pt>
+File: figure/ecotype_observation.png Graphic file (type png)
+<use figure/ecotype_observation.png>
+Package pdftex.def Info: figure/ecotype_observation.png  used on input line 824
+. on input line 824.
+Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
+e 824.
+ [59
+
+ <./figure/ecotype_observation.png>]
+<figure/ecotype_diversity.png, id=548, 433.62pt x 289.08pt>
+File: figure/ecotype_diversity.png Graphic file (type png)
+<use figure/ecotype_diversity.png>
+Package pdftex.def Info: figure/ecotype_diversity.png  used on input line 832. 
+on input line 832.
+Package pdftex.def Info: Requested size: 307.30333pt x 204.86888pt on input lin
+e 832.
+ [60
+
+ <./figure/ecotype_diversity.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `fossil_coffee_nov7.nav'.
 
@@ -1412,24 +1428,24 @@ gure/macrostrat.png>]
 \tf@snm=\write8
 \openout8 = `fossil_coffee_nov7.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 819.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 819.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 834.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 834.
 
 (./fossil_coffee_nov7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 819.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 819.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 834.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 834.
 Package rerunfilecheck Info: File `fossil_coffee_nov7.out' has not changed.
-(rerunfilecheck)             Checksum: 813A276C737EDF7EC36481F04EA02E19;385.
+(rerunfilecheck)             Checksum: A9CCA267EEC535CE214E87188D02413B;428.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20216 strings out of 492990
- 381830 string characters out of 6135004
- 473850 words of memory out of 5000000
- 23132 multiletter control sequences out of 15000+600000
+ 20233 strings out of 492990
+ 382096 string characters out of 6135004
+ 475054 words of memory out of 5000000
+ 23145 multiletter control sequences out of 15000+600000
  19335 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,55p,821b,700s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1448,10 +1464,10 @@ msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
 
-Output written on fossil_coffee_nov7.pdf (59 pages, 4720261 bytes).
+Output written on fossil_coffee_nov7.pdf (60 pages, 4776589 bytes).
 PDF statistics:
- 619 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 19214 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 635 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 19227 words of extra memory for PDF output out of 20736 (max. 10000000)
 
