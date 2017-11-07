@@ -1,8 +1,9 @@
-\documentclass{beamer} 
+\documentclass[compress]{beamer} 
 \usepackage{amsmath,amsthm,amsfonts}
 \usepackage{graphicx,microtype,parskip}
 \usepackage{caption,subcaption,multirow}
 \usepackage{attrib}
+\usepackage{appendixnumberbeamer} 
 
 \frenchspacing
 
@@ -21,13 +22,6 @@
 
 \let\Tiny\tiny% http://tex.stackexchange.com/q/58087/5764
 
-% number at the corner
-\setbeamertemplate{footline} {
-  \hbox{\begin{beamercolorbox}[wd=1\paperwidth,ht=2.25ex,dp=1ex,right]{framenumber}%
-    \usebeamerfont{framenumber}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
-  \end{beamercolorbox}}%
-  \vskip0pt%
-}
 
 % table of contents and subsections
 \AtBeginSection[]
@@ -55,6 +49,17 @@
   %\appto{\footnotesize}{\zerodisplayskips}
 
 
+\useoutertheme{infolines}
+\usefonttheme[onlymath]{serif}
+\setbeamertemplate{headline}[default]
+\setbeamertemplate{navigation symbols}{}
+\setbeamercovered{transparent}
+\setbeamercolor{block body example}{fg=blue, bg=black!20}
+
+\useoutertheme[subsection=false]{miniframes}
+
+
+
 
 \title{Evolutionary macroecology}
 \subtitle{modeling emergent patterns in the fossil record}
@@ -72,7 +77,7 @@
   \tableofcontents
 \end{frame}
 
-\section{Macroevolution, macroecology, and modeling emergence}
+\section[Introduction]{Macroevolution, macroecology, and modeling emergence}
 
 \begin{frame}
   \frametitle{Species response in context}
@@ -155,7 +160,7 @@
   \frametitle{Structured data in biology and paleontology}
 
   \begin{center}
-    \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/ovaskainen_data}
+    \includegraphics[width = \textwidth,height = 0.75\textheight,keepaspectratio = true]{figure/ovaskainen_data}
   \end{center}
 
   \tiny{\attrib{Ovaskainen \textit{et al.} 2017 \em{Ecology Letters}}}
@@ -203,7 +208,7 @@
     \end{column}
     \begin{column}{0.55\textwidth}
       \begin{center}
-        \includegraphics[height=0.75\textheight,width=\textwidth,keepaspectratio=true]{figure/stan_logo}
+        \includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio=true]{figure/stan_logo}
 
         \vspace*{0.05\textheight}
 
@@ -234,7 +239,7 @@
 
 
 
-\section{Mammal species survival as function of ecology and history}
+\section[Mammal survival]{Mammal species survival as function of ecology and history}
 
 
 \begin{frame}
@@ -285,6 +290,8 @@
   \begin{center}
     \includegraphics[width = \textwidth,height = 0.8\textheight,keepaspectratio = true]{figure/aom}
   \end{center}
+
+  \tiny{\attrib{Rudolph Zallinger}}
 \end{frame}
 
 \begin{frame}
@@ -399,7 +406,7 @@
 
 
 
-\section{Changes to the functional diveristy of the NA mammal species pool}
+\section[Functional diversity]{Changes to the functional diveristy of the NA mammal species pool}
 
 \begin{frame}
   \begin{alertblock}{Question}
@@ -516,14 +523,6 @@
 \end{frame}
 
 
-\begin{frame}
-  \frametitle{Model adequate? Posterior predictive check}
-  \begin{center}
-    mean \# occurrences per species from datasets simulated from posterior
-
-    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/pred_occ_bd}
-  \end{center}
-\end{frame}
 
 \begin{frame}
   \frametitle{Origination; individual-level}
@@ -605,7 +604,7 @@
 
 
 
-\section{Fossil/Not Fossil and grappling with facies shift, truncation, geography}
+\section[Fossil/Not Fossil]{Fossil/Not Fossil and grappling with facies shift, truncation, geography}
 
 \begin{frame}
   \frametitle{In what rocks can we expect to see fossils?}
@@ -618,15 +617,25 @@
 
 \begin{frame}
   \frametitle{Why worry about losing ``good rocks''?}
+  \begin{center}
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/peters_common_cause}
+  \end{center}
+  
+  \tiny{\attrib{Peters, 2008, \em{Nature}}}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Why worry about losing ``good rocks''?}
   \begin{columns}
     \begin{column}{0.5\textwidth}
       \begin{center}
-        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_1}
+        \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_1}
       \end{center}
     \end{column}
     \begin{column}{0.5\textwidth}
       \begin{center}
-        \includegraphics[height=\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_2}
+        \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/finnegan_pnas12_2}
       \end{center}
     \end{column}
   \end{columns}
@@ -667,7 +676,7 @@
   \end{cases}
 \end{equation*}
   \begin{center}
-    \includegraphics[height=0.7\textheight,width=\textwidth,keepaspectratio=true]{figure/hurdle_simulation}
+    \includegraphics[height=0.6\textheight,width=\textwidth,keepaspectratio=true]{figure/hurdle_simulation}
   \end{center}
 \end{frame}
 
@@ -803,6 +812,15 @@
       \item marginalization problem b/c gradient based estimation
     \end{itemize}
   \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Model adequate? Posterior predictive check}
+  \begin{center}
+    mean \# occurrences per species from datasets simulated from posterior
+
+    \includegraphics[height=0.8\textheight,width=\textwidth,keepaspectratio=true]{figure/pred_occ_bd}
+  \end{center}
 \end{frame}
 
 \begin{frame}
