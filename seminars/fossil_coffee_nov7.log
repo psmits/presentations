@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  7 NOV 2017 10:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.27)  7 NOV 2017 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -726,20 +726,20 @@ f.sty)
 niframes.sty) (./fossil_coffee_nov7.aux)
 \openout1 = `fossil_coffee_nov7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -807,7 +807,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 70.
+Package hyperref Info: Link coloring OFF on input line 90.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -817,9 +817,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count165
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
 
 (./fossil_coffee_nov7.out) (./fossil_coffee_nov7.out)
 \@outlinefile=\write5
@@ -850,7 +850,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 70.
+LaTeX Info: Redefining \microtypecontext on input line 90.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -867,62 +867,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-(./fossil_coffee_nov7.nav)
-Overfull \hbox (108.63187pt too wide) in paragraph at lines 70--70
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+(./fossil_coffee_nov7.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+}
 
+] (./fossil_coffee_nov7.toc) [2
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-]
-(./fossil_coffee_nov7.toc)
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[2
-
-] (./fossil_coffee_nov7.toc)
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[3
+] (./fossil_coffee_nov7.toc) [3
 
 ]
 <figure/blois_response.png, id=84, 351.2322pt x 455.301pt>
 File: figure/blois_response.png Graphic file (type png)
 <use figure/blois_response.png>
-Package pdftex.def Info: figure/blois_response.png  used on input line 89. on i
-nput line 89.
+Package pdftex.def Info: figure/blois_response.png  used on input line 109. on 
+input line 109.
 Package pdftex.def Info: Requested size: 153.96382pt x 199.58273pt on input lin
-e 89.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[4
+e 109.
+ [4
 
  <./figure/blois_response.png>]
 <figure/stanley_macro.jpg, id=98, 335.2525pt x 500.87125pt>
 File: figure/stanley_macro.jpg Graphic file (type jpg)
 <use figure/stanley_macro.jpg>
-Package pdftex.def Info: figure/stanley_macro.jpg  used on input line 104. on i
-nput line 104.
+Package pdftex.def Info: figure/stanley_macro.jpg  used on input line 124. on i
+nput line 124.
 Package pdftex.def Info: Requested size: 133.59218pt x 199.58832pt on input lin
-e 104.
+e 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 104.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -930,7 +905,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 104.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -941,135 +916,70 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <figure/brown_macro.jpg, id=99, 231.86626pt x 347.2975pt>
 File: figure/brown_macro.jpg Graphic file (type jpg)
 <use figure/brown_macro.jpg>
-Package pdftex.def Info: figure/brown_macro.jpg  used on input line 104. on inp
-ut line 104.
+Package pdftex.def Info: figure/brown_macro.jpg  used on input line 124. on inp
+ut line 124.
 Package pdftex.def Info: Requested size: 133.25128pt x 199.58852pt on input lin
-e 104.
+e 124.
+ [5
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./figure/stanley_macro.jpg> <./figure/brown_macro.jpg>] [6
 
-[5
+] [7
 
- <./figure/stanley_macro.jpg> <./figure/brown_macro.jpg>]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [8
 
-[6
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[7
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[8
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[9
+] [9
 
 ]
 <figure/ovaskainen_data.png, id=155, 569.4876pt x 328.1058pt>
 File: figure/ovaskainen_data.png Graphic file (type png)
 <use figure/ovaskainen_data.png>
-Package pdftex.def Info: figure/ovaskainen_data.png  used on input line 167. on
- input line 167.
+Package pdftex.def Info: figure/ovaskainen_data.png  used on input line 187. on
+ input line 187.
 Package pdftex.def Info: Requested size: 324.76772pt x 187.11237pt on input lin
-e 167.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[10
+e 187.
+ [10
 
  <./figure/ovaskainen_data.png>]
 <figure/ovaskainen_dag.png, id=167, 560.8152pt x 312.2064pt>
 File: figure/ovaskainen_dag.png Graphic file (type png)
 <use figure/ovaskainen_dag.png>
-Package pdftex.def Info: figure/ovaskainen_dag.png  used on input line 177. on 
-input line 177.
+Package pdftex.def Info: figure/ovaskainen_dag.png  used on input line 197. on 
+input line 197.
 Package pdftex.def Info: Requested size: 342.2936pt x 190.55519pt on input line
- 177.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[11
+ 197.
+ [11
 
  <./figure/ovaskainen_dag.png>]
 <figure/han_bayes.jpg, id=179, 629.35126pt x 353.32pt>
 File: figure/han_bayes.jpg Graphic file (type jpg)
 <use figure/han_bayes.jpg>
-Package pdftex.def Info: figure/han_bayes.jpg  used on input line 185. on input
- line 185.
+Package pdftex.def Info: figure/han_bayes.jpg  used on input line 205. on input
+ line 205.
 Package pdftex.def Info: Requested size: 342.29341pt x 192.16472pt on input lin
-e 185.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[12
+e 205.
+ [12
 
  <./figure/han_bayes.jpg>]
 <figure/stan_logo.png, id=190, 267.66667pt x 267.66667pt>
 File: figure/stan_logo.png Graphic file (type png)
 <use figure/stan_logo.png>
-Package pdftex.def Info: figure/stan_logo.png  used on input line 219. on input
- line 219.
+Package pdftex.def Info: figure/stan_logo.png  used on input line 239. on input
+ line 239.
 Package pdftex.def Info: Requested size: 174.63882pt x 174.63882pt on input lin
-e 219.
+e 239.
+ [13
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./figure/stan_logo.png>] (./fossil_coffee_nov7.toc) [14
 
-[13
+] [15
 
- <./figure/stan_logo.png>] (./fossil_coffee_nov7.toc)
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[14
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[15
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[16
+] [16
 
 ]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 286.
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+(Font)              using `OT1/cmss/bx/n' instead on input line 306.
 
 [17
 
@@ -1077,89 +987,60 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/aom.jpg, id=248, 759.83875pt x 505.89pt>
 File: figure/aom.jpg Graphic file (type jpg)
 <use figure/aom.jpg>
-Package pdftex.def Info: figure/aom.jpg  used on input line 295. on input line 
-295.
+Package pdftex.def Info: figure/aom.jpg  used on input line 315. on input line 
+315.
 Package pdftex.def Info: Requested size: 299.77939pt x 199.58891pt on input lin
-e 295.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[18
+e 315.
+ [18
 
  <./figure/aom.jpg>]
 <figure/geo_range_1.pdf, id=259, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: figure/geo_range_1.pdf Graphic file (type pdf)
 <use figure/geo_range_1.pdf>
-Package pdftex.def Info: figure/geo_range_1.pdf  used on input line 302. on inp
-ut line 302.
+Package pdftex.def Info: figure/geo_range_1.pdf  used on input line 322. on inp
+ut line 322.
 Package pdftex.def Info: Requested size: 329.87248pt x 199.58672pt on input lin
-e 302.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[19
+e 322.
+ [19
 
  <./figure/geo_range_1.pdf>]
 <figure/geo_range_2.pdf, id=276, pagebox=cropbox, 597.23125pt x 361.35pt>
 File: figure/geo_range_2.pdf Graphic file (type pdf)
 <use figure/geo_range_2.pdf>
-Package pdftex.def Info: figure/geo_range_2.pdf  used on input line 309. on inp
-ut line 309.
+Package pdftex.def Info: figure/geo_range_2.pdf  used on input line 329. on inp
+ut line 329.
 Package pdftex.def Info: Requested size: 329.87248pt x 199.58672pt on input lin
-e 309.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[20
+e 329.
+ [20
 
  <./figure/geo_range_2.pdf>]
 <figure/loco_initial.pdf, id=291, pagebox=cropbox, 492.41109pt x 295.38928pt>
 File: figure/loco_initial.pdf Graphic file (type pdf)
 <use figure/loco_initial.pdf>
-Package pdftex.def Info: figure/loco_initial.pdf  used on input line 316. on in
-put line 316.
+Package pdftex.def Info: figure/loco_initial.pdf  used on input line 336. on in
+put line 336.
 Package pdftex.def Info: Requested size: 332.71628pt x 199.59099pt on input lin
-e 316.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[21
+e 336.
+ [21
 
  <./figure/loco_initial.pdf>]
 <figure/loco_later.pdf, id=304, pagebox=cropbox, 469.755pt x 382.5793pt>
 File: figure/loco_later.pdf Graphic file (type pdf)
 <use figure/loco_later.pdf>
-Package pdftex.def Info: figure/loco_later.pdf  used on input line 323. on inpu
-t line 323.
+Package pdftex.def Info: figure/loco_later.pdf  used on input line 343. on inpu
+t line 343.
 Package pdftex.def Info: Requested size: 245.06247pt x 199.58452pt on input lin
-e 323.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[22
+e 343.
+ [22
 
  <./figure/loco_later.pdf>]
 <figure/diet_survival.pdf, id=317, pagebox=cropbox, 401.5pt x 361.35pt>
 File: figure/diet_survival.pdf Graphic file (type pdf)
 <use figure/diet_survival.pdf>
-Package pdftex.def Info: figure/diet_survival.pdf  used on input line 330. on i
-nput line 330.
+Package pdftex.def Info: figure/diet_survival.pdf  used on input line 350. on i
+nput line 350.
 Package pdftex.def Info: Requested size: 221.76302pt x 199.58672pt on input lin
-e 330.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+e 350.
 
 [23
 
@@ -1169,28 +1050,19 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 File: figure/mammal_survival_model.pdf Graphic file (type pdf)
 <use figure/mammal_survival_model.pdf>
 Package pdftex.def Info: figure/mammal_survival_model.pdf  used on input line 3
-37. on input line 337.
+57. on input line 357.
 Package pdftex.def Info: Requested size: 266.33546pt x 199.5848pt on input line
- 337.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[24
+ 357.
+ [24
 
  <./figure/mammal_survival_model.pdf>]
 <figure/survival_function_pres.png, id=376, 339.669pt x 252.945pt>
 File: figure/survival_function_pres.png Graphic file (type png)
 <use figure/survival_function_pres.png>
 Package pdftex.def Info: figure/survival_function_pres.png  used on input line 
-347. on input line 347.
+367. on input line 367.
 Package pdftex.def Info: Requested size: 251.26819pt x 187.11003pt on input lin
-e 347.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+e 367.
 
 [25
 
@@ -1198,29 +1070,20 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/loco_diff_est.pdf, id=389, pagebox=cropbox, 246.9225pt x 198.7425pt>
 File: figure/loco_diff_est.pdf Graphic file (type pdf)
 <use figure/loco_diff_est.pdf>
-Package pdftex.def Info: figure/loco_diff_est.pdf  used on input line 357. on i
-nput line 357.
+Package pdftex.def Info: figure/loco_diff_est.pdf  used on input line 377. on i
+nput line 377.
 Package pdftex.def Info: Requested size: 232.4764pt x 187.11003pt on input line
- 357.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[26
+ 377.
+ [26
 
  <./figure/loco_diff_est.pdf>]
 <figure/diet_diff_est.pdf, id=406, pagebox=cropbox, 246.9225pt x 198.7425pt>
 File: figure/diet_diff_est.pdf Graphic file (type pdf)
 <use figure/diet_diff_est.pdf>
-Package pdftex.def Info: figure/diet_diff_est.pdf  used on input line 367. on i
-nput line 367.
+Package pdftex.def Info: figure/diet_diff_est.pdf  used on input line 387. on i
+nput line 387.
 Package pdftex.def Info: Requested size: 247.97684pt x 199.5848pt on input line
- 367.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ 387.
 
 [27
 
@@ -1228,150 +1091,90 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/cohort_est_pres.pdf, id=424, pagebox=cropbox, 339.2675pt x 252.945pt>
 File: figure/cohort_est_pres.pdf Graphic file (type pdf)
 <use figure/cohort_est_pres.pdf>
-Package pdftex.def Info: figure/cohort_est_pres.pdf  used on input line 377. on
- input line 377.
+Package pdftex.def Info: figure/cohort_est_pres.pdf  used on input line 397. on
+ input line 397.
 Package pdftex.def Info: Requested size: 267.70259pt x 199.5848pt on input line
- 377.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[28
+ 397.
+ [28
 
  <./figure/cohort_est_pres.pdf>]
 <figure/variance_est.pdf, id=441, pagebox=cropbox, 246.9225pt x 216.81pt>
 File: figure/variance_est.pdf Graphic file (type pdf)
 <use figure/variance_est.pdf>
-Package pdftex.def Info: figure/variance_est.pdf  used on input line 387. on in
-put line 387.
+Package pdftex.def Info: figure/variance_est.pdf  used on input line 407. on in
+put line 407.
 Package pdftex.def Info: Requested size: 227.3146pt x 199.5848pt on input line 
-387.
+407.
+ [29
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./figure/variance_est.pdf>] [30
 
-[29
+] (./fossil_coffee_nov7.toc) [31
 
- <./figure/variance_est.pdf>]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[30
-
-] (./fossil_coffee_nov7.toc)
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[31
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[32
+] [32
 
 ]
 <figure/bush_cube_time.png, id=491, 465.4188pt x 403.2666pt>
 File: figure/bush_cube_time.png Graphic file (type png)
 <use figure/bush_cube_time.png>
-Package pdftex.def Info: figure/bush_cube_time.png  used on input line 428. on 
-input line 428.
+Package pdftex.def Info: figure/bush_cube_time.png  used on input line 448. on 
+input line 448.
 Package pdftex.def Info: Requested size: 230.35104pt x 199.58989pt on input lin
-e 428.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[33
+e 448.
+ [33
 
  <./figure/bush_cube_time.png>]
 <figure/schemske_pool.png, id=503, 543.4704pt x 297.7524pt>
 File: figure/schemske_pool.png Graphic file (type png)
 <use figure/schemske_pool.png>
-Package pdftex.def Info: figure/schemske_pool.png  used on input line 438. on i
-nput line 438.
+Package pdftex.def Info: figure/schemske_pool.png  used on input line 458. on i
+nput line 458.
 Package pdftex.def Info: Requested size: 342.28864pt x 187.53047pt on input lin
-e 438.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[34
+e 458.
+ [34
 
  <./figure/schemske_pool.png>]
 File: figure/aom.jpg Graphic file (type jpg)
 <use figure/aom.jpg>
-Package pdftex.def Info: figure/aom.jpg  used on input line 447. on input line 
-447.
+Package pdftex.def Info: figure/aom.jpg  used on input line 467. on input line 
+467.
 Package pdftex.def Info: Requested size: 299.77939pt x 199.58891pt on input lin
-e 447.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[35
+e 467.
+ [35
 
 ]
 <figure/problem_concept.pdf, id=525, pagebox=cropbox, 614.295pt x 433.62pt>
 File: figure/problem_concept.pdf Graphic file (type pdf)
 <use figure/problem_concept.pdf>
-Package pdftex.def Info: figure/problem_concept.pdf  used on input line 454. on
- input line 454.
+Package pdftex.def Info: figure/problem_concept.pdf  used on input line 474. on
+ input line 474.
 Package pdftex.def Info: Requested size: 308.06532pt x 217.45789pt on input lin
-e 454.
+e 474.
+ [36
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[36
-
- <./figure/problem_concept.pdf>]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[37
+ <./figure/problem_concept.pdf>] [37
 
 ]
 <figure/paleo_fourth_corner.pdf, id=564, pagebox=cropbox, 614.295pt x 433.62pt>
 
 File: figure/paleo_fourth_corner.pdf Graphic file (type pdf)
 <use figure/paleo_fourth_corner.pdf>
-Package pdftex.def Info: figure/paleo_fourth_corner.pdf  used on input line 523
-. on input line 523.
+Package pdftex.def Info: figure/paleo_fourth_corner.pdf  used on input line 543
+. on input line 543.
 Package pdftex.def Info: Requested size: 308.06532pt x 217.45789pt on input lin
-e 523.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[38
+e 543.
+ [38
 
  <./figure/paleo_fourth_corner.pdf>]
 <figure/ecotype_origin_bd.png, id=596, 433.62pt x 289.08pt>
 File: figure/ecotype_origin_bd.png Graphic file (type png)
 <use figure/ecotype_origin_bd.png>
-Package pdftex.def Info: figure/ecotype_origin_bd.png  used on input line 534. 
-on input line 534.
+Package pdftex.def Info: figure/ecotype_origin_bd.png  used on input line 554. 
+on input line 554.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 534.
+ 554.
 
-Overfull \vbox (4.04305pt too high) detected at line 534
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 554
  []
 
 [39
@@ -1380,17 +1183,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/group_on_origin_bd.png, id=607, 433.62pt x 289.08pt>
 File: figure/group_on_origin_bd.png Graphic file (type png)
 <use figure/group_on_origin_bd.png>
-Package pdftex.def Info: figure/group_on_origin_bd.png  used on input line 543.
- on input line 543.
+Package pdftex.def Info: figure/group_on_origin_bd.png  used on input line 563.
+ on input line 563.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 543.
+ 563.
 
-Overfull \vbox (4.04305pt too high) detected at line 543
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 563
  []
 
 [40
@@ -1399,17 +1197,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/ecotype_survival_bd.png, id=618, 433.62pt x 289.08pt>
 File: figure/ecotype_survival_bd.png Graphic file (type png)
 <use figure/ecotype_survival_bd.png>
-Package pdftex.def Info: figure/ecotype_survival_bd.png  used on input line 552
-. on input line 552.
+Package pdftex.def Info: figure/ecotype_survival_bd.png  used on input line 572
+. on input line 572.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 552.
+ 572.
 
-Overfull \vbox (4.04305pt too high) detected at line 552
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 572
  []
 
 [41
@@ -1418,17 +1211,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/group_on_survival_bd.png, id=629, 433.62pt x 289.08pt>
 File: figure/group_on_survival_bd.png Graphic file (type png)
 <use figure/group_on_survival_bd.png>
-Package pdftex.def Info: figure/group_on_survival_bd.png  used on input line 56
-1. on input line 561.
+Package pdftex.def Info: figure/group_on_survival_bd.png  used on input line 58
+1. on input line 581.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 561.
+ 581.
 
-Overfull \vbox (4.04305pt too high) detected at line 561
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 581
  []
 
 [42
@@ -1437,204 +1225,124 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/relative_diversity.png, id=640, 578.16pt x 289.08pt>
 File: figure/relative_diversity.png Graphic file (type png)
 <use figure/relative_diversity.png>
-Package pdftex.def Info: figure/relative_diversity.png  used on input line 568.
- on input line 568.
+Package pdftex.def Info: figure/relative_diversity.png  used on input line 588.
+ on input line 588.
 Package pdftex.def Info: Requested size: 342.2936pt x 171.14679pt on input line
- 568.
+ 588.
+ [43
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+ <./figure/relative_diversity.png (PNG copy)>] [44
 
-[43
+] [45
 
- <./figure/relative_diversity.png (PNG copy)>]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] (./fossil_coffee_nov7.toc) [46
 
-[44
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[45
-
-] (./fossil_coffee_nov7.toc)
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[46
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[47
+] [47
 
 ]
 <figure/peters_common_cause.png, id=696, 469.755pt x 264.5082pt>
 File: figure/peters_common_cause.png Graphic file (type png)
 <use figure/peters_common_cause.png>
-Package pdftex.def Info: figure/peters_common_cause.png  used on input line 625
-. on input line 625.
+Package pdftex.def Info: figure/peters_common_cause.png  used on input line 645
+. on input line 645.
 Package pdftex.def Info: Requested size: 342.2947pt x 192.73822pt on input line
- 625.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[48
+ 645.
+ [48
 
  <./figure/peters_common_cause.png>]
 <figure/finnegan_pnas12_1.png, id=708, 331.7193pt x 409.7709pt>
 File: figure/finnegan_pnas12_1.png Graphic file (type png)
 <use figure/finnegan_pnas12_1.png>
-Package pdftex.def Info: figure/finnegan_pnas12_1.png  used on input line 644. 
-on input line 644.
+Package pdftex.def Info: figure/finnegan_pnas12_1.png  used on input line 664. 
+on input line 664.
 Package pdftex.def Info: Requested size: 161.56697pt x 199.58275pt on input lin
-e 644.
+e 664.
 <figure/finnegan_pnas12_2.png, id=709, 239.2137pt x 258.0039pt>
 File: figure/finnegan_pnas12_2.png Graphic file (type png)
 <use figure/finnegan_pnas12_2.png>
-Package pdftex.def Info: figure/finnegan_pnas12_2.png  used on input line 644. 
-on input line 644.
+Package pdftex.def Info: figure/finnegan_pnas12_2.png  used on input line 664. 
+on input line 664.
 Package pdftex.def Info: Requested size: 171.15329pt x 184.59737pt on input lin
-e 644.
+e 664.
+ [49
 
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[49
-
- <./figure/finnegan_pnas12_1.png> <./figure/finnegan_pnas12_2.png>]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[50
+ <./figure/finnegan_pnas12_1.png> <./figure/finnegan_pnas12_2.png>] [50
 
 ]
 <figure/ordovician_counts.png, id=733, 722.7pt x 578.16pt>
 File: figure/ordovician_counts.png Graphic file (type png)
 <use figure/ordovician_counts.png>
-Package pdftex.def Info: figure/ordovician_counts.png  used on input line 666. 
-on input line 666.
+Package pdftex.def Info: figure/ordovician_counts.png  used on input line 686. 
+on input line 686.
 Package pdftex.def Info: Requested size: 265.06801pt x 212.0544pt on input line
- 666.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[51
+ 686.
+ [51
 
  <./figure/ordovician_counts.png>]
 <figure/hurdle_simulation.png, id=745, 722.7pt x 578.16pt>
 File: figure/hurdle_simulation.png Graphic file (type png)
 <use figure/hurdle_simulation.png>
-Package pdftex.def Info: figure/hurdle_simulation.png  used on input line 681. 
-on input line 681.
+Package pdftex.def Info: figure/hurdle_simulation.png  used on input line 701. 
+on input line 701.
 Package pdftex.def Info: Requested size: 187.10358pt x 149.68286pt on input lin
-e 681.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[52
+e 701.
+ [52
 
  <./figure/hurdle_simulation.png>]
 <figure/github-logo.png, id=763, 2007.5pt x 667.49374pt>
 File: figure/github-logo.png Graphic file (type png)
 <use figure/github-logo.png>
-Package pdftex.def Info: figure/github-logo.png  used on input line 721. on inp
-ut line 721.
+Package pdftex.def Info: figure/github-logo.png  used on input line 741. on inp
+ut line 741.
 Package pdftex.def Info: Requested size: 112.54176pt x 37.42014pt on input line
- 721.
+ 741.
 <figure/twitter.png, id=764, 582.175pt x 471.7625pt>
 File: figure/twitter.png Graphic file (type png)
 <use figure/twitter.png>
-Package pdftex.def Info: figure/twitter.png  used on input line 721. on input l
-ine 721.
+Package pdftex.def Info: figure/twitter.png  used on input line 741. on input l
+ine 741.
 Package pdftex.def Info: Requested size: 46.1752pt x 37.41783pt on input line 7
-21.
+41.
 <figure/paleodb.png, id=765, 1015.795pt x 761.84625pt>
 File: figure/paleodb.png Graphic file (type png)
 <use figure/paleodb.png>
-Package pdftex.def Info: figure/paleodb.png  used on input line 721. on input l
-ine 721.
+Package pdftex.def Info: figure/paleodb.png  used on input line 741. on input l
+ine 741.
 Package pdftex.def Info: Requested size: 85.55869pt x 64.16902pt on input line 
-721.
+741.
 <figure/macrostrat.png, id=766, 200.75pt x 200.75pt>
 File: figure/macrostrat.png Graphic file (type png)
 <use figure/macrostrat.png>
-Package pdftex.def Info: figure/macrostrat.png  used on input line 721. on inpu
-t line 721.
+Package pdftex.def Info: figure/macrostrat.png  used on input line 741. on inpu
+t line 741.
 Package pdftex.def Info: Requested size: 62.36969pt x 62.36969pt on input line 
-721.
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[53
+741.
+ [53
 
  <./figure/github-logo.png> <./figure/twitter.png> <./figure/paleodb.png> <./fi
 gure/macrostrat.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\translate ' on input line 724.
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+(hyperref)                removing `\translate ' on input line 744.
 
 [54
 
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
+] [55
 
-[55
+] [56
 
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[56
-
-]
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
- []
-
-[57
+] [57
 
 ]
 <figure/pred_occ_bd.png, id=808, 216.81pt x 180.675pt>
 File: figure/pred_occ_bd.png Graphic file (type png)
 <use figure/pred_occ_bd.png>
-Package pdftex.def Info: figure/pred_occ_bd.png  used on input line 824. on inp
-ut line 824.
+Package pdftex.def Info: figure/pred_occ_bd.png  used on input line 844. on inp
+ut line 844.
 Package pdftex.def Info: Requested size: 239.50404pt x 199.5867pt on input line
- 824.
+ 844.
 
-Overfull \vbox (4.04524pt too high) detected at line 824
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04524pt too high) detected at line 844
  []
 
 [58
@@ -1643,17 +1351,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/time_observation.png, id=815, 433.62pt x 289.08pt>
 File: figure/time_observation.png Graphic file (type png)
 <use figure/time_observation.png>
-Package pdftex.def Info: figure/time_observation.png  used on input line 833. o
-n input line 833.
+Package pdftex.def Info: figure/time_observation.png  used on input line 853. o
+n input line 853.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 833.
+ 853.
 
-Overfull \vbox (4.04305pt too high) detected at line 833
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 853
  []
 
 [59
@@ -1662,17 +1365,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/ecotype_observation.png, id=823, 433.62pt x 289.08pt>
 File: figure/ecotype_observation.png Graphic file (type png)
 <use figure/ecotype_observation.png>
-Package pdftex.def Info: figure/ecotype_observation.png  used on input line 842
-. on input line 842.
+Package pdftex.def Info: figure/ecotype_observation.png  used on input line 862
+. on input line 862.
 Package pdftex.def Info: Requested size: 299.37677pt x 199.5845pt on input line
- 842.
+ 862.
 
-Overfull \vbox (4.04305pt too high) detected at line 842
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (4.04305pt too high) detected at line 862
  []
 
 [60
@@ -1681,17 +1379,12 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 <figure/ecotype_diversity.png, id=831, 433.62pt x 289.08pt>
 File: figure/ecotype_diversity.png Graphic file (type png)
 <use figure/ecotype_diversity.png>
-Package pdftex.def Info: figure/ecotype_diversity.png  used on input line 850. 
-on input line 850.
+Package pdftex.def Info: figure/ecotype_diversity.png  used on input line 870. 
+on input line 870.
 Package pdftex.def Info: Requested size: 336.79308pt x 224.5287pt on input line
- 850.
+ 870.
 
-Overfull \vbox (6.45807pt too high) detected at line 850
- []
-
-
-Overfull \hbox (108.63187pt too wide) has occurred while \output is active
- [][]  \OT1/cmss/m/n/6 ([])  
+Overfull \vbox (6.45807pt too high) detected at line 870
  []
 
 [61
@@ -1706,11 +1399,11 @@ Overfull \hbox (108.63187pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `fossil_coffee_nov7.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 852.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 852.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 872.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 872.
  (./fossil_coffee_nov7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 852.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 852.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 872.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 872.
 Package rerunfilecheck Info: File `fossil_coffee_nov7.out' has not changed.
 (rerunfilecheck)             Checksum: A9CCA267EEC535CE214E87188D02413B;428.
 
@@ -1719,10 +1412,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20421 strings out of 492990
- 387098 string characters out of 6135004
- 481026 words of memory out of 5000000
- 23308 multiletter control sequences out of 15000+600000
+ 20422 strings out of 492990
+ 387121 string characters out of 6135004
+ 481010 words of memory out of 5000000
+ 23309 multiletter control sequences out of 15000+600000
  17036 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,55p,821b,699s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1743,7 +1436,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on fossil_coffee_nov7.pdf (61 pages, 4894104 bytes).
+Output written on fossil_coffee_nov7.pdf (61 pages, 4889864 bytes).
 PDF statistics:
  928 PDF objects out of 1000 (max. 8388607)
  735 compressed objects within 8 object streams
